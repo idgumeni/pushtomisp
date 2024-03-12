@@ -1,0 +1,21 @@
+pushtomisp:
+  network:
+    address_bin: "0.0.0.0"
+    port: 8001
+    method: POST
+    ssl: false
+  system:
+    maxthreads: 4
+  logging:
+    logfile: pushtomisp.log
+    loglevel: WARNING
+    
+assemblyline:
+  url: 
+  user:
+  apikey:
+     
+misp:
+  url:
+  apikey:
+  content-type: json
