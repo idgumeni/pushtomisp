@@ -23,11 +23,16 @@ def getSubmission():
 
 def submitProcessor(s_id):
     print("new thread sid:" + s_id)
+    #call restapi AL4 for ontology
+    #aggregate collected data
+    #create event in MISP
+    #add attribute to MISP event
     #contents = urllib.request.urlopen("http://example.com/foo/bar").read()
     #ref misp.py din cuckoo reporting
     # test with: curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:8001/newSubmission
 
-    time.sleep(2.5)
+    time.sleep(10)
+    print("exit thread sid:",s_id)
     return "thread done";
 
 
@@ -35,6 +40,31 @@ def read_config():
     with open("config.yaml") as stream:
         try:
             conf_obj=yaml.safe_load(stream)
+            #defaults
+            default_port=8001
+            default_host="0.0.0.0"
+            default_maxthreads = 5
+            default_method = "POST"
+            default_ssl = False
+            if conf_obj.get('pushtomisp') is None:
+                print ("Missing pushtomisp settings - using defaults")
+                conf_obj['pushtomisp']={}
+            if conf_obj['pushtomisp'].get('network') is None:
+                conf_obj['pushtomisp']['network']={}
+            if  conf_obj['pushtomisp']['network'].get('address_bind') is None:  
+                conf_obj['pushtomisp']['network']['address_bind'] = default_host
+            if  conf_obj['pushtomisp']['network'].get('port') is None:
+                conf_obj['pushtomisp']['network']['port'] = default_port
+            if  conf_obj['pushtomisp']['network'].get('method') is None:
+                conf_obj['pushtomisp']['network']['method'] = default_method
+            if  conf_obj['pushtomisp']['network'].get('ssl') is None:
+                conf_obj['pushtomisp']['network']['ssl'] = default_ssl
+            if conf_obj['pushtomisp'].get('system') is None:
+                conf_obj['pushtomisp']['system']={}
+            if  conf_obj['pushtomisp']['system'].get('maxthreads') is None:
+                conf_obj['pushtomisp']['system']['maxthreads'] = default_maxthreads
+            if conf_obj.get('assemblyline') is None or conf_obj.get('misp') is None:
+                exit(128)
 
         except yaml.YAMLError as exc:
             print(exc)
@@ -43,19 +73,18 @@ def read_config():
 
 if __name__ == '__main__':
 
-    #defaults
-    default_port=8001
-    default_host="0.0.0.0"
-    default_maxthreads = 5
-    
+   
 
     #read conf file
     config = read_config()
     
 
-    address_bind = config['pushtomisp']['network']['address_bind'] if config['pushtomisp']['network']['address_bind'] is not None else default_host 
-    port = config['pushtomisp']['network']['port'] if config['pushtomisp']['network']['port'] is not None else default_port
-    maxthreads = config['pushtomisp']['system']['maxthreads'] if config['pushtomisp']['system']['maxthreads'] is not None else default_maxthreads
+    address_bind = config['pushtomisp']['network']['address_bind']
+    port = config['pushtomisp']['network']['port']
+    method = config['pushtomisp']['network']['method']
+    ssl = config['pushtomisp']['network']['ssl']
+    maxthreads = config['pushtomisp']['system']['maxthreads']
+    
     
     mt_pool = concurrent.futures.ThreadPoolExecutor(max_workers=maxthreads)
 
