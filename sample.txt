@@ -1,0 +1,127 @@
+
+Call from post action webhook:
+
+json request: {'is_cache': False, 'score': 991, 'submission': {'archive_ts': None, 'archived': False, 'classification': 'TLP:C', 'error_count': 0, 'errors': [], 'expiry_ts': '2024-04-13T16:07:09.297692Z', 'file_count': 2, 'files': [{'name': 'virus_sample3.htm', 'size': 198, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563'}], 'max_score': 991, 'metadata': {}, 'params': {'classification': 'TLP:C', 'deep_scan': False, 'description': 'Inspection of file: virus_sample3.htm', 'generate_alert': False, 'groups': [], 'ignore_cache': False, 'ignore_dynamic_recursion_prevention': False, 'ignore_filtering': False, 'ignore_size': False, 'never_drop': False, 'malicious': False, 'max_extracted': 500, 'max_supplementary': 500, 'priority': 1000, 'profile': False, 'psid': None, 'quota_item': True, 'services': {'selected': ['Static Analysis', 'Antivirus', 'Extraction', 'Filtering', 'Networking'], 'excluded': [], 'rescan': [], 'resubmit': [], 'runtime_excluded': []}, 'service_spec': {}, 'submitter': 'admin', 'ttl': 30, 'type': 'USER', 'initial_data': None, 'auto_archive': False, 'delete_after_archive': False}, 'results': ['3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Safelist.v4_4_0_25.c50oxZ8Y0vSE.e', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Extract.v4_4_0_38.c4kqJfKZyZ4f.e', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.EmlParser.v4_4_0_38.c5wm70muk5IL.e', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Characterize.v4_4_0_24.c194ZBEYk2AF', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.YARA.v4_4_0_33.cICHhMWCxOD0.e', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.FrankenStrings.v4_4_0_24.c99Qpwxo9khb', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.DeobfuScripter.v4_4_0_23.cGuTmGcvt0rg', 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.YARA.v4_4_0_33.c91bsTMn9mbY.e', 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.FrankenStrings.v4_4_0_24.c99Qpwxo9khb', 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Characterize.v4_4_0_24.c194ZBEYk2AF', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.DocumentPreview.v4_4_0_31.cE9zb02GQkiM', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.JsJaws.v4_4_0_107.cHO8PCp4b4Tc', 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.ConfigExtractor.v4_4_0_53.cKJijet00L4U.e', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ConfigExtractor.v4_4_0_53.cKJijet00L4U.e', 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.AVClass.v4_4_0_21.c7EAj0GEtzNe.e', 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.TagCheck.v4_4_0_33.c3q4lc2lYfNc.e', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.AVClass.v4_4_0_21.c7EAj0GEtzNe.e', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.TagCheck.v4_4_0_33.c3q4lc2lYfNc.e', 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Ancestry.v4_4_0_32.c194ZBEYk2AF', '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Ancestry.v4_4_0_32.c194ZBEYk2AF.e'], 'sid': '489LLxkctkIgodgIBkxe2R', 'state': 'completed', 'to_be_deleted': False, 'times': {'completed': '2024-03-14T16:28:02.200755Z', 'submitted': '2024-03-14T16:07:09.428917Z'}, 'verdict': {'malicious': [], 'non_malicious': []}, 'from_archive': False, 'scan_key': None}}
+10.201.2.3 - - [14/Mar/2024 18:28:02] "POST /newSubmission HTTP/1.1" 200 -
+
+
+{
+    'is_cache': False,
+    'score': 991,
+    'submission': {
+        'archive_ts': None,
+        'archived': False,
+        'classification': 'TLP: C',
+        'error_count': 0,
+        'errors': [
+            
+        ],
+        'expiry_ts': '2024-04-13T16: 07: 09.297692Z',
+        'file_count': 2,
+        'files': [
+            {
+                'name': 'virus_sample3.htm',
+                'size': 198,
+                'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563'
+            }
+        ],
+        'max_score': 991,
+        'metadata': {
+            
+        },
+        'params': {
+            'classification': 'TLP: C',
+            'deep_scan': False,
+            'description': 'Inspectionoffile: virus_sample3.htm',
+            'generate_alert': False,
+            'groups': [
+                
+            ],
+            'ignore_cache': False,
+            'ignore_dynamic_recursion_prevention': False,
+            'ignore_filtering': False,
+            'ignore_size': False,
+            'never_drop': False,
+            'malicious': False,
+            'max_extracted': 500,
+            'max_supplementary': 500,
+            'priority': 1000,
+            'profile': False,
+            'psid': None,
+            'quota_item': True,
+            'services': {
+                'selected': [
+                    'StaticAnalysis',
+                    'Antivirus',
+                    'Extraction',
+                    'Filtering',
+                    'Networking'
+                ],
+                'excluded': [
+                    
+                ],
+                'rescan': [
+                    
+                ],
+                'resubmit': [
+                    
+                ],
+                'runtime_excluded': [
+                    
+                ]
+            },
+            'service_spec': {
+                
+            },
+            'submitter': 'admin',
+            'ttl': 30,
+            'type': 'USER',
+            'initial_data': None,
+            'auto_archive': False,
+            'delete_after_archive': False
+        },
+        'results': [
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Safelist.v4_4_0_25.c50oxZ8Y0vSE.e',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Extract.v4_4_0_38.c4kqJfKZyZ4f.e',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.EmlParser.v4_4_0_38.c5wm70muk5IL.e',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Characterize.v4_4_0_24.c194ZBEYk2AF',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.YARA.v4_4_0_33.cICHhMWCxOD0.e',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.FrankenStrings.v4_4_0_24.c99Qpwxo9khb',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.DeobfuScripter.v4_4_0_23.cGuTmGcvt0rg',
+            'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.YARA.v4_4_0_33.c91bsTMn9mbY.e',
+            'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.FrankenStrings.v4_4_0_24.c99Qpwxo9khb',
+            'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Characterize.v4_4_0_24.c194ZBEYk2AF',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.DocumentPreview.v4_4_0_31.cE9zb02GQkiM',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.JsJaws.v4_4_0_107.cHO8PCp4b4Tc',
+            'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.ConfigExtractor.v4_4_0_53.cKJijet00L4U.e',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ConfigExtractor.v4_4_0_53.cKJijet00L4U.e',
+            'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.AVClass.v4_4_0_21.c7EAj0GEtzNe.e',
+            'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.TagCheck.v4_4_0_33.c3q4lc2lYfNc.e',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.AVClass.v4_4_0_21.c7EAj0GEtzNe.e',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.TagCheck.v4_4_0_33.c3q4lc2lYfNc.e',
+            'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Ancestry.v4_4_0_32.c194ZBEYk2AF',
+            '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Ancestry.v4_4_0_32.c194ZBEYk2AF.e'
+        ],
+        'sid': '489LLxkctkIgodgIBkxe2R',
+        'state': 'completed',
+        'to_be_deleted': False,
+        'times': {
+            'completed': '2024-03-14T16: 28: 02.200755Z',
+            'submitted': '2024-03-14T16: 07: 09.428917Z'
+        },
+        'verdict': {
+            'malicious': [
+                
+            ],
+            'non_malicious': [
+                
+            ]
+        },
+        'from_archive': False,
+        'scan_key': None
+    }
+}
+
+
+
+

@@ -1,6 +1,6 @@
-pushtomisp_:
+pushtomisp:
   network:
-    address_bin: "0.0.0.0"
+    address_bind: "0.0.0.0"
     port: 8001
     method: POST
     ssl: false
@@ -11,9 +11,9 @@ pushtomisp_:
     loglevel: WARNING
     
 assemblyline:
-  url: 
-  user:
-  apikey:
+  host: "192.168.0.153"
+  user: "admin"
+  apikey: "mispexc:bKz&8AtWBEy&sAm3HW*fr9W*w2cxT3Rim*^IrJ&OTc3371CP"
      
 misp:
   url:
