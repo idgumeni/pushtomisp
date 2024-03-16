@@ -18,4 +18,7 @@ assemblyline:
 misp:
   url:
   apikey:
-  content-type: json
+  content_type: json
+  distribution: 0 #0 - Your organization only
+  tag: "AL"
+  

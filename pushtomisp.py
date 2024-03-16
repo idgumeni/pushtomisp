@@ -8,7 +8,7 @@ import os
 import logging
 from assemblyline_client import get_client
 from pprint import pprint
-
+import misp
 
 
 app = Flask(__name__)
@@ -18,8 +18,8 @@ print(__name__)
 @app.route('/newSubmission', methods=['GET', 'POST'])
 def getSubmission():
     json_dict = request.json
-    #print("json request:",json_dict)
-    sid = json_dict.get('sid','')
+    print("### new json request:",json_dict)
+    sid = json_dict.get('submission',{}).get('sid',{})
     print("json request: sid :",sid)
     #using sid get ontology using: /api/v4/ontology/submission/<sid>/
     mt_pool.submit(submitProcessor,sid)
@@ -29,6 +29,7 @@ def getSubmission():
 
 def collectSessionOntology(s_id):
     # The result of this exercise will be stored in this variable
+    print("### ### ### collectSessionOntology")
     COLLECTED_IOCS = dict()
     # This is the connection to the Assemblyline client that we will use
     client = get_client(f"https://{config['assemblyline']['host']}:443", apikey=(config['assemblyline']['user'], config['assemblyline']['apikey']), verify=False)
@@ -41,18 +42,21 @@ def collectSessionOntology(s_id):
                 # Add the IOC to our list of collected IOCs
                 COLLECTED_IOCS[tag_name].extend(tag_values)
     # Now that we have gathered the IOCs, let's print them to the screen
-    logging.warning("################## #","COLLECTED_IOCS"  )
+    logging.warning("################## #COLLECTED_IOCS"  )
     logging.warning(COLLECTED_IOCS)
     print("################## #","COLLECTED_IOCS"  )
     pprint(COLLECTED_IOCS)
+    return COLLECTED_IOCS
 
 def submitProcessor(s_id):
-    print("new thread sid:", str(s_id))
+    print("### ### new thread sid:", str(s_id))
     pprint(s_id)
     #logging.warning("new thread sid:",  str(s_id))
     #call restapi AL4 for ontology
     collectSessionOntology(s_id)
     #aggregate collected data
+    #add data to MISP
+
     #create event in MISP
     #add attribute to MISP event
     #contents = urllib.request.urlopen("http://example.com/foo/bar").read()

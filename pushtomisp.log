@@ -147,3 +147,43 @@ INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', relo
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 993-416-659
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-517-904
+INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:27:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-517-904
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-517-904
+INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:31:45] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-517-904
+INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:33:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-517-904
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-517-904
+INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:38:58] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:root:{'network.static.domain': ['ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com'], 'network.static.uri': ['https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'], 'network.static.uri_path': ['/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e']}
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 148-517-904
+INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:42:21] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:root:################## #COLLECTED_IOCS
+WARNING:root:{'network.static.domain': ['ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com'], 'network.static.uri': ['https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'], 'network.static.uri_path': ['/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e']}
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
