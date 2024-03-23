@@ -1,5 +1,41 @@
 import pymisp
 
+# MISPEvent
+# load_file(event_path)
+# load(json_event)
+# add_attribute(type, value, **kwargs)
+# add_object(obj=None, **kwargs)
+# add_attribute_tag(tag, attribute_identifier)
+# get_attribute_tag(attribute_iden
+# add_tag(tag=None, **kwargs)
+
+# MISPObject
+# add_attribute(object_relation, **value)
+# add_reference(referenced_uuid, relationship_type,
+# comment=None, **kwargs)
+# has_attributes_by_relation(list_of_relations)
+# get_attributes_by_relation(object_relation)
+# attributes[], relations[]
+# edited, all other paramaters of the MISPObject element
+# (name, comment, ...)
+
+# MISPAttribute
+# add_tag(tag=None, **kwargs)
+# delete()
+# malware_binary (if relevant)
+# tags[]
+
+# self.attribute = {'to_ids': True}
+# misp_event.add_tag(submission['classification'].lower())
+
+# create file object ( file_object = MISPObject('file'))
+#     add attribute to file object (file_object.add_attribute(value=file_info[feature], **attribute))
+# add references to file object  (from mapping fields ) 
+# add object to Event 
+
+
+
+
 
 class MISP_OPER:
     distribution = 0

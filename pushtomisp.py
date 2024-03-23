@@ -8,7 +8,7 @@ import os
 import logging
 from assemblyline_client import get_client
 from pprint import pprint
-import misp
+#import misp
 
 
 app = Flask(__name__)
@@ -30,23 +30,37 @@ def getSubmission():
 def collectSessionOntology(s_id):
     # The result of this exercise will be stored in this variable
     print("### ### ### collectSessionOntology")
-    COLLECTED_IOCS = dict()
+    result = dict()
     # This is the connection to the Assemblyline client that we will use
     client = get_client(f"https://{config['assemblyline']['host']}:443", apikey=(config['assemblyline']['user'], config['assemblyline']['apikey']), verify=False)
     # client.ontology.submission(<sid>) --> /api/v4/ontology/submission/<sid>/
-    for record in client.ontology.submission(s_id):
-        for tag_name, tag_values in record['results']['tags'].items():
-            if tag_name.startswith('network'):
-                # Create the tag category if does not exist
-                COLLECTED_IOCS.setdefault(tag_name, [])
-                # Add the IOC to our list of collected IOCs
-                COLLECTED_IOCS[tag_name].extend(tag_values)
-    # Now that we have gathered the IOCs, let's print them to the screen
+    try:
+        resultdata = client.submission.full(s_id)
+    except Exception as e:
+        print( f"Error getting the submission from AssemblyLine")
+        return
+    #new misp_event
+    #misp_event.add_attribute
+    #misp_event.add_tag
+    #misp_event.add_object
+    
+
+    if resultdata :
+        for res_hash, results in resultdata['results']:
+
+    # for record in client.ontology.submission(s_id):
+    #     for tag_name, tag_values in record['results']['tags'].items():
+    #         if tag_name.startswith('network'):
+    #             # Create the tag category if does not exist
+    #             COLLECTED_IOCS.setdefault(tag_name, [])
+    #             # Add the IOC to our list of collected IOCs
+    #             COLLECTED_IOCS[tag_name].extend(tag_values)
+    # # Now that we have gathered the IOCs, let's print them to the screen
     logging.warning("################## #COLLECTED_IOCS"  )
-    logging.warning(COLLECTED_IOCS)
-    print("################## #","COLLECTED_IOCS"  )
-    pprint(COLLECTED_IOCS)
-    return COLLECTED_IOCS
+    logging.warning(resultdata)
+    print("################## #","resultdata"  )
+    pprint(resultdata)
+    return resultdata
 
 def submitProcessor(s_id):
     print("### ### new thread sid:", str(s_id))
