@@ -115,9 +115,12 @@ class AssemblyLineParser():
         for result in results:
             try:
                 attribute_type = self._results_mapping[result['type']]
+#                   self._results_mapping = {'NET_DOMAIN_NAME': 'domain', 'NET_FULL_URI': 'url',
+#                                 'NET_IP': 'ip-dst'}
             except KeyError:
                 continue
             references.append(self._create_attribute(result, attribute_type))
+
         return references
 
 

@@ -8,8 +8,9 @@ import os
 import logging
 from assemblyline_client import get_client
 from pprint import pprint
-#import misp
-
+import misp
+import urllib3
+urllib3.disable_warnings()
 
 app = Flask(__name__)
 
@@ -18,7 +19,7 @@ print(__name__)
 @app.route('/newSubmission', methods=['GET', 'POST'])
 def getSubmission():
     json_dict = request.json
-    print("### new json request:",json_dict)
+    #print("### new json request:",json_dict)
     sid = json_dict.get('submission',{}).get('sid',{})
     print("json request: sid :",sid)
     #using sid get ontology using: /api/v4/ontology/submission/<sid>/
@@ -28,46 +29,59 @@ def getSubmission():
 
 
 def collectSessionOntology(s_id):
-    # The result of this exercise will be stored in this variable
+    #o_data=[]
+    #o_data['ontology'] = []
+    #o_data['tags'] = []
     print("### ### ### collectSessionOntology")
-    result = dict()
+    
     # This is the connection to the Assemblyline client that we will use
-    client = get_client(f"https://{config['assemblyline']['host']}:443", apikey=(config['assemblyline']['user'], config['assemblyline']['apikey']), verify=False)
+    try:
+        al_client = get_client(f"https://{config['assemblyline']['host']}:443", apikey=(config['assemblyline']['user'], config['assemblyline']['apikey']), verify=False)
+        print( f"AssemblyLine client ", type(al_client))
+    except Exception as e:
+        print( f"Error AssemblyLine client ", e)
+        return
     # client.ontology.submission(<sid>) --> /api/v4/ontology/submission/<sid>/
     try:
-        resultdata = client.submission.full(s_id)
+        #resultdata = client.submission.full(s_id) # use ontolgy
+        ontology_data = al_client.ontology.submission(s_id)
     except Exception as e:
-        print( f"Error getting the submission from AssemblyLine")
+        print( f"Error getting the ontology from AssemblyLine")
         return
-    #new misp_event
-    #misp_event.add_attribute
-    #misp_event.add_tag
-    #misp_event.add_object
-    
 
-    if resultdata :
-        for res_hash, results in resultdata['results']:
-
-    # for record in client.ontology.submission(s_id):
-    #     for tag_name, tag_values in record['results']['tags'].items():
-    #         if tag_name.startswith('network'):
-    #             # Create the tag category if does not exist
-    #             COLLECTED_IOCS.setdefault(tag_name, [])
-    #             # Add the IOC to our list of collected IOCs
-    #             COLLECTED_IOCS[tag_name].extend(tag_values)
-    # # Now that we have gathered the IOCs, let's print them to the screen
+    try:
+        submission_details = al_client.submission(s_id)
+        tags_data = submission_details.get('tags', [])
+    except Exception as e:
+        print( f"Error getting the tags from AssemblyLine")
+        return
     logging.warning("################## #COLLECTED_IOCS"  )
-    logging.warning(resultdata)
+    #logging.warning(o_data)
     print("################## #","resultdata"  )
-    pprint(resultdata)
-    return resultdata
+    #pprint(o_data)
+    return [ontology_data, tags_data]
+
+
+
+
+
 
 def submitProcessor(s_id):
     print("### ### new thread sid:", str(s_id))
-    pprint(s_id)
-    #logging.warning("new thread sid:",  str(s_id))
-    #call restapi AL4 for ontology
-    collectSessionOntology(s_id)
+    misp_objects=[]
+    try:
+        misp_data = misp.MISP_DATA(config['misp']['url'],config['misp']['apikey'], config['misp']['content_type'])
+        print( " MISP_DATA object created url:", config['misp']['url'], " type misp_data ", type(misp_data))
+    except Exception as e:
+        print( f"Error createing MISP_DATA url", config['misp']['url'])
+        return
+    
+    misp_data.ontology_result=collectSessionOntology(s_id)
+    print( " MISP_DATA object created object type misp_data.ontology_result:", type(misp_data.ontology_result))
+    misp_objects=misp_data.createFileObjects()
+    
+    #add tag classification
+    #add_attribute_tag(tag, attribute_identifier) ('classification','')
     #aggregate collected data
     #add data to MISP
 

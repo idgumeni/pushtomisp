@@ -16,9 +16,8 @@ assemblyline:
   apikey: "mispexc:bKz&8AtWBEy&sAm3HW*fr9W*w2cxT3Rim*^IrJ&OTc3371CP"
      
 misp:
-  url:
-  apikey:
-  content_type: json
-  distribution: 0 #0 - Your organization only
-  tag: "AL"
+  url: "https://localhost:8443/"
+  apikey: "nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ"
+  content_type: "json"
+
   
