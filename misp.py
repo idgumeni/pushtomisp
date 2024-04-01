@@ -43,6 +43,8 @@ class MISP_DATA:
     analysis = 0
     content_type = "json"
     ontology_result=[]
+    misp_objects = []
+    evt_attributes = []
     al2misp_mappings={ #AL:MISP
         'objects':{
             'file':{'mapto':'file',
@@ -77,11 +79,12 @@ class MISP_DATA:
         misp_objects = self.misp.search(controller='objects', type_attribute='sha256', attribute=sha256)
         return misp_objects
 
-    def createAttribute(attrib_type, attrib_val):
+    def createAttribute(self,attrib_type, attrib_val):
         attribute = pymisp.MISPAttribute()
+        print("creating attribute: ", attrib_type)
         try:
             attribute.from_dict(**{'type':attrib_type, 'value':attrib_val, 'to_ids': True})
-            print("creating attribute: ", attribute)
+            print("attribute created: ", attribute)
         except Exception as e:
             print("Error creating attribute: ", e)
         logging.warning("####misp attribute created attribute: ")
@@ -125,8 +128,22 @@ class MISP_DATA:
         for ontology_item in self.ontology_result[0]:
             f_objects.append(self.createObject('file',ontology_item))
             logging.warning("####misp createObject: ok")
+        self.misp_objects = f_objects
         return f_objects
         
+    def createEvent(self,**submission_attrs):
+        event = pymisp.MISPEvent()
+        event.info = 'Example event with domain and dst-ip'
+
+        # Add attributes for domain and dst-ip
+        event.add_attribute('domain', 'example.com')
+        event.add_attribute('dst-ip', '192.168.1.1')
+
+        # Add the event to MISP
+        response = misp.add_event(event)
+
+
+
 #    def createEvent(self,attributes):
 
 #     def add_attribute_to_event(value, category, type, comment, to_ids, tags):

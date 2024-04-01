@@ -5,6 +5,47 @@ test al get ontology with curl:
 curl -X GET --insecure -H "Content-Type: application/json" -H "Accept: application/json" -H "x-user: admin" \
     -H "x-apikey: mispexc:bKz&8AtWBEy&sAm3HW*fr9W*w2cxT3Rim*^IrJ&OTc3371CP" https://192.168.0.153/api/v4/ontology/submission/7RDG23k2taVUD0OTipvWpf/
 
+Attribute types:
+Text types:
+
+text: Plain text.
+comment: A comment associated with an event or an object.
+Indicator types:
+
+ip-src, ip-dst, ip: IP addresses.
+domain, hostname: Domain names.
+url: URLs.
+email-src, email-dst: Email addresses.
+user-agent: User-Agent strings.
+regkey: Registry key.
+mutex: Mutex name.
+
+File types:
+
+filename: File name.
+md5, sha1, sha256, sha512: Hash values for files.
+Network types:
+
+asn: Autonomous System Number.
+hostname: Hostname.
+Malware types:
+
+malware-sample: Malware sample.
+malware-sample-md5, malware-sample-sha1, malware-sample-sha256: Hashes of malware samples.
+Other types:
+
+vulnerability: Vulnerability name.
+cve: Common Vulnerabilities and Exposures (CVE) identifier.
+threat-actor: Threat actor.
+sector: Sector information.
+campaign-name: Campaign name.
+target-user: Target user information.
+bank-account-nr: Bank account number.
+iban, bic: International Bank Account Number (IBAN) and Bank Identifier Code (BIC).
+phone-number: Phone number.
+
+
+
 
 Response:
 

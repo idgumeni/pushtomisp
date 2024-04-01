@@ -79,6 +79,8 @@ def submitProcessor(s_id):
     misp_data.ontology_result=collectSessionOntology(s_id)
     print( " MISP_DATA object created object type misp_data.ontology_result:", type(misp_data.ontology_result))
     misp_objects=misp_data.createFileObjects()
+    misp_data.createEvent()
+
     
     #add tag classification
     #add_attribute_tag(tag, attribute_identifier) ('classification','')
