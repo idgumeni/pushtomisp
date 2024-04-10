@@ -1,932 +1,855 @@
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 328-010-852
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 328-010-852
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 328-010-852
+INFO:werkzeug:10.201.17.2 - - [06/Apr/2024 23:13:57] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 328-010-852
+INFO:werkzeug:10.201.17.2 - - [06/Apr/2024 23:17:43] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 328-010-852
+INFO:werkzeug:10.201.17.2 - - [06/Apr/2024 23:19:55] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
 INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 20:44:19] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 20:51:52] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 20:54:21] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:01:08] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 20:58:18] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:30:03] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:06:09] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:07:58] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:15:59] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:36:21] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:43:38] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:46:53] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:49:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:02:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:09:17] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:23:24] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:26:26] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:29:05] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:33:20] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
 INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:39:49] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:47:47] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:41:25] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:42:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:48:37] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:45:02] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:00:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:46:04] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:18:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:19:13] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:46:42] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:20:32] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:48:05] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:22:42] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:50:26] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 21:00:04] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 21:03:31] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:48:59] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:52:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:53:37] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:55:38] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:57:38] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 21:58:52] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 22:00:19] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 22:01:06] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
-INFO:werkzeug:10.201.2.3 - - [14/Mar/2024 22:05:06] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 993-416-659
+INFO:werkzeug: * Debugger PIN: 245-096-597
 INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 148-517-904
-INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:27:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 148-517-904
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 148-517-904
-INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:31:45] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 148-517-904
-INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:33:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 148-517-904
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 148-517-904
-INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:38:58] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:root:{'network.static.domain': ['ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com'], 'network.static.uri': ['https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'], 'network.static.uri_path': ['/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e']}
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 148-517-904
-INFO:werkzeug:10.201.2.11 - - [16/Mar/2024 09:42:21] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:{'network.static.domain': ['ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com', 'ygrz3d71.us19.list-manage.com'], 'network.static.uri': ['https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'], 'network.static.uri_path': ['/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e']}
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 215-745-966
-INFO:werkzeug:10.201.3.3 - - [22/Mar/2024 20:57:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:{'archive_ts': None, 'archived': False, 'classification': 'TLP:C', 'error_count': 0, 'errors': {}, 'expiry_ts': '2024-04-21T18:56:08.695129Z', 'file_count': 2, 'file_infos': {'3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563': {'archive_ts': None, 'ascii': '<script>document.location.href=window.atob("aHR0cHM6Ly95R3J6M0Q3', 'classification': 'TLP:C', 'comments': [], 'entropy': 5.708027883840739, 'expiry_ts': '2024-04-21T18:56:08.695129Z', 'from_archive': False, 'hex': '3c7363726970743e646f63756d656e742e6c6f636174696f6e2e687265663d77696e646f772e61746f6228226148523063484d364c79393552334a364d305133', 'is_section_image': False, 'is_supplementary': False, 'label_categories': {'attribution': [], 'info': [], 'technique': []}, 'labels': [], 'magic': 'HTML document, ASCII text, with CRLF line terminators', 'md5': '5560bad31124236546e6173f1dbbed1f', 'mime': 'text/html', 'seen': {'count': 3, 'first': '2024-03-14T18:17:02.994073Z', 'last': '2024-03-22T18:56:08.725491Z'}, 'sha1': '7ab8c9a3160a1c56704a3c5be675b026566c4ab8', 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'ssdeep': '6:P7YmYD3osWgZXGly5709q8rOyIIyUXJ0BYMv:Mb4sWUkyBonCzIn50OMv', 'tlsh': 'T182D022DA3CACCB0442D221231512B1AC27F703716F17C21880DA24A300A1FCA0C94AC0', 'type': 'code/html', 'uri_info': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc': {'archive_ts': None, 'ascii': 'https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459', 'classification': 'TLP:C', 'comments': [], 'entropy': 5.032909160424152, 'expiry_ts': '2024-04-21T18:56:09.683827Z', 'from_archive': False, 'hex': '68747470733a2f2f7947727a334437312e757331392e6c6973742d6d616e6167652e636f6d2f747261636b2f636c69636b3f753d613231396531366639343539', 'is_section_image': False, 'is_supplementary': False, 'label_categories': {'attribution': [], 'info': [], 'technique': []}, 'labels': [], 'magic': 'ASCII text, with no line terminators', 'md5': '14953f96f1bf142e3b6880dbd792f5de', 'mime': 'text/plain', 'seen': {'count': 30, 'first': '2024-03-14T18:17:03.445972Z', 'last': '2024-03-22T18:56:09.710357Z'}, 'sha1': '300a1d96c258fabac6c1afc64f9250b0d7ca72de', 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'ssdeep': '3:N8xunkWFuWIVULGGRXEGcJMkNrlPQEnmcWA5VlY/WA:2okW0NULEGcJMQhQEF5AWA', 'tlsh': 'T121B0122D515F92818D4F78A379CD8504593E10038ECEE74D5F004B19A70E4D385803B3', 'type': 'text/plain', 'uri_info': None}}, 'file_tree': {'3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563': {'children': {'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc': {'children': {}, 'name': ['all_b64_f49fece.txt'], 'score': 0, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'truncated': False, 'type': 'text/plain'}}, 'name': ['virus_sample3.htm'], 'score': 991, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'truncated': False, 'type': 'code/html'}}, 'files': [{'name': 'virus_sample3.htm', 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198}], 'from_archive': False, 'max_score': 991, 'metadata': {}, 'missing_error_keys': [], 'missing_file_keys': [], 'missing_result_keys': [], 'params': {'auto_archive': False, 'classification': 'TLP:C', 'deep_scan': False, 'delete_after_archive': False, 'description': 'Inspection of file: virus_sample3.htm', 'generate_alert': False, 'groups': [], 'ignore_cache': False, 'ignore_dynamic_recursion_prevention': False, 'ignore_filtering': False, 'ignore_size': False, 'initial_data': None, 'malicious': False, 'max_extracted': 500, 'max_supplementary': 500, 'never_drop': False, 'priority': 1000, 'profile': False, 'psid': None, 'quota_item': True, 'service_spec': {}, 'services': {'excluded': [], 'rescan': [], 'resubmit': [], 'runtime_excluded': [], 'selected': ['Static Analysis', 'Antivirus', 'Extraction', 'Filtering', 'Networking']}, 'submitter': 'admin', 'ttl': 30, 'type': 'USER'}, 'results': {'3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.AVClass.v4_4_0_21.c8YUoPVf2Hwx.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.202040Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.202013Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.202153Z', 'service_started': '2024-03-22T18:57:42.202118Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'AVClass', 'service_tool_version': None, 'service_version': '4_4_0_21', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Ancestry.v4_4_0_32.c194ZBEYk2AF.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.203257Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.203232Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.203370Z', 'service_started': '2024-03-22T18:57:42.203336Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Ancestry', 'service_tool_version': None, 'service_version': '4_4_0_32', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Characterize.v4_4_0_24.c194ZBEYk2AF': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:56:10.017624Z', 'drop_file': False, 'expiry_ts': '2024-04-21T18:56:10.017145Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:56:09.844779Z', 'service_started': '2024-03-22T18:56:09.468890Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Characterize', 'service_tool_version': None, 'service_version': '4.4.0.24', 'supplementary': []}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': {'data': {'domain': [0, 8], 'values': [5.708027883840739]}, 'type': 'colormap'}, 'body_config': {}, 'body_format': 'GRAPH_DATA', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': 'ENTROPY', 'tags': [], 'title_text': 'File entropy: 5.708'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ConfigExtractor.v4_4_0_53.cKJijet00L4U.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.200658Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.200602Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.200835Z', 'service_started': '2024-03-22T18:57:42.200797Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'ConfigExtractor', 'service_tool_version': None, 'service_version': '4_4_0_53', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.DeobfuScripter.v4_4_0_23.cGuTmGcvt0rg': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:56:09.899622Z', 'drop_file': False, 'expiry_ts': '2024-04-21T18:56:09.768405Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:56:09.761728Z', 'service_started': '2024-03-22T18:56:09.385266Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'DeobfuScripter', 'service_tool_version': 'Multidecoder: 1.2.0.post3', 'service_version': '4.4.0.23', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Final deobfuscated layer', 'is_section_image': False, 'name': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563_decoded_final', 'parent_relation': 'INFORMATION', 'sha256': '54295bb90bdbf765faa864db87c618fc72474446bbb530282cbf7f45f1ecd08d'}, {'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from DeobfuScripter', 'is_section_image': False, 'name': 'deobfuscripter_3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ontology', 'parent_relation': 'INFORMATION', 'sha256': 'e17b75b7f69867be9ab70fb3e39de9197e4cb9198a1f8c9e3506ee21a000c3bc'}]}, 'result': {'score': 120, 'sections': [{'auto_collapse': False, 'body': 'HTML scripts extraction', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Extraction'}, {'auto_collapse': False, 'body': 'decoded.hexadecimal, 1 time(s).\nencoding.base64, 1 time(s).', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'DEOBFUSCRIPTER.1', 'name': 'Obfuscation', 'score': 20, 'signature': [{'frequency': 1, 'name': 'decoded.hexadecimal', 'safe': False}, {'frequency': 1, 'name': 'encoding.base64', 'safe': False}]}, 'promote_to': None, 'tags': [], 'title_text': 'De-obfuscation steps taken by DeobsfuScripter'}, {'auto_collapse': False, 'body': '<script>document.location.href=window.atob("https://yGrz3D71.us19.list-manage.com/track/click?u=\\xa2\\x19\\xe1o\\x94Yդ5\\x8b\\x02\\xa9d&id=167a67091d&e=c64bc55a3e");</script>', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'First 500 bytes of the final layer:'}, {'auto_collapse': False, 'body': 'New IOCs found in pass 1:\nFound NETWORK STATIC URI: https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e\nFound NETWORK STATIC DOMAIN: yGrz3D71.us19.list-manage.com', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'DEOBFUSCRIPTER.7', 'name': 'De-obfuscated Network IOCs', 'score': 100, 'signature': []}, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'New IOCs found after de-obfustcation'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.DocumentPreview.v4_4_0_31.cE9zb02GQkiM': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:56:13.742229Z', 'drop_file': False, 'expiry_ts': '2024-04-21T18:56:13.742172Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:56:13.574381Z', 'service_started': '2024-03-22T18:56:09.462348Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'DocumentPreview', 'service_tool_version': None, 'service_version': '4.4.0.31', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': "Here's the preview for page 0", 'is_section_image': True, 'name': 'page_000.jpeg', 'parent_relation': 'INFORMATION', 'sha256': '8d24765fc32e11ca015c321cbb43a9d2a1f5ebd00fa7e8e68f20f9ee8560fc74'}, {'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': "Here's the preview for page 0 (thumbnail)", 'is_section_image': True, 'name': 'page_000.jpeg.thumb', 'parent_relation': 'INFORMATION', 'sha256': '88880e981e3ce39cd9e8d7e7f0e787cb45d1f9ae3ee7f50852ff2de5433ef83f'}]}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': [{'img': {'description': "Here's the preview for page 0", 'name': 'page_000.jpeg', 'sha256': '8d24765fc32e11ca015c321cbb43a9d2a1f5ebd00fa7e8e68f20f9ee8560fc74'}, 'thumb': {'description': "Here's the preview for page 0 (thumbnail)", 'name': 'page_000.jpeg.thumb', 'sha256': '88880e981e3ce39cd9e8d7e7f0e787cb45d1f9ae3ee7f50852ff2de5433ef83f'}}], 'body_config': {}, 'body_format': 'IMAGE', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': 'SCREENSHOT', 'tags': [], 'title_text': 'Preview Image(s)'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.EmlParser.v4_4_0_38.c5wm70muk5IL.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.199865Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.199836Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.199997Z', 'service_started': '2024-03-22T18:57:42.199962Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'EmlParser', 'service_tool_version': None, 'service_version': '4_4_0_38', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Extract.v4_4_0_38.c4kqJfKZyZ4f.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.199452Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.199424Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.199606Z', 'service_started': '2024-03-22T18:57:42.199537Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Extract', 'service_tool_version': None, 'service_version': '4_4_0_38', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.FrankenStrings.v4_4_0_24.c99Qpwxo9khb': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:56:09.837551Z', 'drop_file': False, 'expiry_ts': '2024-04-21T18:56:09.683827Z', 'from_archive': False, 'response': {'extracted': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'all misc decoded b64 from sample', 'is_section_image': False, 'name': 'all_b64_f49fece.txt', 'parent_relation': 'EXTRACTED', 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc'}], 'milestones': {'service_completed': '2024-03-22T18:56:09.678737Z', 'service_started': '2024-03-22T18:56:09.461114Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'FrankenStrings', 'service_tool_version': None, 'service_version': '4.4.0.24', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from FrankenStrings', 'is_section_image': False, 'name': 'frankenstrings_3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ontology', 'parent_relation': 'INFORMATION', 'sha256': '7918401291b32b580ff15ac806c625d23c48d50c09855884654c498ba3f6d4d0'}]}, 'result': {'score': 10, 'sections': [{'auto_collapse': False, 'body': 'Found FILE STRING BLACKLISTED string: location.href', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'blacklisted', 'type': 'file.string.blacklisted', 'value': 'location.href'}], 'title_text': 'The following IOC were found in plain text in the file:'}, {'auto_collapse': False, 'body': None, 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'FRANKENSTRINGS.1', 'name': 'Base64_Decoded', 'score': 10, 'signature': []}, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'Base64 Strings:'}, {'auto_collapse': False, 'body': 'BASE64 TEXT SIZE: 140\nBASE64 SAMPLE TEXT: aHR0cHM6Ly95R3J6M0Q3MS51czE5Lmxpc3QtbWFuYWdlLmNvbS[........]\nDECODED SHA256: f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 1, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Result 1'}, {'auto_collapse': False, 'body': 'https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 2, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'DECODED ASCII DUMP:'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.JsJaws.v4_4_0_107.cHO8PCp4b4Tc': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:56:14.811764Z', 'drop_file': False, 'expiry_ts': '2024-04-21T18:56:14.724992Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:56:14.712581Z', 'service_started': '2024-03-22T18:56:09.406995Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'JsJaws', 'service_tool_version': None, 'service_version': '4.4.0.107', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Extracted JavaScript', 'is_section_image': False, 'name': 'temp_javascript.js', 'parent_relation': 'INFORMATION', 'sha256': '040af90af96e2608ebaefbfb54f27d08929ff6274552ed8076b415a28923e72f'}, {'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from JsJaws', 'is_section_image': False, 'name': 'jsjaws_3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ontology', 'parent_relation': 'INFORMATION', 'sha256': '240ed707acadecf6d3cb9b7c1c326e82a0b63139de58e977b518b2f41e1c4809'}]}, 'result': {'score': 861, 'sections': [{'auto_collapse': True, 'body': None, 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Script Entropies'}, {'auto_collapse': False, 'body': {'data': {'domain': [0, 8], 'values': [5.57287]}, 'type': 'colormap'}, 'body_config': {}, 'body_format': 'GRAPH_DATA', 'classification': 'TLP:C', 'depth': 1, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Script: document.location.href=window.atob("aHR0cHM6Ly95R3...'}, {'auto_collapse': False, 'body': 'Low number of body elements.', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.22', 'name': 'Detected JavaScript Redirector / Loader', 'score': 100, 'signature': []}, 'promote_to': None, 'tags': [], 'title_text': 'Detected JavaScript Redirector / Loader'}, {'auto_collapse': False, 'body': None, 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Signatures'}, {'auto_collapse': False, 'body': 'JavaScript uses a common base64 method for decoding characters\n\t\tdocument.location.href=window.atob("aHR0cHM6Ly95R3J6M0Q3MS51czE5Lmxpc3QtbWFuYWdlLmNvbS90cmFjay9jbGlj...', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 1, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.3', 'name': 'Suspicious Activity Detected', 'score': 10, 'signature': [{'frequency': 1, 'name': 'base64_decoding', 'safe': False}]}, 'promote_to': None, 'tags': [], 'title_text': 'Signature: Base64Decoding'}, {'auto_collapse': False, 'body': "JavaScript uses atob to decode a base64-encoded URL\n\t\tatob was seen decoding a URI: 'https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a43...", 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 1, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.3', 'name': 'Suspicious Activity Detected', 'score': 250, 'signature': [{'frequency': 1, 'name': 'base64_encoded_url', 'safe': False}]}, 'promote_to': None, 'tags': [], 'title_text': 'Signature: Base64EncodedURL'}, {'auto_collapse': False, 'body': 'Redirection to:\nhttps://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.6', 'name': 'Automatic location redirection', 'score': 500, 'signature': [{'frequency': 1, 'name': 'redirection_to_base64_decoded_url', 'safe': False}]}, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}, {'safelisted': False, 'short_type': 'uri_path', 'type': 'network.static.uri_path', 'value': '/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'Automatic location redirection'}, {'auto_collapse': False, 'body': [{'ioc': 'yGrz3D71.us19.list-manage.com', 'ioc_type': 'domain'}, {'ioc': 'https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'ioc_type': 'uri'}, {'ioc': '/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'ioc_type': 'uri_path'}], 'body_config': {'column_order': ['ioc_type', 'ioc']}, 'body_format': 'TABLE', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.2', 'name': 'IOC(s) Extracted', 'score': 1, 'signature': []}, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}, {'safelisted': False, 'short_type': 'uri_path', 'type': 'network.static.uri_path', 'value': '/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'MalwareJail extracted the following IOCs'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Safelist.v4_4_0_25.cLeDX2DTpJ7p.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.199059Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.198998Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.199225Z', 'service_started': '2024-03-22T18:57:42.199186Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Safelist', 'service_tool_version': None, 'service_version': '4_4_0_25', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.TagCheck.v4_4_0_33.c3q4lc2lYfNc.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.202338Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.202312Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.202451Z', 'service_started': '2024-03-22T18:57:42.202416Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'TagCheck', 'service_tool_version': None, 'service_version': '4_4_0_33', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.YARA.v4_4_0_33.c91bsTMn9mbY.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.200185Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.200159Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.200324Z', 'service_started': '2024-03-22T18:57:42.200265Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'YARA', 'service_tool_version': None, 'service_version': '4_4_0_33', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.AVClass.v4_4_0_21.c8YUoPVf2Hwx.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.202633Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.202607Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.202746Z', 'service_started': '2024-03-22T18:57:42.202711Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'AVClass', 'service_tool_version': None, 'service_version': '4_4_0_21', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Ancestry.v4_4_0_32.c194ZBEYk2AF': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:41.329185Z', 'drop_file': False, 'expiry_ts': '2024-04-21T18:57:41.282543Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:41.280854Z', 'service_started': '2024-03-22T18:57:41.239908Z'}, 'service_context': 'Ancestry: 9VOcX73e9CF', 'service_debug_info': None, 'service_name': 'Ancestry', 'service_tool_version': None, 'service_version': '4.4.0.32', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from Ancestry', 'is_section_image': False, 'name': 'ancestry_f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.ontology', 'parent_relation': 'INFORMATION', 'sha256': '5b24273ce242b099e37714d9409cd7f7a2c4875ec7cfbb527aee776829b284e0'}]}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': [{'content': None, 'icon': 'HTML', 'opposite_content': 'code/html', 'score': 0, 'signatures': [], 'title': 'ROOT'}, {'content': 'from parent file', 'icon': 'TEXT', 'opposite_content': 'text/plain', 'score': 0, 'signatures': [], 'title': 'EXTRACTED'}], 'body_config': {}, 'body_format': 'TIMELINE', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'ancestry', 'type': 'file.ancestry', 'value': 'code/html,ROOT|text/plain,EXTRACTED'}], 'title_text': 'HTML → PLAIN'}]}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'type': 'text/plain'}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Characterize.v4_4_0_24.c194ZBEYk2AF': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:56:11.045002Z', 'drop_file': False, 'expiry_ts': '2024-04-21T18:56:11.044763Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:56:11.037941Z', 'service_started': '2024-03-22T18:56:10.789573Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Characterize', 'service_tool_version': None, 'service_version': '4.4.0.24', 'supplementary': []}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': {'data': {'domain': [0, 8], 'values': [5.032909160424152]}, 'type': 'colormap'}, 'body_config': {}, 'body_format': 'GRAPH_DATA', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': 'ENTROPY', 'tags': [], 'title_text': 'File entropy: 5.033'}]}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'type': 'text/plain'}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.ConfigExtractor.v4_4_0_53.cKJijet00L4U.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.201573Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.201520Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.201809Z', 'service_started': '2024-03-22T18:57:42.201738Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'ConfigExtractor', 'service_tool_version': None, 'service_version': '4_4_0_53', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.FrankenStrings.v4_4_0_24.c99Qpwxo9khb': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:56:11.012294Z', 'drop_file': False, 'expiry_ts': '2024-04-21T18:56:10.955786Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:56:10.950491Z', 'service_started': '2024-03-22T18:56:10.794312Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'FrankenStrings', 'service_tool_version': None, 'service_version': '4.4.0.24', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from FrankenStrings', 'is_section_image': False, 'name': 'frankenstrings_f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.ontology', 'parent_relation': 'INFORMATION', 'sha256': '83606ea6c6e596b7fbcb4b6aa7f30e281b6ac3fefc7131d0921303063ccf0a2c'}]}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': 'Found NETWORK STATIC DOMAIN string: yGrz3D71.us19.list-manage.com\nFound NETWORK STATIC URI string: https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'The following IOC were found in plain text in the file:'}]}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'type': 'text/plain'}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.TagCheck.v4_4_0_33.c3q4lc2lYfNc.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.202928Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.202902Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.203041Z', 'service_started': '2024-03-22T18:57:42.203006Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'TagCheck', 'service_tool_version': None, 'service_version': '4_4_0_33', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.YARA.v4_4_0_33.c91bsTMn9mbY.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-22T18:57:42.201037Z', 'drop_file': False, 'expiry_ts': '2024-03-27T18:57:42.201011Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-22T18:57:42.201296Z', 'service_started': '2024-03-22T18:57:42.201235Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'YARA', 'service_tool_version': None, 'service_version': '4_4_0_33', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}}, 'scan_key': None, 'sid': '4yLdjwygZZ9ue5HsBO4mVF', 'state': 'completed', 'times': {'completed': '2024-03-22T18:57:41.636709Z', 'submitted': '2024-03-22T18:56:08.826948Z'}, 'to_be_deleted': False, 'verdict': {'malicious': [], 'non_malicious': []}}
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.2.3 - - [30/Mar/2024 12:38:20] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:{'archive_ts': None, 'archived': False, 'classification': 'TLP:C', 'error_count': 0, 'errors': {}, 'expiry_ts': '2024-04-29T10:38:16.217229Z', 'file_count': 2, 'file_infos': {'3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563': {'archive_ts': None, 'ascii': '<script>document.location.href=window.atob("aHR0cHM6Ly95R3J6M0Q3', 'classification': 'TLP:C', 'comments': [], 'entropy': 5.708027883840739, 'expiry_ts': '2024-04-29T10:38:16.217229Z', 'from_archive': False, 'hex': '3c7363726970743e646f63756d656e742e6c6f636174696f6e2e687265663d77696e646f772e61746f6228226148523063484d364c79393552334a364d305133', 'is_section_image': False, 'is_supplementary': False, 'label_categories': {'attribution': [], 'info': [], 'technique': []}, 'labels': [], 'magic': 'HTML document, ASCII text, with CRLF line terminators', 'md5': '5560bad31124236546e6173f1dbbed1f', 'mime': 'text/html', 'seen': {'count': 5, 'first': '2024-03-14T18:17:02.994073Z', 'last': '2024-03-30T10:38:16.326838Z'}, 'sha1': '7ab8c9a3160a1c56704a3c5be675b026566c4ab8', 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'ssdeep': '6:P7YmYD3osWgZXGly5709q8rOyIIyUXJ0BYMv:Mb4sWUkyBonCzIn50OMv', 'tlsh': 'T182D022DA3CACCB0442D221231512B1AC27F703716F17C21880DA24A300A1FCA0C94AC0', 'type': 'code/html', 'uri_info': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc': {'archive_ts': None, 'ascii': 'https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459', 'classification': 'TLP:C', 'comments': [], 'entropy': 5.032909160424152, 'expiry_ts': '2024-04-29T10:38:16.771942Z', 'from_archive': False, 'hex': '68747470733a2f2f7947727a334437312e757331392e6c6973742d6d616e6167652e636f6d2f747261636b2f636c69636b3f753d613231396531366639343539', 'is_section_image': False, 'is_supplementary': False, 'label_categories': {'attribution': [], 'info': [], 'technique': []}, 'labels': [], 'magic': 'ASCII text, with no line terminators', 'md5': '14953f96f1bf142e3b6880dbd792f5de', 'mime': 'text/plain', 'seen': {'count': 32, 'first': '2024-03-14T18:17:03.445972Z', 'last': '2024-03-30T10:38:16.791637Z'}, 'sha1': '300a1d96c258fabac6c1afc64f9250b0d7ca72de', 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'ssdeep': '3:N8xunkWFuWIVULGGRXEGcJMkNrlPQEnmcWA5VlY/WA:2okW0NULEGcJMQhQEF5AWA', 'tlsh': 'T121B0122D515F92818D4F78A379CD8504593E10038ECEE74D5F004B19A70E4D385803B3', 'type': 'text/plain', 'uri_info': None}}, 'file_tree': {'3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563': {'children': {'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc': {'children': {}, 'name': ['all_b64_f49fece.txt'], 'score': 0, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'truncated': False, 'type': 'text/plain'}}, 'name': ['virus_sample3.htm'], 'score': 991, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'truncated': False, 'type': 'code/html'}}, 'files': [{'name': 'virus_sample3.htm', 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198}], 'from_archive': False, 'max_score': 991, 'metadata': {}, 'missing_error_keys': [], 'missing_file_keys': [], 'missing_result_keys': [], 'params': {'auto_archive': False, 'classification': 'TLP:C', 'deep_scan': True, 'delete_after_archive': False, 'description': 'Inspection of file: virus_sample3.htm', 'generate_alert': True, 'groups': [], 'ignore_cache': False, 'ignore_dynamic_recursion_prevention': False, 'ignore_filtering': False, 'ignore_size': False, 'initial_data': None, 'malicious': False, 'max_extracted': 500, 'max_supplementary': 500, 'never_drop': False, 'priority': 1000, 'profile': False, 'psid': None, 'quota_item': True, 'service_spec': {'JsJaws': {'extract_eval_calls': True, 'extract_function_calls': True}}, 'services': {'excluded': [], 'rescan': [], 'resubmit': [], 'runtime_excluded': [], 'selected': ['Antivirus', 'Extraction', 'Filtering', 'Networking', 'Static Analysis']}, 'submitter': 'admin', 'ttl': 30, 'type': 'USER'}, 'results': {'3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.AVClass.v4_4_0_21.cLoz9FsN1i1O.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.379751Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.379725Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.379868Z', 'service_started': '2024-03-30T10:38:21.379833Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'AVClass', 'service_tool_version': None, 'service_version': '4_4_0_21', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Ancestry.v4_4_0_32.c8upin56EHOl.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.380553Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.380489Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.380691Z', 'service_started': '2024-03-30T10:38:21.380654Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Ancestry', 'service_tool_version': None, 'service_version': '4_4_0_32', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Characterize.v4_4_0_24.c8upin56EHOl': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:17.007581Z', 'drop_file': False, 'expiry_ts': '2024-04-29T10:38:17.007288Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:17.002069Z', 'service_started': '2024-03-30T10:38:16.750104Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Characterize', 'service_tool_version': None, 'service_version': '4.4.0.24', 'supplementary': []}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': {'data': {'domain': [0, 8], 'values': [5.708027883840739]}, 'type': 'colormap'}, 'body_config': {}, 'body_format': 'GRAPH_DATA', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': 'ENTROPY', 'tags': [], 'title_text': 'File entropy: 5.708'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ConfigExtractor.v4_4_0_53.cAQPcoEqZb1x.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.379372Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.379315Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.379565Z', 'service_started': '2024-03-30T10:38:21.379516Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'ConfigExtractor', 'service_tool_version': None, 'service_version': '4_4_0_53', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.DeobfuScripter.v4_4_0_23.cC4EVIhVo33i': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:16.909851Z', 'drop_file': False, 'expiry_ts': '2024-04-29T10:38:16.842298Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:16.837140Z', 'service_started': '2024-03-30T10:38:16.712531Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'DeobfuScripter', 'service_tool_version': 'Multidecoder: 1.2.0.post3', 'service_version': '4.4.0.23', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Final deobfuscated layer', 'is_section_image': False, 'name': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563_decoded_final', 'parent_relation': 'INFORMATION', 'sha256': '54295bb90bdbf765faa864db87c618fc72474446bbb530282cbf7f45f1ecd08d'}, {'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from DeobfuScripter', 'is_section_image': False, 'name': 'deobfuscripter_3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ontology', 'parent_relation': 'INFORMATION', 'sha256': 'e17b75b7f69867be9ab70fb3e39de9197e4cb9198a1f8c9e3506ee21a000c3bc'}]}, 'result': {'score': 120, 'sections': [{'auto_collapse': False, 'body': 'HTML scripts extraction', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Extraction'}, {'auto_collapse': False, 'body': 'decoded.hexadecimal, 1 time(s).\nencoding.base64, 1 time(s).', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'DEOBFUSCRIPTER.1', 'name': 'Obfuscation', 'score': 20, 'signature': [{'frequency': 1, 'name': 'decoded.hexadecimal', 'safe': False}, {'frequency': 1, 'name': 'encoding.base64', 'safe': False}]}, 'promote_to': None, 'tags': [], 'title_text': 'De-obfuscation steps taken by DeobsfuScripter'}, {'auto_collapse': False, 'body': '<script>document.location.href=window.atob("https://yGrz3D71.us19.list-manage.com/track/click?u=\\xa2\\x19\\xe1o\\x94Yդ5\\x8b\\x02\\xa9d&id=167a67091d&e=c64bc55a3e");</script>', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'First 500 bytes of the final layer:'}, {'auto_collapse': False, 'body': 'New IOCs found in pass 1:\nFound NETWORK STATIC URI: https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e\nFound NETWORK STATIC DOMAIN: yGrz3D71.us19.list-manage.com', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'DEOBFUSCRIPTER.7', 'name': 'De-obfuscated Network IOCs', 'score': 100, 'signature': []}, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'New IOCs found after de-obfustcation'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.DocumentPreview.v4_4_0_31.cCDuF9huZzCu': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:18.763837Z', 'drop_file': False, 'expiry_ts': '2024-04-29T10:38:18.763783Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:18.658660Z', 'service_started': '2024-03-30T10:38:16.724662Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'DocumentPreview', 'service_tool_version': None, 'service_version': '4.4.0.31', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': "Here's the preview for page 0", 'is_section_image': True, 'name': 'page_000.jpeg', 'parent_relation': 'INFORMATION', 'sha256': '1abdcf737671f2bdb37aa5ac3fb20b86f33a654cb48408eeea32cd429a124022'}, {'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': "Here's the preview for page 0 (thumbnail)", 'is_section_image': True, 'name': 'page_000.jpeg.thumb', 'parent_relation': 'INFORMATION', 'sha256': '7540bab1e9f728d74f224e12843b29058c8feb43cd79b3a3a682d305a4e7ceab'}]}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': [{'img': {'description': "Here's the preview for page 0", 'name': 'page_000.jpeg', 'sha256': '1abdcf737671f2bdb37aa5ac3fb20b86f33a654cb48408eeea32cd429a124022'}, 'thumb': {'description': "Here's the preview for page 0 (thumbnail)", 'name': 'page_000.jpeg.thumb', 'sha256': '7540bab1e9f728d74f224e12843b29058c8feb43cd79b3a3a682d305a4e7ceab'}}], 'body_config': {}, 'body_format': 'IMAGE', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': 'SCREENSHOT', 'tags': [], 'title_text': 'Preview Image(s)'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.EmlParser.v4_4_0_38.c8RcBk5Rt40w.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.377996Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.377970Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.378117Z', 'service_started': '2024-03-30T10:38:21.378081Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'EmlParser', 'service_tool_version': None, 'service_version': '4_4_0_38', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Extract.v4_4_0_38.c56DXD4NRAiK.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.377674Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.377640Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.377801Z', 'service_started': '2024-03-30T10:38:21.377763Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Extract', 'service_tool_version': None, 'service_version': '4_4_0_38', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.FrankenStrings.v4_4_0_24.cGJpJt77h8Bf': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:16.823254Z', 'drop_file': False, 'expiry_ts': '2024-04-29T10:38:16.771942Z', 'from_archive': False, 'response': {'extracted': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'all misc decoded b64 from sample', 'is_section_image': False, 'name': 'all_b64_f49fece.txt', 'parent_relation': 'EXTRACTED', 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc'}], 'milestones': {'service_completed': '2024-03-30T10:38:16.767018Z', 'service_started': '2024-03-30T10:38:16.713101Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'FrankenStrings', 'service_tool_version': None, 'service_version': '4.4.0.24', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from FrankenStrings', 'is_section_image': False, 'name': 'frankenstrings_3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ontology', 'parent_relation': 'INFORMATION', 'sha256': '7918401291b32b580ff15ac806c625d23c48d50c09855884654c498ba3f6d4d0'}]}, 'result': {'score': 10, 'sections': [{'auto_collapse': False, 'body': 'Found FILE STRING BLACKLISTED string: location.href', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'blacklisted', 'type': 'file.string.blacklisted', 'value': 'location.href'}], 'title_text': 'The following IOC were found in plain text in the file:'}, {'auto_collapse': False, 'body': None, 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'FRANKENSTRINGS.1', 'name': 'Base64_Decoded', 'score': 10, 'signature': []}, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'Base64 Strings:'}, {'auto_collapse': False, 'body': 'BASE64 TEXT SIZE: 140\nBASE64 SAMPLE TEXT: aHR0cHM6Ly95R3J6M0Q3MS51czE5Lmxpc3QtbWFuYWdlLmNvbS[........]\nDECODED SHA256: f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 1, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Result 1'}, {'auto_collapse': False, 'body': 'https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 2, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'DECODED ASCII DUMP:'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.JsJaws.v4_4_0_107.c4vGvpeRHAYN': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:19.771254Z', 'drop_file': False, 'expiry_ts': '2024-04-29T10:38:19.717215Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:19.709790Z', 'service_started': '2024-03-30T10:38:16.735144Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'JsJaws', 'service_tool_version': None, 'service_version': '4.4.0.107', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Extracted JavaScript', 'is_section_image': False, 'name': 'temp_javascript.js', 'parent_relation': 'INFORMATION', 'sha256': '040af90af96e2608ebaefbfb54f27d08929ff6274552ed8076b415a28923e72f'}, {'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from JsJaws', 'is_section_image': False, 'name': 'jsjaws_3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.ontology', 'parent_relation': 'INFORMATION', 'sha256': '240ed707acadecf6d3cb9b7c1c326e82a0b63139de58e977b518b2f41e1c4809'}]}, 'result': {'score': 861, 'sections': [{'auto_collapse': True, 'body': None, 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Script Entropies'}, {'auto_collapse': False, 'body': {'data': {'domain': [0, 8], 'values': [5.57287]}, 'type': 'colormap'}, 'body_config': {}, 'body_format': 'GRAPH_DATA', 'classification': 'TLP:C', 'depth': 1, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Script: document.location.href=window.atob("aHR0cHM6Ly95R3...'}, {'auto_collapse': False, 'body': 'Low number of body elements.', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.22', 'name': 'Detected JavaScript Redirector / Loader', 'score': 100, 'signature': []}, 'promote_to': None, 'tags': [], 'title_text': 'Detected JavaScript Redirector / Loader'}, {'auto_collapse': False, 'body': None, 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [], 'title_text': 'Signatures'}, {'auto_collapse': False, 'body': 'JavaScript uses a common base64 method for decoding characters\n\t\tdocument.location.href=window.atob("aHR0cHM6Ly95R3J6M0Q3MS51czE5Lmxpc3QtbWFuYWdlLmNvbS90cmFjay9jbGlj...', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 1, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.3', 'name': 'Suspicious Activity Detected', 'score': 10, 'signature': [{'frequency': 1, 'name': 'base64_decoding', 'safe': False}]}, 'promote_to': None, 'tags': [], 'title_text': 'Signature: Base64Decoding'}, {'auto_collapse': False, 'body': "JavaScript uses atob to decode a base64-encoded URL\n\t\tatob was seen decoding a URI: 'https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a43...", 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 1, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.3', 'name': 'Suspicious Activity Detected', 'score': 250, 'signature': [{'frequency': 1, 'name': 'base64_encoded_url', 'safe': False}]}, 'promote_to': None, 'tags': [], 'title_text': 'Signature: Base64EncodedURL'}, {'auto_collapse': False, 'body': 'Redirection to:\nhttps://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'body_config': {}, 'body_format': 'TEXT', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.6', 'name': 'Automatic location redirection', 'score': 500, 'signature': [{'frequency': 1, 'name': 'redirection_to_base64_decoded_url', 'safe': False}]}, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}, {'safelisted': False, 'short_type': 'uri_path', 'type': 'network.static.uri_path', 'value': '/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'Automatic location redirection'}, {'auto_collapse': False, 'body': [{'ioc': 'yGrz3D71.us19.list-manage.com', 'ioc_type': 'domain'}, {'ioc': 'https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'ioc_type': 'uri'}, {'ioc': '/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'ioc_type': 'uri_path'}], 'body_config': {'column_order': ['ioc_type', 'ioc']}, 'body_format': 'TABLE', 'classification': 'TLP:C', 'depth': 0, 'heuristic': {'attack': [], 'heur_id': 'JSJAWS.2', 'name': 'IOC(s) Extracted', 'score': 1, 'signature': []}, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}, {'safelisted': False, 'short_type': 'uri_path', 'type': 'network.static.uri_path', 'value': '/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'MalwareJail extracted the following IOCs'}]}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': 198, 'type': 'code/html'}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.Safelist.v4_4_0_25.c5i5YNggTM4v.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.377040Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.376963Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.377297Z', 'service_started': '2024-03-30T10:38:21.377227Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Safelist', 'service_tool_version': None, 'service_version': '4_4_0_25', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.TagCheck.v4_4_0_33.c8klwjQMnqYa.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.380101Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.380073Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.380250Z', 'service_started': '2024-03-30T10:38:21.380200Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'TagCheck', 'service_tool_version': None, 'service_version': '4_4_0_33', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563.YARA.v4_4_0_33.cAVaTWpUJXbT.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.378304Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.378278Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.378424Z', 'service_started': '2024-03-30T10:38:21.378387Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'YARA', 'service_tool_version': None, 'service_version': '4_4_0_33', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': '3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.AVClass.v4_4_0_21.cLoz9FsN1i1O.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.381454Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.381405Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.381698Z', 'service_started': '2024-03-30T10:38:21.381644Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'AVClass', 'service_tool_version': None, 'service_version': '4_4_0_21', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Ancestry.v4_4_0_32.c8upin56EHOl': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:20.925576Z', 'drop_file': False, 'expiry_ts': '2024-04-29T10:38:20.902215Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:20.901482Z', 'service_started': '2024-03-30T10:38:20.884229Z'}, 'service_context': 'Ancestry: 9VOcX73e9CF', 'service_debug_info': None, 'service_name': 'Ancestry', 'service_tool_version': None, 'service_version': '4.4.0.32', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from Ancestry', 'is_section_image': False, 'name': 'ancestry_f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.ontology', 'parent_relation': 'INFORMATION', 'sha256': '5b24273ce242b099e37714d9409cd7f7a2c4875ec7cfbb527aee776829b284e0'}]}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': [{'content': None, 'icon': 'HTML', 'opposite_content': 'code/html', 'score': 0, 'signatures': [], 'title': 'ROOT'}, {'content': 'from parent file', 'icon': 'TEXT', 'opposite_content': 'text/plain', 'score': 0, 'signatures': [], 'title': 'EXTRACTED'}], 'body_config': {}, 'body_format': 'TIMELINE', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'ancestry', 'type': 'file.ancestry', 'value': 'code/html,ROOT|text/plain,EXTRACTED'}], 'title_text': 'HTML → PLAIN'}]}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'type': 'text/plain'}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Characterize.v4_4_0_24.c8upin56EHOl': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:17.389593Z', 'drop_file': False, 'expiry_ts': '2024-04-29T10:38:17.389386Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:17.385060Z', 'service_started': '2024-03-30T10:38:17.121486Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Characterize', 'service_tool_version': None, 'service_version': '4.4.0.24', 'supplementary': []}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': {'data': {'domain': [0, 8], 'values': [5.032909160424152]}, 'type': 'colormap'}, 'body_config': {}, 'body_format': 'GRAPH_DATA', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': 'ENTROPY', 'tags': [], 'title_text': 'File entropy: 5.033'}]}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'type': 'text/plain'}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.ConfigExtractor.v4_4_0_53.cAQPcoEqZb1x.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.380921Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.380895Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.381095Z', 'service_started': '2024-03-30T10:38:21.381056Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'ConfigExtractor', 'service_tool_version': None, 'service_version': '4_4_0_53', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.FrankenStrings.v4_4_0_24.cGJpJt77h8Bf': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:20.708083Z', 'drop_file': False, 'expiry_ts': '2024-04-29T10:38:20.678920Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:20.673528Z', 'service_started': '2024-03-30T10:38:17.106001Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'FrankenStrings', 'service_tool_version': None, 'service_version': '4.4.0.24', 'supplementary': [{'allow_dynamic_recursion': False, 'classification': 'TLP:C', 'description': 'Result Ontology from FrankenStrings', 'is_section_image': False, 'name': 'frankenstrings_f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.ontology', 'parent_relation': 'INFORMATION', 'sha256': '83606ea6c6e596b7fbcb4b6aa7f30e281b6ac3fefc7131d0921303063ccf0a2c'}]}, 'result': {'score': 0, 'sections': [{'auto_collapse': False, 'body': 'Found NETWORK STATIC DOMAIN string: yGrz3D71.us19.list-manage.com\nFound NETWORK STATIC URI string: https://yGrz3D71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e', 'body_config': {}, 'body_format': 'MEMORY_DUMP', 'classification': 'TLP:C', 'depth': 0, 'heuristic': None, 'promote_to': None, 'tags': [{'safelisted': False, 'short_type': 'domain', 'type': 'network.static.domain', 'value': 'ygrz3d71.us19.list-manage.com'}, {'safelisted': False, 'short_type': 'uri', 'type': 'network.static.uri', 'value': 'https://ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'}], 'title_text': 'The following IOC were found in plain text in the file:'}]}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': 104, 'type': 'text/plain'}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.Safelist.v4_4_0_25.c5i5YNggTM4v.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.378612Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.378585Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.378730Z', 'service_started': '2024-03-30T10:38:21.378694Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'Safelist', 'service_tool_version': None, 'service_version': '4_4_0_25', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.TagCheck.v4_4_0_33.c8klwjQMnqYa.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.381995Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.381962Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.382159Z', 'service_started': '2024-03-30T10:38:21.382121Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'TagCheck', 'service_tool_version': None, 'service_version': '4_4_0_33', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}, 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc.YARA.v4_4_0_33.cAVaTWpUJXbT.e': {'archive_ts': None, 'classification': 'TLP:C', 'created': '2024-03-30T10:38:21.378953Z', 'drop_file': False, 'expiry_ts': '2024-04-04T10:38:21.378927Z', 'from_archive': False, 'response': {'extracted': [], 'milestones': {'service_completed': '2024-03-30T10:38:21.379117Z', 'service_started': '2024-03-30T10:38:21.379057Z'}, 'service_context': None, 'service_debug_info': None, 'service_name': 'YARA', 'service_tool_version': None, 'service_version': '4_4_0_33', 'supplementary': []}, 'result': {'score': 0, 'sections': []}, 'sha256': 'f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc', 'size': None, 'type': None}}, 'scan_key': None, 'sid': '6BMgT5IBgFW2NrCdsZ59yD', 'state': 'completed', 'times': {'completed': '2024-03-30T10:38:20.945647Z', 'submitted': '2024-03-30T10:38:16.356099Z'}, 'to_be_deleted': False, 'verdict': {'malicious': [], 'non_malicious': []}}
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:24:33] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:36:33] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:39:42] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:41:02] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:44:31] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:45:39] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:46:23] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:47:28] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 427-897-849
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:49:08] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:52:23] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 20:54:05] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+INFO:werkzeug: * Debugger PIN: 307-623-638
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
+INFO:werkzeug: * Debugger PIN: 307-623-638
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:00:36] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:05:59] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:09:28] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created
+INFO:werkzeug: * Debugger PIN: 307-623-638
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:10:53] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:pymisp:To configure logging in your script, leave it to None and use the following: import logging; logging.getLogger('pymisp').setLevel(logging.DEBUG)
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:12:27] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-DEBUG:pymisp:GET - https://localhost:8443/servers/getPyMISPVersion.json
-DEBUG:pymisp:{}
-DEBUG:pymisp:{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:pymisp:To configure logging in your script, leave it to None and use the following: import logging; logging.getLogger('pymisp').setLevel(logging.DEBUG)
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:15:56] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-DEBUG:pymisp:GET - https://localhost:8443/servers/getPyMISPVersion.json
-DEBUG:pymisp:{}
-DEBUG:pymisp:{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
-DEBUG:pymisp:{'version': '2.4.184'}
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-DEBUG:pymisp:GET - https://localhost:8443/servers/getVersion
-DEBUG:pymisp:{}
-DEBUG:pymisp:{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=0aftua5nt9dcjjlb527a2g9mdm', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
-DEBUG:pymisp:{'version': '2.4.184', 'pymisp_recommended_version': '2.4.184', 'perm_sync': True, 'perm_sighting': True, 'perm_galaxy_editor': True, 'request_encoding': ['gzip', 'br'], 'filter_sightings': True}
-DEBUG:pymisp:GET - https://localhost:8443/users/view/me
-DEBUG:pymisp:{}
-DEBUG:pymisp:{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=j43hpjahv6sni3hhkbbl0aj346', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
-DEBUG:pymisp:{'User': {'id': '1', 'password': '*****', 'org_id': '1', 'email': 'admin@admin.test', 'autoalert': False, 'invited_by': '0', 'gpgkey': None, 'certif_public': '', 'nids_sid': '4000000', 'termsaccepted': False, 'newsread': '0', 'role_id': '1', 'change_pw': False, 'contactalert': False, 'disabled': False, 'expiration': None, 'current_login': '1711823098', 'last_login': '1711800723', 'force_logout': False, 'date_created': None, 'date_modified': '1711824548', 'sub': None, 'external_auth_required': False, 'external_auth_key': None, 'last_api_access': '1711824548', 'notification_daily': False, 'notification_weekly': False, 'notification_monthly': False, 'totp': '*****', 'hotp_counter': None, 'last_pw_change': None}, 'Role': {'id': '1', 'name': 'admin', 'created': '2024-02-10 16:57:48', 'modified': '2024-02-10 16:57:48', 'perm_add': True, 'perm_modify': True, 'perm_modify_org': True, 'perm_publish': True, 'perm_delegate': True, 'perm_sync': True, 'perm_admin': True, 'perm_audit': True, 'perm_auth': True, 'perm_site_admin': True, 'perm_regexp_access': True, 'perm_tagger': True, 'perm_template': True, 'perm_sharing_group': True, 'perm_tag_editor': True, 'perm_sighting': True, 'perm_object_template': True, 'default_role': False, 'memory_limit': '', 'max_execution_time': '', 'restricted_to_site_admin': False, 'perm_publish_zmq': True, 'perm_publish_kafka': True, 'perm_decaying': True, 'enforce_rate_limit': False, 'rate_limit_count': '0', 'perm_galaxy_editor': True, 'perm_warninglist': False, 'perm_view_feed_correlations': True, 'permission': '3', 'permission_description': 'publish'}, 'UserSetting': [], 'Organisation': {'id': '1', 'name': 'ORGNAME', 'date_created': '2024-02-10 16:58:22', 'date_modified': '2024-02-10 16:58:22', 'description': 'Automatically generated admin organisation', 'type': 'ADMIN', 'nationality': '', 'sector': '', 'created_by': '0', 'uuid': 'a4365bf9-cc39-491c-9629-03ce5b57c33b', 'contacts': None, 'local': True, 'restricted_to_domain': None, 'landingpage': None}}
-DEBUG:pymisp:GET - https://localhost:8443/attributes/describeTypes.json
-DEBUG:pymisp:{}
-DEBUG:pymisp:{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=mf3ta9bd6nt7g4oeqmvsokqqdf', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
-DEBUG:pymisp:{'result': {'sane_defaults': {'md5': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha1': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha256': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename': {'default_category': 'Payload delivery', 'to_ids': 1}, 'pdb': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'filename|md5': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha1': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha256': {'default_category': 'Payload delivery', 'to_ids': 1}, 'ip-src': {'default_category': 'Network activity', 'to_ids': 1}, 'ip-dst': {'default_category': 'Network activity', 'to_ids': 1}, 'hostname': {'default_category': 'Network activity', 'to_ids': 1}, 'domain': {'default_category': 'Network activity', 'to_ids': 1}, 'domain|ip': {'default_category': 'Network activity', 'to_ids': 1}, 'email': {'default_category': 'Social network', 'to_ids': 1}, 'email-src': {'default_category': 'Payload delivery', 'to_ids': 1}, 'eppn': {'default_category': 'Network activity', 'to_ids': 1}, 'email-dst': {'default_category': 'Network activity', 'to_ids': 1}, 'email-subject': {'default_category': 'Payload delivery', 'to_ids': 0}, 'email-attachment': {'default_category': 'Payload delivery', 'to_ids': 1}, 'email-body': {'default_category': 'Payload delivery', 'to_ids': 0}, 'float': {'default_category': 'Other', 'to_ids': 0}, 'git-commit-id': {'default_category': 'Internal reference', 'to_ids': 0}, 'url': {'default_category': 'Network activity', 'to_ids': 1}, 'http-method': {'default_category': 'Network activity', 'to_ids': 0}, 'user-agent': {'default_category': 'Network activity', 'to_ids': 0}, 'ja3-fingerprint-md5': {'default_category': 'Network activity', 'to_ids': 1}, 'jarm-fingerprint': {'default_category': 'Network activity', 'to_ids': 1}, 'favicon-mmh3': {'default_category': 'Network activity', 'to_ids': 1}, 'hassh-md5': {'default_category': 'Network activity', 'to_ids': 1}, 'hasshserver-md5': {'default_category': 'Network activity', 'to_ids': 1}, 'regkey': {'default_category': 'Persistence mechanism', 'to_ids': 1}, 'regkey|value': {'default_category': 'Persistence mechanism', 'to_ids': 1}, 'AS': {'default_category': 'Network activity', 'to_ids': 0}, 'snort': {'default_category': 'Network activity', 'to_ids': 1}, 'bro': {'default_category': 'Network activity', 'to_ids': 1}, 'zeek': {'default_category': 'Network activity', 'to_ids': 1}, 'community-id': {'default_category': 'Network activity', 'to_ids': 1}, 'pattern-in-file': {'default_category': 'Payload installation', 'to_ids': 1}, 'pattern-in-traffic': {'default_category': 'Network activity', 'to_ids': 1}, 'pattern-in-memory': {'default_category': 'Payload installation', 'to_ids': 1}, 'filename-pattern': {'default_category': 'Payload installation', 'to_ids': 1}, 'pgp-public-key': {'default_category': 'Person', 'to_ids': 0}, 'pgp-private-key': {'default_category': 'Person', 'to_ids': 0}, 'ssh-fingerprint': {'default_category': 'Network activity', 'to_ids': 0}, 'yara': {'default_category': 'Payload installation', 'to_ids': 1}, 'stix2-pattern': {'default_category': 'Payload installation', 'to_ids': 1}, 'sigma': {'default_category': 'Payload installation', 'to_ids': 1}, 'gene': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'kusto-query': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'mime-type': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'identity-card-number': {'default_category': 'Person', 'to_ids': 0}, 'cookie': {'default_category': 'Network activity', 'to_ids': 0}, 'vulnerability': {'default_category': 'External analysis', 'to_ids': 0}, 'cpe': {'default_category': 'External analysis', 'to_ids': 0}, 'weakness': {'default_category': 'External analysis', 'to_ids': 0}, 'attachment': {'default_category': 'External analysis', 'to_ids': 0}, 'malware-sample': {'default_category': 'Payload delivery', 'to_ids': 1}, 'link': {'default_category': 'External analysis', 'to_ids': 0}, 'comment': {'default_category': 'Other', 'to_ids': 0}, 'text': {'default_category': 'Other', 'to_ids': 0}, 'hex': {'default_category': 'Other', 'to_ids': 0}, 'other': {'default_category': 'Other', 'to_ids': 0}, 'named pipe': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'mutex': {'default_category': 'Artifacts dropped', 'to_ids': 1}, 'process-state': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'target-user': {'default_category': 'Targeting data', 'to_ids': 0}, 'target-email': {'default_category': 'Targeting data', 'to_ids': 0}, 'target-machine': {'default_category': 'Targeting data', 'to_ids': 0}, 'target-org': {'default_category': 'Targeting data', 'to_ids': 0}, 'target-location': {'default_category': 'Targeting data', 'to_ids': 0}, 'target-external': {'default_category': 'Targeting data', 'to_ids': 0}, 'btc': {'default_category': 'Financial fraud', 'to_ids': 1}, 'dash': {'default_category': 'Financial fraud', 'to_ids': 1}, 'xmr': {'default_category': 'Financial fraud', 'to_ids': 1}, 'iban': {'default_category': 'Financial fraud', 'to_ids': 1}, 'bic': {'default_category': 'Financial fraud', 'to_ids': 1}, 'bank-account-nr': {'default_category': 'Financial fraud', 'to_ids': 1}, 'aba-rtn': {'default_category': 'Financial fraud', 'to_ids': 1}, 'bin': {'default_category': 'Financial fraud', 'to_ids': 1}, 'cc-number': {'default_category': 'Financial fraud', 'to_ids': 1}, 'prtn': {'default_category': 'Financial fraud', 'to_ids': 1}, 'phone-number': {'default_category': 'Person', 'to_ids': 0}, 'threat-actor': {'default_category': 'Attribution', 'to_ids': 0}, 'campaign-name': {'default_category': 'Attribution', 'to_ids': 0}, 'campaign-id': {'default_category': 'Attribution', 'to_ids': 0}, 'malware-type': {'default_category': 'Payload delivery', 'to_ids': 0}, 'uri': {'default_category': 'Network activity', 'to_ids': 1}, 'authentihash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'vhash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'ssdeep': {'default_category': 'Payload delivery', 'to_ids': 1}, 'imphash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'telfhash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'pehash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'impfuzzy': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha224': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha384': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha512': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha512/224': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha512/256': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha3-224': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha3-256': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha3-384': {'default_category': 'Payload delivery', 'to_ids': 1}, 'sha3-512': {'default_category': 'Payload delivery', 'to_ids': 1}, 'tlsh': {'default_category': 'Payload delivery', 'to_ids': 1}, 'cdhash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|authentihash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|vhash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|ssdeep': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|imphash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|impfuzzy': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|pehash': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha224': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha384': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha512': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha512/224': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha512/256': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha3-224': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha3-256': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha3-384': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|sha3-512': {'default_category': 'Payload delivery', 'to_ids': 1}, 'filename|tlsh': {'default_category': 'Payload delivery', 'to_ids': 1}, 'windows-scheduled-task': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'windows-service-name': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'windows-service-displayname': {'default_category': 'Artifacts dropped', 'to_ids': 0}, 'whois-registrant-email': {'default_category': 'Attribution', 'to_ids': 0}, 'whois-registrant-phone': {'default_category': 'Attribution', 'to_ids': 0}, 'whois-registrant-name': {'default_category': 'Attribution', 'to_ids': 0}, 'whois-registrant-org': {'default_category': 'Attribution', 'to_ids': 0}, 'whois-registrar': {'default_category': 'Attribution', 'to_ids': 0}, 'whois-creation-date': {'default_category': 'Attribution', 'to_ids': 0}, 'x509-fingerprint-sha1': {'default_category': 'Network activity', 'to_ids': 1}, 'x509-fingerprint-md5': {'default_category': 'Network activity', 'to_ids': 1}, 'x509-fingerprint-sha256': {'default_category': 'Network activity', 'to_ids': 1}, 'dns-soa-email': {'default_category': 'Attribution', 'to_ids': 0}, 'size-in-bytes': {'default_category': 'Other', 'to_ids': 0}, 'counter': {'default_category': 'Other', 'to_ids': 0}, 'datetime': {'default_category': 'Other', 'to_ids': 0}, 'port': {'default_category': 'Network activity', 'to_ids': 0}, 'ip-dst|port': {'default_category': 'Network activity', 'to_ids': 1}, 'ip-src|port': {'default_category': 'Network activity', 'to_ids': 1}, 'hostname|port': {'default_category': 'Network activity', 'to_ids': 1}, 'mac-address': {'default_category': 'Network activity', 'to_ids': 0}, 'mac-eui-64': {'default_category': 'Network activity', 'to_ids': 0}, 'email-dst-display-name': {'default_category': 'Payload delivery', 'to_ids': 0}, 'email-src-display-name': {'default_category': 'Payload delivery', 'to_ids': 0}, 'email-header': {'default_category': 'Payload delivery', 'to_ids': 0}, 'email-reply-to': {'default_category': 'Payload delivery', 'to_ids': 0}, 'email-x-mailer': {'default_category': 'Payload delivery', 'to_ids': 0}, 'email-mime-boundary': {'default_category': 'Payload delivery', 'to_ids': 0}, 'email-thread-index': {'default_category': 'Payload delivery', 'to_ids': 0}, 'email-message-id': {'default_category': 'Payload delivery', 'to_ids': 0}, 'github-username': {'default_category': 'Social network', 'to_ids': 0}, 'github-repository': {'default_category': 'Social network', 'to_ids': 0}, 'github-organisation': {'default_category': 'Social network', 'to_ids': 0}, 'jabber-id': {'default_category': 'Social network', 'to_ids': 0}, 'twitter-id': {'default_category': 'Social network', 'to_ids': 0}, 'dkim': {'default_category': 'Network activity', 'to_ids': 0}, 'dkim-signature': {'default_category': 'Network activity', 'to_ids': 0}, 'first-name': {'default_category': 'Person', 'to_ids': 0}, 'middle-name': {'default_category': 'Person', 'to_ids': 0}, 'last-name': {'default_category': 'Person', 'to_ids': 0}, 'full-name': {'default_category': 'Person', 'to_ids': 0}, 'date-of-birth': {'default_category': 'Person', 'to_ids': 0}, 'place-of-birth': {'default_category': 'Person', 'to_ids': 0}, 'gender': {'default_category': 'Person', 'to_ids': 0}, 'passport-number': {'default_category': 'Person', 'to_ids': 0}, 'passport-country': {'default_category': 'Person', 'to_ids': 0}, 'passport-expiration': {'default_category': 'Person', 'to_ids': 0}, 'redress-number': {'default_category': 'Person', 'to_ids': 0}, 'nationality': {'default_category': 'Person', 'to_ids': 0}, 'visa-number': {'default_category': 'Person', 'to_ids': 0}, 'issue-date-of-the-visa': {'default_category': 'Person', 'to_ids': 0}, 'primary-residence': {'default_category': 'Person', 'to_ids': 0}, 'country-of-residence': {'default_category': 'Person', 'to_ids': 0}, 'special-service-request': {'default_category': 'Person', 'to_ids': 0}, 'frequent-flyer-number': {'default_category': 'Person', 'to_ids': 0}, 'travel-details': {'default_category': 'Person', 'to_ids': 0}, 'payment-details': {'default_category': 'Person', 'to_ids': 0}, 'place-port-of-original-embarkation': {'default_category': 'Person', 'to_ids': 0}, 'place-port-of-clearance': {'default_category': 'Person', 'to_ids': 0}, 'place-port-of-onward-foreign-destination': {'default_category': 'Person', 'to_ids': 0}, 'passenger-name-record-locator-number': {'default_category': 'Person', 'to_ids': 0}, 'mobile-application-id': {'default_category': 'Payload delivery', 'to_ids': 1}, 'azure-application-id': {'default_category': 'Payload delivery', 'to_ids': 1}, 'chrome-extension-id': {'default_category': 'Payload delivery', 'to_ids': 1}, 'cortex': {'default_category': 'External analysis', 'to_ids': 0}, 'boolean': {'default_category': 'Other', 'to_ids': 0}, 'anonymised': {'default_category': 'Other', 'to_ids': 0}}, 'types': ['md5', 'sha1', 'sha256', 'filename', 'pdb', 'filename|md5', 'filename|sha1', 'filename|sha256', 'ip-src', 'ip-dst', 'hostname', 'domain', 'domain|ip', 'email', 'email-src', 'eppn', 'email-dst', 'email-subject', 'email-attachment', 'email-body', 'float', 'git-commit-id', 'url', 'http-method', 'user-agent', 'ja3-fingerprint-md5', 'jarm-fingerprint', 'favicon-mmh3', 'hassh-md5', 'hasshserver-md5', 'regkey', 'regkey|value', 'AS', 'snort', 'bro', 'zeek', 'community-id', 'pattern-in-file', 'pattern-in-traffic', 'pattern-in-memory', 'filename-pattern', 'pgp-public-key', 'pgp-private-key', 'ssh-fingerprint', 'yara', 'stix2-pattern', 'sigma', 'gene', 'kusto-query', 'mime-type', 'identity-card-number', 'cookie', 'vulnerability', 'cpe', 'weakness', 'attachment', 'malware-sample', 'link', 'comment', 'text', 'hex', 'other', 'named pipe', 'mutex', 'process-state', 'target-user', 'target-email', 'target-machine', 'target-org', 'target-location', 'target-external', 'btc', 'dash', 'xmr', 'iban', 'bic', 'bank-account-nr', 'aba-rtn', 'bin', 'cc-number', 'prtn', 'phone-number', 'threat-actor', 'campaign-name', 'campaign-id', 'malware-type', 'uri', 'authentihash', 'vhash', 'ssdeep', 'imphash', 'telfhash', 'pehash', 'impfuzzy', 'sha224', 'sha384', 'sha512', 'sha512/224', 'sha512/256', 'sha3-224', 'sha3-256', 'sha3-384', 'sha3-512', 'tlsh', 'cdhash', 'filename|authentihash', 'filename|vhash', 'filename|ssdeep', 'filename|imphash', 'filename|impfuzzy', 'filename|pehash', 'filename|sha224', 'filename|sha384', 'filename|sha512', 'filename|sha512/224', 'filename|sha512/256', 'filename|sha3-224', 'filename|sha3-256', 'filename|sha3-384', 'filename|sha3-512', 'filename|tlsh', 'windows-scheduled-task', 'windows-service-name', 'windows-service-displayname', 'whois-registrant-email', 'whois-registrant-phone', 'whois-registrant-name', 'whois-registrant-org', 'whois-registrar', 'whois-creation-date', 'x509-fingerprint-sha1', 'x509-fingerprint-md5', 'x509-fingerprint-sha256', 'dns-soa-email', 'size-in-bytes', 'counter', 'datetime', 'port', 'ip-dst|port', 'ip-src|port', 'hostname|port', 'mac-address', 'mac-eui-64', 'email-dst-display-name', 'email-src-display-name', 'email-header', 'email-reply-to', 'email-x-mailer', 'email-mime-boundary', 'email-thread-index', 'email-message-id', 'github-username', 'github-repository', 'github-organisation', 'jabber-id', 'twitter-id', 'dkim', 'dkim-signature', 'first-name', 'middle-name', 'last-name', 'full-name', 'date-of-birth', 'place-of-birth', 'gender', 'passport-number', 'passport-country', 'passport-expiration', 'redress-number', 'nationality', 'visa-number', 'issue-date-of-the-visa', 'primary-residence', 'country-of-residence', 'special-service-request', 'frequent-flyer-number', 'travel-details', 'payment-details', 'place-port-of-original-embarkation', 'place-port-of-clearance', 'place-port-of-onward-foreign-destination', 'passenger-name-record-locator-number', 'mobile-application-id', 'azure-application-id', 'chrome-extension-id', 'cortex', 'boolean', 'anonymised'], 'categories': ['Internal reference', 'Targeting data', 'Antivirus detection', 'Payload delivery', 'Artifacts dropped', 'Payload installation', 'Persistence mechanism', 'Network activity', 'Payload type', 'Attribution', 'External analysis', 'Financial fraud', 'Support Tool', 'Social network', 'Person', 'Other'], 'category_type_mappings': {'Internal reference': ['text', 'link', 'comment', 'other', 'hex', 'anonymised', 'git-commit-id'], 'Targeting data': ['target-user', 'target-email', 'target-machine', 'target-org', 'target-location', 'target-external', 'comment', 'anonymised'], 'Antivirus detection': ['link', 'comment', 'text', 'hex', 'attachment', 'other', 'anonymised'], 'Payload delivery': ['md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'sha512/224', 'sha512/256', 'sha3-224', 'sha3-256', 'sha3-384', 'sha3-512', 'ssdeep', 'imphash', 'telfhash', 'impfuzzy', 'authentihash', 'vhash', 'pehash', 'tlsh', 'cdhash', 'filename', 'filename|md5', 'filename|sha1', 'filename|sha224', 'filename|sha256', 'filename|sha384', 'filename|sha512', 'filename|sha512/224', 'filename|sha512/256', 'filename|sha3-224', 'filename|sha3-256', 'filename|sha3-384', 'filename|sha3-512', 'filename|authentihash', 'filename|vhash', 'filename|ssdeep', 'filename|tlsh', 'filename|imphash', 'filename|impfuzzy', 'filename|pehash', 'mac-address', 'mac-eui-64', 'ip-src', 'ip-dst', 'ip-dst|port', 'ip-src|port', 'hostname', 'domain', 'email', 'email-src', 'email-dst', 'email-subject', 'email-attachment', 'email-body', 'url', 'user-agent', 'AS', 'pattern-in-file', 'pattern-in-traffic', 'filename-pattern', 'stix2-pattern', 'yara', 'sigma', 'mime-type', 'attachment', 'malware-sample', 'link', 'malware-type', 'comment', 'text', 'hex', 'vulnerability', 'cpe', 'weakness', 'x509-fingerprint-sha1', 'x509-fingerprint-md5', 'x509-fingerprint-sha256', 'ja3-fingerprint-md5', 'jarm-fingerprint', 'hassh-md5', 'hasshserver-md5', 'other', 'hostname|port', 'email-dst-display-name', 'email-src-display-name', 'email-header', 'email-reply-to', 'email-x-mailer', 'email-mime-boundary', 'email-thread-index', 'email-message-id', 'azure-application-id', 'mobile-application-id', 'chrome-extension-id', 'whois-registrant-email', 'anonymised'], 'Artifacts dropped': ['md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'sha512/224', 'sha512/256', 'sha3-224', 'sha3-256', 'sha3-384', 'sha3-512', 'ssdeep', 'imphash', 'telfhash', 'impfuzzy', 'authentihash', 'vhash', 'cdhash', 'filename', 'filename|md5', 'filename|sha1', 'filename|sha224', 'filename|sha256', 'filename|sha384', 'filename|sha512', 'filename|sha512/224', 'filename|sha512/256', 'filename|sha3-224', 'filename|sha3-256', 'filename|sha3-384', 'filename|sha3-512', 'filename|authentihash', 'filename|vhash', 'filename|ssdeep', 'filename|tlsh', 'filename|imphash', 'filename|impfuzzy', 'filename|pehash', 'regkey', 'regkey|value', 'pattern-in-file', 'pattern-in-memory', 'filename-pattern', 'pdb', 'stix2-pattern', 'yara', 'sigma', 'attachment', 'malware-sample', 'named pipe', 'mutex', 'process-state', 'windows-scheduled-task', 'windows-service-name', 'windows-service-displayname', 'comment', 'text', 'hex', 'x509-fingerprint-sha1', 'x509-fingerprint-md5', 'x509-fingerprint-sha256', 'other', 'cookie', 'gene', 'kusto-query', 'mime-type', 'anonymised', 'pgp-public-key', 'pgp-private-key'], 'Payload installation': ['md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512', 'sha512/224', 'sha512/256', 'sha3-224', 'sha3-256', 'sha3-384', 'sha3-512', 'ssdeep', 'imphash', 'telfhash', 'impfuzzy', 'authentihash', 'vhash', 'pehash', 'tlsh', 'cdhash', 'filename', 'filename|md5', 'filename|sha1', 'filename|sha224', 'filename|sha256', 'filename|sha384', 'filename|sha512', 'filename|sha512/224', 'filename|sha512/256', 'filename|sha3-224', 'filename|sha3-256', 'filename|sha3-384', 'filename|sha3-512', 'filename|authentihash', 'filename|vhash', 'filename|ssdeep', 'filename|tlsh', 'filename|imphash', 'filename|impfuzzy', 'filename|pehash', 'pattern-in-file', 'pattern-in-traffic', 'pattern-in-memory', 'filename-pattern', 'stix2-pattern', 'yara', 'sigma', 'vulnerability', 'cpe', 'weakness', 'attachment', 'malware-sample', 'malware-type', 'comment', 'text', 'hex', 'x509-fingerprint-sha1', 'x509-fingerprint-md5', 'x509-fingerprint-sha256', 'azure-application-id', 'azure-application-id', 'mobile-application-id', 'chrome-extension-id', 'other', 'mime-type', 'anonymised'], 'Persistence mechanism': ['filename', 'regkey', 'regkey|value', 'comment', 'text', 'other', 'hex', 'anonymised'], 'Network activity': ['ip-src', 'ip-dst', 'ip-dst|port', 'ip-src|port', 'port', 'hostname', 'domain', 'domain|ip', 'mac-address', 'mac-eui-64', 'email', 'email-dst', 'email-src', 'eppn', 'url', 'uri', 'user-agent', 'http-method', 'AS', 'snort', 'pattern-in-file', 'filename-pattern', 'stix2-pattern', 'pattern-in-traffic', 'attachment', 'comment', 'text', 'x509-fingerprint-md5', 'x509-fingerprint-sha1', 'x509-fingerprint-sha256', 'ja3-fingerprint-md5', 'jarm-fingerprint', 'hassh-md5', 'hasshserver-md5', 'other', 'hex', 'cookie', 'hostname|port', 'bro', 'zeek', 'anonymised', 'community-id', 'email-subject', 'favicon-mmh3', 'dkim', 'dkim-signature', 'ssh-fingerprint'], 'Payload type': ['comment', 'text', 'other', 'anonymised'], 'Attribution': ['threat-actor', 'campaign-name', 'campaign-id', 'whois-registrant-phone', 'whois-registrant-email', 'whois-registrant-name', 'whois-registrant-org', 'whois-registrar', 'whois-creation-date', 'comment', 'text', 'x509-fingerprint-sha1', 'x509-fingerprint-md5', 'x509-fingerprint-sha256', 'other', 'dns-soa-email', 'anonymised', 'email'], 'External analysis': ['md5', 'sha1', 'sha256', 'sha3-224', 'sha3-256', 'sha3-384', 'sha3-512', 'filename', 'filename|md5', 'filename|sha1', 'filename|sha256', 'filename|sha3-224', 'filename|sha3-256', 'filename|sha3-384', 'filename|sha3-512', 'ip-src', 'ip-dst', 'ip-dst|port', 'ip-src|port', 'mac-address', 'mac-eui-64', 'hostname', 'domain', 'domain|ip', 'url', 'user-agent', 'regkey', 'regkey|value', 'AS', 'snort', 'bro', 'zeek', 'pattern-in-file', 'pattern-in-traffic', 'pattern-in-memory', 'filename-pattern', 'vulnerability', 'cpe', 'weakness', 'attachment', 'malware-sample', 'link', 'comment', 'text', 'x509-fingerprint-sha1', 'x509-fingerprint-md5', 'x509-fingerprint-sha256', 'ja3-fingerprint-md5', 'jarm-fingerprint', 'hassh-md5', 'hasshserver-md5', 'github-repository', 'other', 'cortex', 'anonymised', 'community-id'], 'Financial fraud': ['btc', 'dash', 'xmr', 'iban', 'bic', 'bank-account-nr', 'aba-rtn', 'bin', 'cc-number', 'prtn', 'phone-number', 'comment', 'text', 'other', 'hex', 'anonymised'], 'Support Tool': ['link', 'text', 'attachment', 'comment', 'other', 'hex', 'anonymised'], 'Social network': ['github-username', 'github-repository', 'github-organisation', 'jabber-id', 'twitter-id', 'email', 'email-src', 'email-dst', 'eppn', 'comment', 'text', 'other', 'whois-registrant-email', 'anonymised', 'pgp-public-key', 'pgp-private-key'], 'Person': ['first-name', 'middle-name', 'last-name', 'full-name', 'date-of-birth', 'place-of-birth', 'gender', 'passport-number', 'passport-country', 'passport-expiration', 'redress-number', 'nationality', 'visa-number', 'issue-date-of-the-visa', 'primary-residence', 'country-of-residence', 'special-service-request', 'frequent-flyer-number', 'travel-details', 'payment-details', 'place-port-of-original-embarkation', 'place-port-of-clearance', 'place-port-of-onward-foreign-destination', 'passenger-name-record-locator-number', 'comment', 'text', 'other', 'phone-number', 'identity-card-number', 'anonymised', 'email', 'pgp-public-key', 'pgp-private-key'], 'Other': ['comment', 'text', 'other', 'size-in-bytes', 'counter', 'datetime', 'cpe', 'port', 'float', 'hex', 'phone-number', 'boolean', 'anonymised', 'pgp-public-key', 'pgp-private-key']}}}
-WARNING:root:####misp connection created
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:20:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:24:03] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:28:14] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:29:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:30:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.14.3 - - [30/Mar/2024 21:32:18] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 21:40:03] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 21:40:24] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 21:48:14] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 21:49:35] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 21:53:44] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 21:55:20] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 21:56:38] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:06:21] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:12:39] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:18:57] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:22:57] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:23:49] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:####misp createObject: 
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:25:10] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:27:24] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:28:20] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:####misp in createObject: mapto: self.al2misp_mappings['objects'][al_attr_type]['mapto']
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:29:23] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:32:01] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:33:10] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:33:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:34:36] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:35:59] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:36:38] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:41:28] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:43:01] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:44:33] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:45:37] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:46:21] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:48:18] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:49:56] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:50:29] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:50:51] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:54:08] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:55:56] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 22:59:10] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 23:00:46] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug:10.201.17.5 - - [30/Mar/2024 23:06:36] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 319-587-132
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 19:02:55] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 19:02:55] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 19:02:55] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 19:38:17] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 19:41:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 19:45:48] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 19:48:37] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 19:52:51] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug:10.201.15.3 - - [01/Apr/2024 20:01:12] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:################## #COLLECTED_IOCS
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-WARNING:root:####misp attribute created attribute: 
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 188-318-615
+INFO:werkzeug: * Debugger PIN: 307-623-638

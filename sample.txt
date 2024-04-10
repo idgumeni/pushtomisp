@@ -46,6 +46,37 @@ phone-number: Phone number.
 
 
 
+{
+    'heuristics': [
+        {
+            'heur_id': 'FRANKENSTRINGS_1',
+            'name': 'Base64_Decoded',
+            'score': 10,
+            'tags': {
+                'network.static.domain': [
+                    'ygrz3d71.us19.list-manage.com'
+                ],
+                'network.static.uri': [
+                    'https: //ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'
+                ]
+            },
+            'times_raised': 1
+        }
+    ],
+    'score': 991,
+    'tags': {
+        'file.string.blacklisted': [
+            'location.href'
+        ],
+        'network.static.domain': [
+            'ygrz3d71.us19.list-manage.com'
+        ],
+        'network.static.uri': [
+            'https: //ygrz3d71.us19.list-manage.com/track/click?u=a219e16f9459d5a4358b02a9d&id=167a67091d&e=c64bc55a3e'
+        ]
+    }
+}
+
 
 Response:
 

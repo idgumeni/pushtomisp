@@ -32,6 +32,7 @@ def collectSessionOntology(s_id):
     #o_data=[]
     #o_data['ontology'] = []
     #o_data['tags'] = []
+    submission_result={}
     print("### ### ### collectSessionOntology")
     
     # This is the connection to the Assemblyline client that we will use
@@ -51,18 +52,19 @@ def collectSessionOntology(s_id):
 
     try:
         submission_details = al_client.submission(s_id)
-        tags_data = submission_details.get('tags', [])
+        submission_params = submission_details.get('params')
+        pprint(submission_params)
+        submission_result['params']=submission_params
     except Exception as e:
-        print( f"Error getting the tags from AssemblyLine")
+        print( f"Error getting the tags from AssemblyLine:",e)
         return
-    logging.warning("################## #COLLECTED_IOCS"  )
+    #logging.warning("################## #COLLECTED_IOCS"  )
     #logging.warning(o_data)
-    print("################## #","resultdata"  )
-    #pprint(o_data)
-    return [ontology_data, tags_data]
-
-
-
+    #print("################## #","resultdata"  )
+    pprint(submission_params)
+    #return [ontology_data, tags_data]
+    submission_result['ontology']=ontology_data
+    return submission_result
 
 
 
@@ -76,11 +78,19 @@ def submitProcessor(s_id):
         print( f"Error createing MISP_DATA url", config['misp']['url'])
         return
     
-    misp_data.ontology_result=collectSessionOntology(s_id)
-    print( " MISP_DATA object created object type misp_data.ontology_result:", type(misp_data.ontology_result))
+    misp_data.submission_result=collectSessionOntology(s_id)
+    misp_data.ontology_result=misp_data.submission_result['ontology']
+    #print( " MISP_DATA object created object type misp_data.ontology_result: ")
+    #pprint(misp_data.ontology_result)
+    
     misp_objects=misp_data.createFileObjects()
-    misp_data.createEvent()
-
+    print("@@@ objects created")
+    try:
+        submission_info={'classification':misp_data.ontology_result[0]['submission']['classification'] ,'date':misp_data.ontology_result[0]['submission']['date'],'max_score':misp_data.ontology_result[0]['submission']['max_score'],'info':misp_data.submission_result['params']['description'] }
+        #pprint(submission_info)
+        misp_data.createEvent(**submission_info)
+    except Exception as e:
+        print('error:',e)
     
     #add tag classification
     #add_attribute_tag(tag, attribute_identifier) ('classification','')
