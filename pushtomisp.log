@@ -1,44 +1,10 @@
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 328-010-852
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 328-010-852
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 328-010-852
-INFO:werkzeug:10.201.17.2 - - [06/Apr/2024 23:13:57] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 16:28:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 328-010-852
-INFO:werkzeug:10.201.17.2 - - [06/Apr/2024 23:17:43] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####misp createObject: ok
@@ -46,7 +12,10 @@ WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
 WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
@@ -54,398 +23,554 @@ WARNING:root:####add attribute to object :
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 328-010-852
-INFO:werkzeug:10.201.17.2 - - [06/Apr/2024 23:19:55] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 16:45:27] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
 WARNING:root:####misp createObject: ok
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
 WARNING:root:####misp createObject: ok
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+CRITICAL:pymisp:Unknown error: the response is not in JSON.
+Something is broken server-side, please send us everything that follows (careful with the auth key):
+Request headers:
+{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=ddesnubb4ipcfm5k2hd6ndbm3t', 'Content-Length': '3', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
+Request body:
+127
+Response (if any):
+{"name":"An Internal Error Has Occurred.","message":"An Internal Error Has Occurred.","url":"\/tags\/add"}
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 16:58:06] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+CRITICAL:pymisp:Unknown error: the response is not in JSON.
+Something is broken server-side, please send us everything that follows (careful with the auth key):
+Request headers:
+{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=nun9j96pf20v0ajh0s1ajl1jei', 'Content-Length': '3', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
+Request body:
+128
+Response (if any):
+{"name":"An Internal Error Has Occurred.","message":"An Internal Error Has Occurred.","url":"\/tags\/add"}
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:04:45] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+CRITICAL:pymisp:Unknown error: the response is not in JSON.
+Something is broken server-side, please send us everything that follows (careful with the auth key):
+Request headers:
+{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=ijlifn3dr7vke1v087f5nvvn5a', 'Content-Length': '3', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
+Request body:
+129
+Response (if any):
+{"name":"An Internal Error Has Occurred.","message":"An Internal Error Has Occurred.","url":"\/tags\/add"}
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:09:58] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:10:47] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:40:44] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:47:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:12:07] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:20:09] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:34:37] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:49:51] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:51:20] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####misp createObject: ok
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
 INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:01:08] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:06:09] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:07:58] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:15:59] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:36:21] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:43:38] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:46:53] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 18:49:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:02:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:09:17] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:23:24] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:26:26] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:29:05] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:33:20] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:47:47] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 19:48:37] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:55:59] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -485,8 +610,8 @@ WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:00:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:59:33] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -526,122 +651,12 @@ WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:18:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:19:13] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Debugger PIN: 331-689-513
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:20:32] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:pymisp:The template (file) doesn't have the object_relation (mime-type) you're trying to add.
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:22:42] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 19:01:31] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -681,28 +696,8 @@ WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 20:50:26] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 19:02:00] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -742,114 +737,12 @@ WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Debugger PIN: 331-689-513
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
+INFO:werkzeug: * Debugger PIN: 331-689-513
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 21:00:04] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 292-560-705
-INFO:werkzeug:10.201.3.5 - - [08/Apr/2024 21:03:31] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 245-096-597
-INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 427-897-849
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 307-623-638
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 307-623-638
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 307-623-638
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 307-623-638
+INFO:werkzeug: * Debugger PIN: 331-689-513

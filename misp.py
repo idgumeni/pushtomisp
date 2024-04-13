@@ -1,6 +1,7 @@
 import pymisp
 import logging
 from pprint import pprint
+import urllib.parse
 
 # MISPEvent
 # load_file(event_path)
@@ -46,7 +47,9 @@ class MISP_DATA:
     submission_result=[]
     misp_objects = []
     evt_attributes = []
-    ontological_results=['antivirus','malwareconfig','netflow','process','sandbox','signature','heuristics']
+    event = pymisp.MISPEvent()
+    resp_event = {}
+    ontological_results_types=['antivirus','malwareconfig','netflow','process','sandbox','signature','heuristics']
     al2misp_mappings={ #AL:MISP
         'objects':{
             'file':{'mapto':'file',
@@ -60,12 +63,12 @@ class MISP_DATA:
             },
 
         },
-        'event':{
+        'events':{
             'attributes':{
-                "network.static.domain":{'action':'map', 'mapto': 'domain', "to_ids": True, 'tag':True},
-                "network.static.uri": {'action':'map', 'mapto': "uri", "to_ids": True, 'tag':True},
-                "file.string.blacklisted":{'action':'map', 'mapto': "text", "to_ids": False, 'tag':False},
-                "network.static.uri_path":{'action':'map', 'mapto': "text", "to_ids": False, 'tag':False},
+                "network.static.domain":{'action':'map', 'mapto': 'domain', "to_ids": True, 'add_tag': True},
+                "network.static.uri": {'action':'map', 'mapto': "uri", "to_ids": True, 'add_tag': True},
+                "file.string.blacklisted":{'action':'map', 'mapto': "text", "to_ids": False, 'add_tag': False},
+                "network.static.uri_path":{'action':'map', 'mapto': "text", "to_ids": False, 'add_tag': False},
 
             }
         }
@@ -126,9 +129,9 @@ class MISP_DATA:
     
     def createEventAttribute(self,attrib_type, attrib_val):
         attribute = pymisp.MISPAttribute()
-        type_key='type'
+      
         try:
-            attribute.from_dict(**{type_key:attrib_type, 'value':attrib_val})
+            attribute.from_dict(**{'type':attrib_type, 'value':attrib_val})
             print("attribute created: ", attribute)
         except Exception as e:
             print("Error creating attribute: ", e)
@@ -137,7 +140,7 @@ class MISP_DATA:
     def createAttributes(self,attr_scope,al_attr_type, data):
         attributes=[]
         references=[]
-        print("####misp in createAttributes :  for:",al_attr_type)
+        print("####misp in createAttributes :  for:",al_attr_type, " data[al_attr_type:]" , type(data[al_attr_type]))
         for attr_k, attr_v in data[al_attr_type].items():
             print("# # attr type:",type(attr_v), " attr_k:",attr_k)
             if type(attr_v) == list:
@@ -198,10 +201,13 @@ class MISP_DATA:
         for obj_reference in refs:
             references=self.findFileObjectBySha256(obj_reference['referenced_uuid'])
             #print("references:", references)
-            for reference_item in references:
-                print("   ref uuid: ", reference_item['Object']['uuid'])
-                ret_objref=misp_object.add_reference(reference_item['Object']['uuid'],obj_reference['relationship_type'])
-            print("====  ret references:", ret_objref)
+            try:
+                for reference_item in references:
+                    print("   ref uuid: ", reference_item['Object']['uuid'])
+                    ret_objref=misp_object.add_reference(reference_item['Object']['uuid'],obj_reference['relationship_type'])
+                print("====  ret references:", ret_objref)
+            except Exception as e:
+                print("No references found", e)
             #print("obj_reference:", obj_reference)
         return misp_object
             
@@ -223,7 +229,7 @@ class MISP_DATA:
             #pprint(ontology_item['results'])
             
             for result_ontology_k,result_ontology_v in ontology_item['results'].items():
-                if result_ontology_k in self.ontological_results:
+                if result_ontology_k in self.ontological_results_types:
                     for result_ontology_v_item in result_ontology_v:
                         print('-=-=-= result_ontology:', type(result_ontology_v_item))
                         
@@ -234,103 +240,97 @@ class MISP_DATA:
                             o_data_item['attributes']=result_ontology_v_item
                             o_data_item['attributes']['comment']=result_ontology_k
                             pprint(o_data_item)
-                            [attrs,refs]=self.createAttributes('event','attributes', o_data_item)
+                            [attrs,refs]=self.createAttributes('events','attributes', o_data_item)
                         except Exception as e:
                             print("eeee  addEventAttriutes error:", e)
             
             logging.warning("####misp createObject: ok")
             return attrs
 
+    def createTags(self):
+        ret_tags=[]
+        try:
+            tag2add=pymisp.MISPTag()
+            tag2add.from_dict(**{'name':'sandbox:AL4'})
+            ret_tags.append(tag2add)
+        except Exception as e:
+            print("err add new tag:",e)
+        for result in self.ontology_result:
+            if 'tags' in result["results"].keys():
+                #print("1111111   tags: ", result["results"]['tags']) 
+                for tag_item, tag_val in result["results"]['tags'].items():
+                    evttags=[]
+                    if tag_item in self.al2misp_mappings['events']['attributes'].keys():
+                        #print("self.al2misp_mappings['events']['attributes'][tag_item]['action']:",self.al2misp_mappings['events']['attributes'][tag_item]['action'])
+                        if self.al2misp_mappings['events']['attributes'][tag_item]['action'] == "map" and self.al2misp_mappings['events']['attributes'][tag_item]['add_tag'] is True:
+                            if type(tag_val) is list:
+                                for val_item in tag_val:
+                                    evttags.append({'name':self.al2misp_mappings['events']['attributes'][tag_item]['mapto']+':'+urllib.parse.quote(val_item, safe='')})                               
+                            else:
+                                evttags.append({'name':self.al2misp_mappings['events']['attributes'][tag_item]['mapto']+':'+urllib.parse.quote(tag_val, safe='')})
+                            print("....... evttags:", evttags, "tag_item: ", tag_item)
+                            for evttag_item in evttags:    
+                                try:
+                                    print("tag_val :",evttag_item)
+                                    tagobj=pymisp.MISPTag()
+                                    tagobj.from_dict(**evttag_item)
+                                    ret_tags.append(tagobj)
+                                except Exception as e:
+                                    print("222222  error adding tag: " , evttag_item , " error: ", e)
+        return ret_tags
+
+    def addTags2Event(self):
+        
+        tags=self.createTags()
+        #print("***** tags:", tags)
+      
+
+        for tag in tags:
+            try:
+                print("tag to add: ", tag.to_dict()['name'])
+                ret_new_tag=self.misp.add_tag(tag) 
+                print("9090909090 in addTags2Event ret_tag: ", ret_new_tag)
+                ret_add_tag2evt=self.event.add_tag(str(tag.to_dict()['name']))
+                print("()()()()() - ret_add_tag2evt:",ret_add_tag2evt)
+            except Exception as e:
+                print("err add tag ::: " , e)
+            #self.event.tags.append(tag.to_dict()['name'])
+           
+        
+        
+
 
     def createEvent(self,**submission_attrs):
-        event = pymisp.MISPEvent()
+        
         # date, threat_level, Distribution, analysis, info, extends
-        event.info = submission_attrs['info']
-        event.threat_level_id = 2
-        event.distribution = 0
-        event.analysis = 1
+        self.event.info = submission_attrs['info']
+        self.event.threat_level_id = 2
+        self.event.distribution = 0
+        self.event.analysis = 1
         
         evt_attrs=self.createEventAttributes()
-        event.attributes=evt_attrs
-        #pprint(evt_attrs)
-        # for evt_attr in evt_attrs:
-        #     pprint(evt_attr)
-        #     try:
-        #         event.add_attribute(evt_attr)
-        #     except Exception as e:
-        #         print("err adding attribute to event: ", e)
-        # # event.add_object(misp_object)
+        self.event.attributes=evt_attrs
+
         for obj_item in self.misp_objects:
             print(">>>>add object to event....")
-            event.add_object(obj_item)
+            self.event.add_object(obj_item)
         
+
         #add tags to event
-        
+        try:
+            #tag1={'color': 'red'}
+            #self.event.tags=[tag1]
+            self.addTags2Event()
+        except Exception as e:
+            print("Error add tags: ", e)
+
+
 
         # Add the event to MISP
         try:
-            response = self.misp.add_event(event)
+            self.resp_event = self.misp.add_event(self.event)
+            #print("@@@@@@@@@    self.resp_event: ", self.resp_event['Event'] )
         except Exception as e:
             print("error creating event: ", e)
 
-
-
-#    def createEvent(self,attributes):
-
-#     def add_attribute_to_event(value, category, type, comment, to_ids, tags):
-#         misp_attribute = MISPAttribute()
-#         misp_attribute.value = str(value)
-#         misp_attribute.category = str(category)
-#         misp_attribute.type = str(type)
-#         misp_attribute.comment = str(comment)
-#         misp_attribute.to_ids = str(ids)
-#         for x in tags:
-#                 misp_attribute.add_tag(x)
-#         r = pymisp.add_attribute(self.event, misp_attribute)
-
-
-#     def add_event(jsondata):
-#         self.event = self.misp.add_event(jsondata)
-
-#    # Create attributes
-#     attributes = []
-#     for f in files:
-#         a = MISPAttribute()
-#         a.type = arg_type
-#         a.value = f.name
-#         a.data = f
-#         a.comment = args.comment
-#         a.distribution = args.distrib
-#         if args.expand and arg_type == 'malware-sample':
-#             a.expand = 'binary'
-#         attributes.append(a)
-
-
-#         m = MISPEvent()
-#         m.info = args.info
-#         m.distribution = args.distrib
-#         m.attributes = attributes
-#         if args.expand and arg_type == 'malware-sample':
-#             m.run_expansions()
-#         misp.add_event(m)
-
-
-
-
-#     def add_attribute_to_event(value, category, type, comment, to_ids, tags):
-#         misp_attribute = MISPAttribute()
-#         misp_attribute.value = str(value)
-#         misp_attribute.category = str(category)
-#         misp_attribute.type = str(type)
-#         misp_attribute.comment = str(comment)
-#         misp_attribute.to_ids = str(ids)
-#         for x in tags:
-#                 misp_attribute.add_tag(x)
-#         r = pymisp.add_attribute(self.event, misp_attribute)
-
-
-#     def upload_sample();
-         
-
-
-#to do  de convertit AL ontology (file, service, results, classification, max_score to misp attribute.)
+     

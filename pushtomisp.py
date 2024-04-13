@@ -53,7 +53,6 @@ def collectSessionOntology(s_id):
     try:
         submission_details = al_client.submission(s_id)
         submission_params = submission_details.get('params')
-        pprint(submission_params)
         submission_result['params']=submission_params
     except Exception as e:
         print( f"Error getting the tags from AssemblyLine:",e)
@@ -61,7 +60,7 @@ def collectSessionOntology(s_id):
     #logging.warning("################## #COLLECTED_IOCS"  )
     #logging.warning(o_data)
     #print("################## #","resultdata"  )
-    pprint(submission_params)
+    #pprint(submission_params)
     #return [ontology_data, tags_data]
     submission_result['ontology']=ontology_data
     return submission_result
@@ -87,7 +86,7 @@ def submitProcessor(s_id):
     print("@@@ objects created")
     try:
         submission_info={'classification':misp_data.ontology_result[0]['submission']['classification'] ,'date':misp_data.ontology_result[0]['submission']['date'],'max_score':misp_data.ontology_result[0]['submission']['max_score'],'info':misp_data.submission_result['params']['description'] }
-        #pprint(submission_info)
+        pprint(submission_info)
         misp_data.createEvent(**submission_info)
     except Exception as e:
         print('error:',e)
