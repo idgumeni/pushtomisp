@@ -1,79 +1,27 @@
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 16:28:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 17:43:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 16:45:27] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 17:44:38] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
-CRITICAL:pymisp:Unknown error: the response is not in JSON.
-Something is broken server-side, please send us everything that follows (careful with the auth key):
-Request headers:
-{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=ddesnubb4ipcfm5k2hd6ndbm3t', 'Content-Length': '3', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
-Request body:
-127
-Response (if any):
-{"name":"An Internal Error Has Occurred.","message":"An Internal Error Has Occurred.","url":"\/tags\/add"}
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 16:58:06] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 17:47:09] "[35m[1mPOST /newSubmission HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 17:47:46] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -110,23 +58,27 @@ WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####misp createObject: ok
 WARNING:root:####misp createObject: ok
-CRITICAL:pymisp:Unknown error: the response is not in JSON.
-Something is broken server-side, please send us everything that follows (careful with the auth key):
-Request headers:
-{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=nun9j96pf20v0ajh0s1ajl1jei', 'Content-Length': '3', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
-Request body:
-128
-Response (if any):
-{"name":"An Internal Error Has Occurred.","message":"An Internal Error Has Occurred.","url":"\/tags\/add"}
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:04:45] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 18:02:29] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -163,27 +115,15 @@ WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####misp createObject: ok
 WARNING:root:####misp createObject: ok
-CRITICAL:pymisp:Unknown error: the response is not in JSON.
-Something is broken server-side, please send us everything that follows (careful with the auth key):
-Request headers:
-{'User-Agent': 'PyMISP 2.4.144 - Python 3.8', 'Accept-Encoding': 'br, gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Cookie': 'MISP-7a1bc0de-f0f2-409a-bcff-66af89b0c2bb=ijlifn3dr7vke1v087f5nvvn5a', 'Content-Length': '3', 'Authorization': 'nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ', 'content-type': 'application/json'}
-Request body:
-129
-Response (if any):
-{"name":"An Internal Error Has Occurred.","message":"An Internal Error Has Occurred.","url":"\/tags\/add"}
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:09:58] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 18:15:55] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -220,56 +160,78 @@ WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####misp createObject: ok
 WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:10:47] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 19:06:32] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:40:44] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 19:10:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -309,53 +271,12 @@ WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Debugger PIN: 251-826-387
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 17:47:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:12:07] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 19:15:49] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -395,53 +316,8 @@ WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:20:09] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
-WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
-WARNING:root:####misp connection created :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####misp createObject: ok
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:34:37] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 19:17:43] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -481,12 +357,8 @@ WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
-INFO:werkzeug: * Restarting with stat
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:49:51] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 19:19:50] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -526,8 +398,8 @@ WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:51:20] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 19:46:03] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -536,41 +408,387 @@ WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 19:50:50] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
+WARNING:root:####add attribute to object :
 WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:19:23] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:20:19] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:44:52] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:46:55] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:48:10] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:50:15] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
 WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:51:17] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
 WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:53:25] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
 WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:57:43] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
 WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 21:59:57] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:02:45] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:05:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:38:10] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:39:44] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
 WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:55:59] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:41:49] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:49:33] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:54:05] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:58:05] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 22:59:22] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 23:00:59] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -579,39 +797,18 @@ WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
 WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 18:59:33] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 23:09:08] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
@@ -620,129 +817,377 @@ WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
 WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Debugger PIN: 251-826-387
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 19:01:31] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 23:14:47] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
 WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
 WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
-INFO:werkzeug:10.201.3.2 - - [13/Apr/2024 19:02:00] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 23:17:54] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
 WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
 WARNING:root:####misp connection created :
 WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
 WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
 WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
 WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
 WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
 WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
 WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
 WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
 WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####add attribute to object :
-WARNING:root:####misp createObject: ok
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
 WARNING:root:####misp createObject: ok
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Debugger PIN: 251-826-387
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Debugger PIN: 251-826-387
 INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 331-689-513
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 23:48:16] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 23:49:19] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [20/Apr/2024 23:51:35] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [21/Apr/2024 00:11:39] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [21/Apr/2024 00:12:41] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [21/Apr/2024 00:21:45] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [21/Apr/2024 00:25:26] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [21/Apr/2024 00:30:09] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [21/Apr/2024 00:31:25] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug:10.201.3.11 - - [21/Apr/2024 00:35:35] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=5560bad31124236546e6173f1dbbed1f)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=7ab8c9a3160a1c56704a3c5be675b026566c4ab8)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=3a50f9a638468766ffcf973d1649bc9469daca666e6655020ffe145877d59563)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=198)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=filename, value=virus_sample3.htm)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=md5, value=14953f96f1bf142e3b6880dbd792f5de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha1, value=300a1d96c258fabac6c1afc64f9250b0d7ca72de)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=sha256, value=f49fece1d0547d2a66fc316bbbf3d0bdc48afafc053583c30de9ba77327264cc)
+WARNING:root:####add attribute to object :
+WARNING:pymisp:The value of the attribute you're trying to add is None, skipping it. Object relation: <MISPAttribute(type=size-in-bytes, value=104)
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 251-826-387

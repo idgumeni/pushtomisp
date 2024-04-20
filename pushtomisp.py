@@ -19,11 +19,15 @@ print(__name__)
 @app.route('/newSubmission', methods=['GET', 'POST'])
 def getSubmission():
     json_dict = request.json
-    #print("### new json request:",json_dict)
+    #pprint(json_dict)
     sid = json_dict.get('submission',{}).get('sid',{})
+    score = json_dict['score']
+    descr = json_dict.get('submission',{}).get('params',{}).get('description',{})
+    classif = json_dict.get('submission',{}).get('params',{}).get('classification',{})
+    a_date = json_dict.get('submission',{}).get('times',{}).get('completed',{})
     print("json request: sid :",sid)
     #using sid get ontology using: /api/v4/ontology/submission/<sid>/
-    mt_pool.submit(submitProcessor,sid)
+    mt_pool.submit(submitProcessor,sid,descr,classif,score,a_date)
     print("after thread submit:")
     return 'newSubmission done.'
 
@@ -50,13 +54,7 @@ def collectSessionOntology(s_id):
         print( f"Error getting the ontology from AssemblyLine")
         return
 
-    try:
-        submission_details = al_client.submission(s_id)
-        submission_params = submission_details.get('params')
-        submission_result['params']=submission_params
-    except Exception as e:
-        print( f"Error getting the tags from AssemblyLine:",e)
-        return
+   
     #logging.warning("################## #COLLECTED_IOCS"  )
     #logging.warning(o_data)
     #print("################## #","resultdata"  )
@@ -67,7 +65,7 @@ def collectSessionOntology(s_id):
 
 
 
-def submitProcessor(s_id):
+def submitProcessor(s_id,description,classification,score,analisys_date):
     print("### ### new thread sid:", str(s_id))
     misp_objects=[]
     try:
@@ -85,7 +83,11 @@ def submitProcessor(s_id):
     misp_objects=misp_data.createFileObjects()
     print("@@@ objects created")
     try:
-        submission_info={'classification':misp_data.ontology_result[0]['submission']['classification'] ,'date':misp_data.ontology_result[0]['submission']['date'],'max_score':misp_data.ontology_result[0]['submission']['max_score'],'info':misp_data.submission_result['params']['description'] }
+        # TODO initialize fields bellow from config file
+        # self.event.threat_level_id = 2
+        # self.event.distribution = 0
+        # self.event.analysis = 1
+        submission_info={'classification':classification ,'date':analisys_date,'max_score':score,'info':description }
         pprint(submission_info)
         misp_data.createEvent(**submission_info)
     except Exception as e:
