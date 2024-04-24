@@ -37,10 +37,11 @@ def collectSessionOntology(s_id):
     #o_data['ontology'] = []
     #o_data['tags'] = []
     submission_result={}
-    print("### ### ### collectSessionOntology")
+    
     
     # This is the connection to the Assemblyline client that we will use
     try:
+        print("### ### ### collectSessionOntology")
         al_client = get_client(f"https://{config['assemblyline']['host']}:443", apikey=(config['assemblyline']['user'], config['assemblyline']['apikey']), verify=False)
         print( f"AssemblyLine client ", type(al_client))
     except Exception as e:
@@ -51,7 +52,7 @@ def collectSessionOntology(s_id):
         #resultdata = client.submission.full(s_id) # use ontolgy
         ontology_data = al_client.ontology.submission(s_id)
     except Exception as e:
-        print( f"Error getting the ontology from AssemblyLine")
+        print( f"Error getting the ontology from AssemblyLine:" ,e)
         return
 
    

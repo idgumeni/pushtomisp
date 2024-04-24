@@ -62,21 +62,21 @@ class MISP_DATA:
     al2misp_mappings={ #AL:MISP
         'objects':{
             'file':{'to':'file',
-                    'names': {'action':'map', 'to': 'filename', 'obj_type': 'filename'},
-                    'md5': {'action':'map', 'to': 'md5', 'obj_type': 'md5'},
-                    "sha1":{'action':'map', 'to': 'sha1', 'obj_type': 'sha1'},
-                    "sha256":{'action':'map', 'to': 'sha256', 'obj_type': 'sha256'},
-                    "size":{'action':'map', 'to': 'size-in-bytes', 'obj_type': 'size-in-bytes'},
-                    "parent":{'action':'add_reference', 'to': 'child-of', 'obj_type': 'child-of'},
+                    'names': {'action':'map', 'params':{'type': 'filename', 'object_relation': 'filename'}},
+                    'md5': {'action':'map', 'params':{ 'type': 'md5', 'object_relation': 'md5'}},
+                    "sha1":{'action':'map', 'params':{ 'type': 'sha1', 'object_relation': 'sha1'}},
+                    "sha256":{'action':'map', 'params':{ 'type': 'sha256', 'object_relation': 'sha256'}},
+                    "size":{'action':'map', 'params': { 'type': 'size-in-bytes', 'object_relation': 'size-in-bytes'}},
+                    "parent":{'action':'add_reference', 'params':{ 'type': 'child-of', 'object_relation': 'child-of'}},
             },
 
         },
         'events':{
             'attributes':{
-                "network.static.domain":{'action':'map', 'to': 'domain', "to_ids": True, 'ref':'communicates-with'},
-                "network.static.uri": {'action':'map', 'to': "uri", "to_ids": True, 'ref':'communicates-with'},
-                "file.string.blacklisted":{'action':'map', 'to': "text", "to_ids": False, 'ref':'capability'},
-                "network.static.uri_path":{'action':'map', 'to': "text", "to_ids": False, 'ref':'communicates-with'},
+                "network.static.domain":{'action':'map', 'ref':'communicates-with', 'params':{ 'type': 'domain', "to_ids": True}},
+                "network.static.uri": {'action':'map', 'ref':'communicates-with', 'params':{ 'type': "uri", "to_ids": True}},
+                "file.string.blacklisted":{'action':'map', 'ref':'capability', 'params':{ 'type': "text", "to_ids": False}},
+                "network.static.uri_path":{'action':'map', 'ref':'communicates-with', 'params':{ 'type': "text", "to_ids": False}},
 
             }
         }
@@ -86,7 +86,7 @@ class MISP_DATA:
 
     def __init__(self, url, apikey, content_type):
         self.content_type = content_type 
-        self.misp = pymisp.ExpandedPyMISP(url, apikey, False, False)
+        self.misp = pymisp.PyMISP(url, apikey, False, False)
         logging.warning("####misp connection created :")
         #print("####misp connection created :", type(self.misp)  )
 
@@ -126,22 +126,22 @@ class MISP_DATA:
     
     
     def createObjectAttributeDict(self, attrib_val, **attrib_dict):
-        attribute_dict = dict({'object_relation':attrib_dict['to'], 'value': attrib_val, 'type':attrib_dict['obj_type']})
+        attribute_dict = dict({'value': attrib_val} , **attrib_dict)
         return attribute_dict
     
     
     def createEventAttribute(self,attrib_val, **attrib_dict):
         attribute = pymisp.MISPAttribute()
         try:
-            attribute.from_dict(**{'type':attrib_dict['to'], 'value':attrib_val, 'to_ids':attrib_dict['to_ids']})
+            attribute.from_dict(value=attrib_dict['value'],**attrib_dict)
             print("attribute created: ", attribute)
         except Exception as e:
-            print("Error creating attribute: ", e)
+            print("createEventAttribute  Error creating attribute: ", e)
         return attribute
 
 
     def createEventAttributeDict(self,attrib_val, **attrib_dict):
-        attribute_dict = dict({'type':attrib_dict['to'], 'value':attrib_val, 'to_ids':attrib_dict['to_ids']})
+        attribute_dict = dict({'value':attrib_val}, **attrib_dict)
         return attribute_dict
 
 
@@ -162,9 +162,9 @@ class MISP_DATA:
                 for item_attr_val in attr_v:
                     if self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'map':
                         #print("#### createObjectAttributes list: to: ",self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['to'])
-                        attributes.append(self.createAttributeWrapperDict(attr_scope, item_attr_val, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]))
+                        attributes.append(self.createAttributeWrapperDict(attr_scope, item_attr_val, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']))
                     elif self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'add_reference':
-                        references.append({'referenced_uuid':attr_v, 'relationship_type':self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['to']})
+                        references.append({'referenced_uuid':attr_v}, self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params'])
                         #print("#### createObjectAttributes: references: ", references)
             elif (type(attr_v) == dict) and (attr_k == 'tags') and (len(attr_v)>0): 
                 #print("?????????? createObjectAttributes elif tags: ", attr_k)
@@ -172,7 +172,7 @@ class MISP_DATA:
                     #print("in createObjectAttributes type: ", type_item, " val: ", value_item[0] ,  " type val: ",  type(value_item))
                     if type_item in self.al2misp_mappings[attr_scope][al_attr_type]:
                         #print("createObjectAttributes self.al2misp_mappings[attr_scope][al_attr_type][type_item] : ", self.al2misp_mappings[attr_scope][al_attr_type][type_item])
-                        attributes.append(self.createAttributeWrapperDict(attr_scope, value_item[0], **self.al2misp_mappings[attr_scope][al_attr_type][type_item]))
+                        attributes.append(self.createAttributeWrapperDict(attr_scope, value_item[0], **self.al2misp_mappings[attr_scope][al_attr_type][type_item]['params']))
             else:
                 #print("-=-=createObjectAttributes else type attr_v:", type(self.al2misp_mappings[attr_scope][al_attr_type]))
                 try:    
@@ -180,9 +180,9 @@ class MISP_DATA:
                         #pprint(self.al2misp_mappings[attr_scope][al_attr_type])
                         if self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'map':
                             #print("####createObjectAttributes: to: ",self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['to'])
-                            attributes.append(self.createAttributeWrapperDict(attr_scope, attr_v, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]))
+                            attributes.append(self.createAttributeWrapperDict(attr_scope, attr_v, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']))
                         elif self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'add_reference':
-                            references.append({'referenced_uuid':attr_v, 'relationship_type':self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['to']})
+                            references.append(dict({'referenced_uuid':attr_v}, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']))
                             #print("#### createObjectAttributes: references: ", references)
                 except Exception as e:
                     print("Error createAttribute: ", e)
@@ -191,11 +191,14 @@ class MISP_DATA:
     
     def createAttribute(self,attr_dict):
         attribute = pymisp.MISPAttribute()
+        print ("createAttribute attr_dict: ", attr_dict)
         try:
-            attribute.from_dict(**attr_dict)
+            attr_value='"' + attr_dict['value']+'"'
+            del attr_dict["value"]
+            attribute.from_dict(value=attr_value,**attr_dict)
             print("attribute created: ", attribute)
         except Exception as e:
-            print("Error creating attribute: ", e)
+            print(" createAttribute  Error creating attribute: ", e)
         return attribute
 
 
@@ -242,13 +245,13 @@ class MISP_DATA:
         except Exception as e:
             print("error creating misp obj:",e)
 
-        attrs_list=self.createAttributes(attrs_object_dict)    
+        #attrs_list=self.createAttributes(attrs_object_dict)    
         try:
-            for atrib_item in attrs_list:
-                logging.warning("####add attribute to object :")
-                print("______________ ret attr: :", atrib_item)
-                ret_attr=misp_object.add_attribute(atrib_item)
-                print('ret_attr:', ret_attr)
+            for atrib_item in attrs_object_dict:
+                #logging.warning("####add attribute to object :")
+                #print("______________ ret attr: :", atrib_item)
+                ret_attr=misp_object.add_attribute( **atrib_item)
+                #print('ret_attr:', ret_attr)
         except Exception as e:
             print("<>>><>< eeee Error adding attribute to object:", e)
            
@@ -287,7 +290,7 @@ class MISP_DATA:
                 #obj_item = self.createObject('file',ontology_item)
                 #f_objects.append(obj_item)
                 print('-=-=-=-=-=>>')
-                pprint(f_objects_data)
+                #pprint(f_objects_data)
                 print('-=-=-=-=-=<< - len:', len(f_objects_data))
                
             except Exception as e:
@@ -300,7 +303,7 @@ class MISP_DATA:
             if obj_name == '':
                 obj_name='-'
             obj_item=self.createObject(obj_name, f_objects_data['attrs_object_dicts'][i], f_objects_data['refs_objects_list'][i])
-            print("= ===== obj item:", obj_item)
+            print("= ===== obj item:", obj_item.to_dict())
             f_objects.append(obj_item)
         #logging.warning("####misp createObject: ok" + obj_item.to_dict())    
         self.misp_objects = f_objects
@@ -414,13 +417,14 @@ class MISP_DATA:
         evt_attrs_dict=self.createEventAttributesDict()
         evt_attrs=self.createEventAttributes(evt_attrs_dict)
         self.event.attributes=evt_attrs
-        self.event.objects=self.misp_objects
-        # try:
-        #     for obj_item in self.misp_objects:
-        #         print(">>>>add object to event....",obj_item )
-        #         self.event.add_object(obj_item)
-        # except Exception as e:
-        #     print('error ading object to event : ',e)
+        #self.event.objects=self.misp_objects
+        try:
+            for obj_item in self.misp_objects:
+                print(">>>>add object to event....",obj_item )
+                ret_add_obj=self.event.add_object(obj_item)
+                print(">>>>add object to event....ret:",ret_add_obj )
+        except Exception as e:
+            print('error ading object to event : ',e)
         
 
         #add tags to event

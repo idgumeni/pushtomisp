@@ -11,13 +11,16 @@ pushtomisp:
     loglevel: WARNING
     
 assemblyline:
-  host: "192.168.0.153"
+#  host: "192.168.0.153"
+  host: "127.0.0.1"
   user: "admin"
   apikey: "mispexc:bKz&8AtWBEy&sAm3HW*fr9W*w2cxT3Rim*^IrJ&OTc3371CP"
      
 misp:
   url: "https://localhost:8443/"
-  apikey: "nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ"
+  apikey: "bKUdNJm8AVoGb6ef9GM6GRR7WY9i36qUBCykUvKE"  
+#laptop acasa: apikey: "nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ"
+#laptop 2 apikey: "bKUdNJm8AVoGb6ef9GM6GRR7WY9i36qUBCykUvKE"  
   content_type: "json"
 
   
