@@ -1885,3 +1885,829 @@ INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloa
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 104-477-083
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.8.3.6:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:03:32] "[31m[1mPOST /newSubmission HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:03:56] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:17:24] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:22:50] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:25:47] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:26:26] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:27:48] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:31:32] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 13:37:30] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:27:54] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.8.3.6:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:36:29] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:37:02] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 14:40:54] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 15:02:25] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 15:03:30] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 15:04:30] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 15:07:14] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 15:10:35] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 619-339-091
+INFO:werkzeug:127.0.0.1 - - [25/Apr/2024 15:17:12] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.8.3.6:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 09:57:20] "[31m[1mPOST /newSubmission HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 09:57:34] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 10:09:31] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 10:15:30] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 10:17:25] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 10:18:29] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 10:30:16] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 10:33:22] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 10:41:56] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 10:51:29] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 13:12:09] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 13:14:08] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 13:15:43] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 13:24:51] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+ERROR:pymisp:Something went wrong (404): {'name': 'Event already exists, if you would like to edit it, use the url in the location header.', 'message': 'Event already exists, if you would like to edit it, use the url in the location header.', 'url': '/events/add'}
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 13:27:43] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.8.3.6:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 14:01:35] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.8.3.6:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 14:51:48] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 14:55:34] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/pushtomisp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:00:01] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:07:11] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:08:56] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:11:05] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:11:59] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:16:57] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.8.3.6:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:21:27] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:27:06] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8001
+ * Running on http://10.8.3.6:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:32:53] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:34:58] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:36:16] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:42:01] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:43:35] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:50:18] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:56:14] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:56:58] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:58:49] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 15:59:45] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:01:29] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/home/user1/code/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 216-280-322
+INFO:werkzeug:127.0.0.1 - - [26/Apr/2024 16:02:17] "POST /newSubmission HTTP/1.1" 200 -
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok

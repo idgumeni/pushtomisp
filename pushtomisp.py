@@ -89,7 +89,7 @@ def submitProcessor(s_id,description,classification,score,analisys_date):
         # self.event.distribution = 0
         # self.event.analysis = 1
         submission_info={'classification':classification ,'date':analisys_date,'max_score':score,'info':description }
-        pprint(submission_info)
+        #pprint(submission_info)
         misp_data.createEvent(**submission_info)
     except Exception as e:
         print('error:',e)
