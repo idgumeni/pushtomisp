@@ -66,14 +66,15 @@ def collectSessionOntology(s_id):
 
 
 
-def submitProcessor(s_id,description,classification,score,analisys_date):
+def submitProcessor(s_id,description,classification,score,analysis_date):
     print("### ### new thread sid:", str(s_id))
     misp_objects=[]
     try:
-        misp_data = misp.MISP_DATA(config['misp']['url'],config['misp']['apikey'], config['misp']['content_type'])
+        default_sys_data={'tool_name':config['assemblyline']['tool_name'], 'analysis':config['misp']['analysis'], 'thread_level_id':config['misp']['thread_level_id'],'distribution':config['misp']['distribution'], }
+        misp_data = misp.MISP_DATA(config['misp']['url'],config['misp']['apikey'], config['misp']['content_type'], **default_sys_data)
         print( " MISP_DATA object created url:", config['misp']['url'], " type misp_data ", type(misp_data))
     except Exception as e:
-        print( f"Error createing MISP_DATA url", config['misp']['url'])
+        print( f"Error createing MISP_DATA url", config['misp']['url'], " e:", e)
         return
     
     misp_data.submission_result=collectSessionOntology(s_id)
@@ -88,7 +89,7 @@ def submitProcessor(s_id,description,classification,score,analisys_date):
         # self.event.threat_level_id = 2
         # self.event.distribution = 0
         # self.event.analysis = 1
-        submission_info={'classification':classification ,'date':analisys_date,'max_score':score,'info':description }
+        submission_info={'classification':classification ,'date':analysis_date,'max_score':score,'info':description }
         #pprint(submission_info)
         misp_data.createEvent(**submission_info)
     except Exception as e:

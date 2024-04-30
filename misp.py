@@ -40,9 +40,8 @@ import urllib.parse
 
 
 class MISP_DATA:
-    threat_level = 4
-    analysis = 0
-    content_type = "json"
+
+
     ontology_result={}
     submission_result=[]
     misp_objects = []
@@ -52,6 +51,7 @@ class MISP_DATA:
     resp_event = {}
     ontological_results_types=['antivirus','malwareconfig','netflow','process','sandbox','signature','heuristics']
     object_name_fields = ['filename']
+    
 # self._file_mapping = {'entropy': {'type': 'float', 'object_relation': 'entropy'},
 #                   'md5': {'type': 'md5', 'object_relation': 'md5'},
 #                   'mime': {'type': 'mime-type', 'object_relation': 'mimetype'},
@@ -85,11 +85,16 @@ class MISP_DATA:
     }
 
 
-    def __init__(self, url, apikey, content_type):
+    def __init__(self, url, apikey, content_type, **default_data):
         self.content_type = content_type 
         self.misp = pymisp.PyMISP(url, apikey, False, False)
         logging.warning("####misp connection created :")
         #print("####misp connection created :", type(self.misp)  )
+        self.tool_name=default_data['tool_name']
+        self.analysis=default_data['analysis']
+        self.thread_level_id=default_data['thread_level_id']
+        self.distribution=default_data['distribution']
+        self.content_type=content_type
 
     def findFileObjectBySha256(self,sha256):
         # Search for MISP events containing objects with the specified SHA256
@@ -115,14 +120,14 @@ class MISP_DATA:
 
 
     
-    def createEventAttribute(self,attrib_val, **attrib_dict):
-        attribute = pymisp.MISPAttribute()
-        try:
-            attribute.from_dict(value=attrib_dict['value'],**attrib_dict)
-            print("createEventAttribute  attribute created: ", attribute)
-        except Exception as e:
-            print("Error createEventAttribute  Error creating attribute: ", e)
-        return attribute
+    # def createEventAttribute(self,attrib_val, **attrib_dict):
+    #     attribute = pymisp.MISPAttribute()
+    #     try:
+    #         attribute.from_dict(value=attrib_dict['value'],**attrib_dict)
+    #         print("createEventAttribute  attribute created: ", attribute)
+    #     except Exception as e:
+    #         print("Error createEventAttribute  Error creating attribute: ", e)
+    #     return attribute
 
 
     def createAttributesDict(self,attr_scope,al_attr_type, data):
@@ -179,11 +184,11 @@ class MISP_DATA:
         return attribute
 
 
-    def createAttributes(self,attrs_obj_dict):
-        attributes=[]
-        for attr_obj_dict in attrs_obj_dict:
-            attributes.append(self.createAttribute(attr_obj_dict))
-        return attributes
+    # def createAttributes(self,attrs_obj_dict):
+    #     attributes=[]
+    #     for attr_obj_dict in attrs_obj_dict:
+    #         attributes.append(self.createAttribute(attr_obj_dict))
+    #     return attributes
 
     
 
@@ -379,7 +384,7 @@ class MISP_DATA:
         return ret_tags
 
     def addTags2Event(self):
-        self.evt_tags.append( dict({'name':'sandbox:AL4'})) # extract from config file in __init__
+        self.evt_tags.append( dict({'name':self.tool_name})) # extract from config file in __init__
         tags=self.createTags()
         #print("***** tags:", tags)
       
@@ -403,10 +408,12 @@ class MISP_DATA:
         
         # date, threat_level, Distribution, analysis, info, extends
         self.event.info = submission_attrs['info']
-        self.event.threat_level_id = 2
-        self.event.distribution = 0
-        self.event.analysis = 1
-        
+        self.event.threat_level_id = self.thread_level_id
+        self.event.distribution = self.distribution
+        self.event.analysis = self.analysis
+        #{'classification':classification ,'date':analysis_date,'max_score':score,'info':description }
+        self.evt_tags.append('classification:' + submission_attrs['classification'])
+
         evt_attrs_dict=self.createEventAttributesDict()
         evt_attrs=self.createEventAttributes(evt_attrs_dict)
         #self.event.attributes=evt_attrs
