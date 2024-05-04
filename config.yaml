@@ -19,7 +19,7 @@ assemblyline:
      
 misp:
   url: "https://localhost:8443/"
-  apikey: "bKUdNJm8AVoGb6ef9GM6GRR7WY9i36qUBCykUvKE"  
+  apikey: "nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ"  
 #laptop acasa: apikey: "nkJuQ4lxo9svJh6fs2MW1pzBww21EArfMeQ7cwGQ"
 #laptop 2 apikey: "bKUdNJm8AVoGb6ef9GM6GRR7WY9i36qUBCykUvKE"  
   content_type: "json"

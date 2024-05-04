@@ -5,3 +5,5 @@ change al2misp_mappings dict to simplify creation of object attribute
 extend al2misp_mappings  to include attributes from sandbox and antivirus
 
 find references - in objects from current submission
+
+add "pe", "process" objects 

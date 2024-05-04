@@ -70,7 +70,7 @@ def submitProcessor(s_id,description,classification,score,analysis_date):
     print("### ### new thread sid:", str(s_id))
     misp_objects=[]
     try:
-        default_sys_data={'tool_name':config['assemblyline']['tool_name'], 'analysis':config['misp']['analysis'], 'thread_level_id':config['misp']['thread_level_id'],'distribution':config['misp']['distribution'], }
+        default_sys_data={'tool_name':config['assemblyline']['tool_name'], 'analysis':config['misp']['analysis'], 'threat_level_id':config['misp']['threat_level_id'],'distribution':config['misp']['distribution'], }
         misp_data = misp.MISP_DATA(config['misp']['url'],config['misp']['apikey'], config['misp']['content_type'], **default_sys_data)
         print( " MISP_DATA object created url:", config['misp']['url'], " type misp_data ", type(misp_data))
     except Exception as e:
@@ -79,9 +79,15 @@ def submitProcessor(s_id,description,classification,score,analysis_date):
     
     misp_data.submission_result=collectSessionOntology(s_id)
     misp_data.ontology_result=misp_data.submission_result['ontology']
-    #print( " MISP_DATA object created object type misp_data.ontology_result: ")
-    #pprint(misp_data.ontology_result)
-    
+    print( " MISP_DATA object created object type misp_data.ontology_result: ")
+    pprint(misp_data.ontology_result)
+    try:
+        with open('ontology_data.json',"+a") as fh:
+            fh.write("\nsid:"+str(s_id) + "\n")
+            fh.write(json.dumps(misp_data.ontology_result))
+    except Exception as e:
+        print("error adding ontology data in json file:", e)
+
     misp_objects=misp_data.createFileObjects()
     print("@@@ objects created")
     try:
