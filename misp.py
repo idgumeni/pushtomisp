@@ -133,6 +133,43 @@ class MISP_DATA:
     #         print("Error createEventAttribute  Error creating attribute: ", e)
     #     return attribute
 
+    def recursiveIteration(self,mixeddata):
+        print(">>> data type:%s" % (type(mixeddata)))
+        if isinstance(mixeddata,list):
+            for dataitem in mixeddata:
+                self.recursiveIteration(dataitem)
+        elif isinstance(mixeddata,dict):
+            try:
+                for k,v in mixeddata.items():
+                    print("k: %s v type:%s" % (k,type(v)))
+                    if isinstance(v,dict) or isinstance(v,list):  
+                        print("->call recursiveIteration")
+                        self.recursiveIteration(v)
+                    else:
+                        print("..... ri: %s: %s  type:%s" %(k,v, type(v)))
+                        
+                        return k,v    
+            except Exception as e:
+                print("Error recursiveIteration:", e)
+
+
+    def createAttributesDict2(self,attr_scope,al_attr_type, data):
+        #data:'file': {...}
+        attributes=[]
+        references=[]
+        try:
+            for k,v in self.recursiveIteration(data):
+                if k in self.al2misp_mappings[attr_scope][al_attr_type]:
+                    if self.al2misp_mappings[attr_scope][al_attr_type][k]['action'] == 'map':
+                        print("#### createObjectAttributes list: to: ",self.al2misp_mappings[attr_scope][al_attr_type][k]['to'])
+                        print("#### createObjectAttributes: atributes: %s: %s" % (k,v))
+                        attributes.append(dict({'value':v, **self.al2misp_mappings[attr_scope][al_attr_type][k]['params']}))
+                    elif self.al2misp_mappings[attr_scope][al_attr_type][k]['action'] == 'add_reference':
+                        references.append({'referenced_uuid':v}, self.al2misp_mappings[attr_scope][al_attr_type][k]['params'])
+                        print("#### createObjectAttributes: references: %s: %s" % (k,v))
+        except Exception as e:
+            print("Error createAttributesDict2:",e)
+        return [attributes,references]
 
     def createAttributesDict(self,attr_scope,al_attr_type, data):
         #data:'file': {...}
@@ -264,7 +301,7 @@ class MISP_DATA:
         for ontology_item in self.ontology_result:
             try:
                 #[attrs_object_dict, refs_objects_list]=self.createObjectDict('file',ontology_item)
-                [attrs_object_dict,refs_objects_list]=self.createAttributesDict('objects','file', ontology_item)
+                [attrs_object_dict,refs_objects_list]=self.createAttributesDict2('objects','file', ontology_item)
                 #check for duplicates objects in ontology
                 if attrs_object_dict not in f_objects_data['attrs_object_dicts']:
                     f_objects_data['attrs_object_dicts'].append(attrs_object_dict)
@@ -334,7 +371,6 @@ class MISP_DATA:
         print("++++ count self.ontology_result : ", len(self.ontology_result))
         cnt_res=0
         for ontology_item in self.ontology_result:
-
             print('+ ontology_item:', type(ontology_item['results']))
             print('+ ontology_item result cnt_res:', cnt_res , " len: ", len(ontology_item['results']))
             cnt_res=cnt_res+1
@@ -354,9 +390,12 @@ class MISP_DATA:
                     print("+++ error type res:", e)
                 if (result_ontology_k in self.ontological_results_types) and (type(result_ontology_v) is list) and (len(result_ontology_v)>0) :
                     self.evt_tags.append(dict({'name':'detection:'+result_ontology_k}))
-                    print('\\\\\\\\\  ontology_item result_ontology_k:',result_ontology_k)
-                    print('ontology_item result_ontology_v:',result_ontology_v)
+                    #print('\\\\\\\\\  ontology_item result_ontology_k:',result_ontology_k)
+                    #print('ontology_item result_ontology_v:',result_ontology_v)
                     for result_ontology_v_item in result_ontology_v:
+                        
+
+
                         print('-=-=-= result_ontology:', type(result_ontology_v_item))
                         
                         print('___result_ontology_v:')
@@ -369,8 +408,8 @@ class MISP_DATA:
                             
                             print("o_data_item:")
                             #pprint(o_data_item)
-                            #[attrs,refs]=self.createAttributesDict('events','attributes', o_data_item)
-                            #event_attrs = event_attrs + attrs
+                            [attrs,refs]=self.createAttributesDict2('events','attributes', o_data_item)
+                            event_attrs = event_attrs + attrs
                         except Exception as e:
                             print("eeee  addEventAttriutes error:", e)
          

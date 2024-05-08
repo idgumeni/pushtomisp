@@ -80,7 +80,7 @@ def submitProcessor(s_id,description,classification,score,analysis_date):
     misp_data.submission_result=collectSessionOntology(s_id)
     misp_data.ontology_result=misp_data.submission_result['ontology']
     print( " MISP_DATA object created object type misp_data.ontology_result: ")
-    pprint(misp_data.ontology_result)
+    #pprint(misp_data.ontology_result)
     try:
         with open('ontology_data.json',"+a") as fh:
             fh.write("\nsid:"+str(s_id) + "\n")
