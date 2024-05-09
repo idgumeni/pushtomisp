@@ -3436,3 +3436,121 @@ INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
 INFO:werkzeug: * Restarting with stat
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 332-858-488
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 18:44:38] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 18:45:34] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:root:####misp createObject: ok
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 18:46:12] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 18:51:43] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:root:####misp createObject: ok
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 19:20:04] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 19:54:06] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 19:57:33] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 19:58:54] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 20:00:16] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 20:04:35] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733
+INFO:werkzeug:127.0.0.1 - - [09/May/2024 20:26:45] "[37mPOST /newSubmission HTTP/1.1[0m" 200 -
+WARNING:pymisp:The version of PyMISP recommended by the MISP instance (2.4.184) is newer than the one you're using now (2.4.144). Please upgrade PyMISP.
+WARNING:root:####misp connection created :
+WARNING:root:####misp createObject: ok
+INFO:werkzeug: * Detected change in '/data/tools/pushtomisp/misp.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 205-318-733

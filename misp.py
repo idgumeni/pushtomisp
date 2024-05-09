@@ -134,21 +134,20 @@ class MISP_DATA:
     #     return attribute
 
     def recursiveIteration(self,mixeddata):
-        print(">>> data type:%s" % (type(mixeddata)))
+        #print(">>> data type:%s" % (type(mixeddata)))
         if isinstance(mixeddata,list):
             for dataitem in mixeddata:
-                self.recursiveIteration(dataitem)
+                yield from self.recursiveIteration(dataitem)
         elif isinstance(mixeddata,dict):
             try:
                 for k,v in mixeddata.items():
-                    print("k: %s v type:%s" % (k,type(v)))
+                    print("..... k: %s v type:%s" % (k,type(v)))
                     if isinstance(v,dict) or isinstance(v,list):  
-                        print("->call recursiveIteration")
-                        self.recursiveIteration(v)
+                        #print("->call recursiveIteration")
+                        yield from self.recursiveIteration(v)
                     else:
                         print("..... ri: %s: %s  type:%s" %(k,v, type(v)))
-                        
-                        return k,v    
+                        yield  k,v    
             except Exception as e:
                 print("Error recursiveIteration:", e)
 
@@ -159,9 +158,10 @@ class MISP_DATA:
         references=[]
         try:
             for k,v in self.recursiveIteration(data):
+                print("... in createAttributesDict2 - k:%s -> v:%s" %(k,v))
                 if k in self.al2misp_mappings[attr_scope][al_attr_type]:
                     if self.al2misp_mappings[attr_scope][al_attr_type][k]['action'] == 'map':
-                        print("#### createObjectAttributes list: to: ",self.al2misp_mappings[attr_scope][al_attr_type][k]['to'])
+                        print("#### createObjectAttributes list: to: ",self.al2misp_mappings[attr_scope][al_attr_type][k]['params'])
                         print("#### createObjectAttributes: atributes: %s: %s" % (k,v))
                         attributes.append(dict({'value':v, **self.al2misp_mappings[attr_scope][al_attr_type][k]['params']}))
                     elif self.al2misp_mappings[attr_scope][al_attr_type][k]['action'] == 'add_reference':
@@ -171,54 +171,54 @@ class MISP_DATA:
             print("Error createAttributesDict2:",e)
         return [attributes,references]
 
-    def createAttributesDict(self,attr_scope,al_attr_type, data):
-        #data:'file': {...}
-        attributes=[]
-        references=[]
+    # def createAttributesDict(self,attr_scope,al_attr_type, data):
+    #     #data:'file': {...}
+    #     attributes=[]
+    #     references=[]
         
-        #attr_scope='objects'
-        print("####>>>>> createObjectAttributes :  for:",al_attr_type, " data[al_attr_type]:" )
-        #pprint(data[al_attr_type])
-        for attr_k, attr_v in data[al_attr_type].items():
-            #print("# # attr type:",type(attr_v), " attr_k:",attr_k)
-            if type(attr_v) == list:
-                print(" createObjectAttributes if self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action']:",self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'])
-                try:
-                    #pprint(attr_v)
-                    for item_attr_val in attr_v:
-                        if self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'map':
-                            print("#### createObjectAttributes list: to: ",self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['to'])
-                            attributes.append(dict({'value':item_attr_val, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']}))
-                        elif self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'add_reference':
-                            references.append({'referenced_uuid':attr_v}, self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params'])
-                            #print("#### createObjectAttributes: references: ", references)
-                except Exception as e:
-                    print("Error creating attributeDict item (list):", e)
-            elif (type(attr_v) == dict) and (attr_k == 'tags') and (len(attr_v)>0): 
-                #print("?????????? createObjectAttributes elif tags: ", attr_k)
-                try:
-                    for type_item,value_item in attr_v.items():
-                        print("in createObjectAttributes type: ", type_item, " val: ", value_item[0] ,  " type val: ",  type(value_item))
-                        if type_item in self.al2misp_mappings[attr_scope][al_attr_type]:
-                            #print("createObjectAttributes self.al2misp_mappings[attr_scope][al_attr_type][type_item] : ", self.al2misp_mappings[attr_scope][al_attr_type][type_item])
-                            attributes.append(dict({'value': value_item[0], **self.al2misp_mappings[attr_scope][al_attr_type][type_item]['params']}))
-                except Exception as e:
-                    print("Error creating attributeDict item (tags)")
-            else:
-                #print("-=-=createObjectAttributes else type attr_v:", type(self.al2misp_mappings[attr_scope][al_attr_type]))
-                try:    
-                    if attr_k in self.al2misp_mappings[attr_scope][al_attr_type]:
-                        pprint(self.al2misp_mappings[attr_scope][al_attr_type])
-                        if self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'map':
-                            #print("####createObjectAttributes: to: ",self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['to'])
-                            attributes.append(dict({'value': attr_v, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']}))
-                        elif self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'add_reference':
-                            references.append(dict({'referenced_uuid':attr_v}, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']))
-                            print("#### createObjectAttributes: references: key:", attr_k, " val:" , attr_v)
-                except Exception as e:
-                    print("rror creating attributeDict item (else):: ", e)
-        #print("####misp in createAttributes :  attributes:",attributes)
-        return [attributes,references]
+    #     #attr_scope='objects'
+    #     print("####>>>>> createObjectAttributes :  for:",al_attr_type, " data[al_attr_type]:" )
+    #     #pprint(data[al_attr_type])
+    #     for attr_k, attr_v in data[al_attr_type].items():
+    #         #print("# # attr type:",type(attr_v), " attr_k:",attr_k)
+    #         if type(attr_v) == list:
+    #             print(" createObjectAttributes if self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action']:",self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'])
+    #             try:
+    #                 #pprint(attr_v)
+    #                 for item_attr_val in attr_v:
+    #                     if self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'map':
+    #                         print("#### createObjectAttributes list: to: ",self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['to'])
+    #                         attributes.append(dict({'value':item_attr_val, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']}))
+    #                     elif self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'add_reference':
+    #                         references.append({'referenced_uuid':attr_v}, self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params'])
+    #                         #print("#### createObjectAttributes: references: ", references)
+    #             except Exception as e:
+    #                 print("Error creating attributeDict item (list):", e)
+    #         elif (type(attr_v) == dict) and (attr_k == 'tags') and (len(attr_v)>0): 
+    #             #print("?????????? createObjectAttributes elif tags: ", attr_k)
+    #             try:
+    #                 for type_item,value_item in attr_v.items():
+    #                     print("in createObjectAttributes type: ", type_item, " val: ", value_item[0] ,  " type val: ",  type(value_item))
+    #                     if type_item in self.al2misp_mappings[attr_scope][al_attr_type]:
+    #                         #print("createObjectAttributes self.al2misp_mappings[attr_scope][al_attr_type][type_item] : ", self.al2misp_mappings[attr_scope][al_attr_type][type_item])
+    #                         attributes.append(dict({'value': value_item[0], **self.al2misp_mappings[attr_scope][al_attr_type][type_item]['params']}))
+    #             except Exception as e:
+    #                 print("Error creating attributeDict item (tags)")
+    #         else:
+    #             #print("-=-=createObjectAttributes else type attr_v:", type(self.al2misp_mappings[attr_scope][al_attr_type]))
+    #             try:    
+    #                 if attr_k in self.al2misp_mappings[attr_scope][al_attr_type]:
+    #                     pprint(self.al2misp_mappings[attr_scope][al_attr_type])
+    #                     if self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'map':
+    #                         #print("####createObjectAttributes: to: ",self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['to'])
+    #                         attributes.append(dict({'value': attr_v, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']}))
+    #                     elif self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['action'] == 'add_reference':
+    #                         references.append(dict({'referenced_uuid':attr_v}, **self.al2misp_mappings[attr_scope][al_attr_type][attr_k]['params']))
+    #                         print("#### createObjectAttributes: references: key:", attr_k, " val:" , attr_v)
+    #             except Exception as e:
+    #                 print("rror creating attributeDict item (else):: ", e)
+    #     #print("####misp in createAttributes :  attributes:",attributes)
+    #     return [attributes,references]
     
     def createAttribute(self,attr_dict):
         attribute = pymisp.MISPAttribute()
@@ -301,6 +301,7 @@ class MISP_DATA:
         for ontology_item in self.ontology_result:
             try:
                 #[attrs_object_dict, refs_objects_list]=self.createObjectDict('file',ontology_item)
+                
                 [attrs_object_dict,refs_objects_list]=self.createAttributesDict2('objects','file', ontology_item)
                 #check for duplicates objects in ontology
                 if attrs_object_dict not in f_objects_data['attrs_object_dicts']:
@@ -382,15 +383,15 @@ class MISP_DATA:
                 break;
         
             for result_ontology_k,result_ontology_v in result_items:
-                print(' \  \  \  ontology_item result_ontology_k:',result_ontology_k)
+                #print(' \  \  \  ontology_item result_ontology_k:',result_ontology_k)
                 try:
                     type_res=type(result_ontology_v)
-                    print("type(result_ontology_v) : ", type(result_ontology_v))
+                    #print("type(result_ontology_v) : ", type(result_ontology_v))
                 except Exception as e:
                     print("+++ error type res:", e)
                 if (result_ontology_k in self.ontological_results_types) and (type(result_ontology_v) is list) and (len(result_ontology_v)>0) :
                     self.evt_tags.append(dict({'name':'detection:'+result_ontology_k}))
-                    #print('\\\\\\\\\  ontology_item result_ontology_k:',result_ontology_k)
+                    print('\\\\\\\\\  ontology_item result_ontology_k:',result_ontology_k)
                     #print('ontology_item result_ontology_v:',result_ontology_v)
                     for result_ontology_v_item in result_ontology_v:
                         
@@ -398,7 +399,7 @@ class MISP_DATA:
 
                         print('-=-=-= result_ontology:', type(result_ontology_v_item))
                         
-                        print('___result_ontology_v:')
+                        #print('___result_ontology_v:')
                         
                         o_data_item['attributes']=result_ontology_v_item
                         
@@ -406,9 +407,11 @@ class MISP_DATA:
                         #pprint(o_data_item)
                         try:
                             
-                            print("o_data_item:")
+                            #print("o_data_item:")
                             #pprint(o_data_item)
                             [attrs,refs]=self.createAttributesDict2('events','attributes', o_data_item)
+                            print("-=-=-= attrs:")
+                            pprint(attrs)
                             event_attrs = event_attrs + attrs
                         except Exception as e:
                             print("eeee  addEventAttriutes error:", e)
@@ -453,7 +456,9 @@ class MISP_DATA:
         return ret_tags
 
     def addTags2Event(self):
-        self.evt_tags.append( dict({'name':self.tool_name})) # extract from config file in __init__
+        tag2add=dict({'name':self.tool_name})
+        if tag2add not in self.evt_tags:
+            self.evt_tags.append( tag2add ) 
         tags=self.createTags()
         #print("***** tags:", tags)
       
