@@ -14,12 +14,13 @@ urllib3.disable_warnings()
 
 app = Flask(__name__)
 
-print(__name__)
 
+logging.warning("app name:"+__name__  )
 @app.route('/newSubmission', methods=['GET', 'POST'])
 def getSubmission():
     json_dict = request.json
     #pprint(json_dict)
+    mt_pool=do_main()
     sid = json_dict.get('submission',{}).get('sid',{})
     score = json_dict['score']
     descr = json_dict.get('submission',{}).get('params',{}).get('description',{})
@@ -145,13 +146,16 @@ def read_config():
             if conf_obj.get('assemblyline') is None or conf_obj.get('misp') is None:
                 exit(128)
             logging.basicConfig(filename=conf_obj['pushtomisp']['logging']['logfile'], level=getattr(logging, conf_obj["pushtomisp"]["logging"]["loglevel"].upper()))
-        except yaml.YAMLError as exc:
-            print(exc)
+        except Exception as exc:
+            print("Error parse conf gile: ",exc)
+            logging.warning("Error parse conf gile: "+exc)
         return conf_obj
 
 
-if __name__ == '__main__':
+#if __name__ == '__main__' or __name__ == 'app':
     #read conf file
+def do_main():
+    logging.warning("in __main__ app name:"+__name__  )
     config = read_config()
     address_bind = config['pushtomisp']['network']['address_bind']
     port = config['pushtomisp']['network']['port']
@@ -159,6 +163,7 @@ if __name__ == '__main__':
     ssl = config['pushtomisp']['network']['ssl']
     maxthreads = config['pushtomisp']['system']['maxthreads']
     mt_pool = concurrent.futures.ThreadPoolExecutor(max_workers=maxthreads)
-    app.run(debug=True, port = port, host = address_bind)
+    #app.run(debug=True, port = port, host = address_bind)
+    return mt_pool
 
 

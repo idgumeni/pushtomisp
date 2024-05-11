@@ -47,9 +47,10 @@ class MISP_DATA:
     misp_objects = []
     evt_attributes = []
     evt_tags=[]
+   
     event = pymisp.MISPEvent()
     resp_event = {}
-    ontological_results_types=['antivirus','malwareconfig','netflow','process','sandbox','signature','heuristics']
+    #ontological_results_types=['antivirus','malwareconfig','netflow','process','sandbox','signature','heuristics','tags']
     object_name_fields = ['filename']
     
 # self._file_mapping = {'entropy': {'type': 'float', 'object_relation': 'entropy'},
@@ -69,6 +70,7 @@ class MISP_DATA:
                     "size":{'action':'map', 'params': { 'type': 'size-in-bytes', 'object_relation': 'size-in-bytes', 'to_ids':False}},
                     "type":{'action':'map', 'params': { 'type': 'mime-type', 'object_relation': 'mimetype', 'to_ids':False}},
                     "parent":{'action':'add_reference', 'params':{ 'type': 'child-of', 'relationship_type': 'child-of', 'to_ids':False}},
+                    "pe.imphash":{'action':'map', 'params': { 'type': 'imphash', 'object_relation': 'imphash', 'to_ids':False}},
             },
 
         },
@@ -133,39 +135,45 @@ class MISP_DATA:
     #         print("Error createEventAttribute  Error creating attribute: ", e)
     #     return attribute
 
-    def recursiveIteration(self,mixeddata):
-        #print(">>> data type:%s" % (type(mixeddata)))
-        if isinstance(mixeddata,list):
+    def recursiveIteration(self,mixeddata,prefix=''):
+        if isinstance(mixeddata,list) and (prefix == ''):
             for dataitem in mixeddata:
                 yield from self.recursiveIteration(dataitem)
         elif isinstance(mixeddata,dict):
             try:
                 for k,v in mixeddata.items():
-                    print("..... k: %s v type:%s" % (k,type(v)))
                     if isinstance(v,dict) or isinstance(v,list):  
-                        #print("->call recursiveIteration")
-                        yield from self.recursiveIteration(v)
+                        yield from self.recursiveIteration(v,prefix + k + '.')
                     else:
-                        print("..... ri: %s: %s  type:%s" %(k,v, type(v)))
-                        yield  k,v    
+                        yield  prefix + k ,v    
             except Exception as e:
                 print("Error recursiveIteration:", e)
+        elif ( (not prefix == '') and (isinstance(mixeddata,list)) ):
+            try:
+                for v in mixeddata:
+                    if isinstance(v,dict) or isinstance(v,list):  
+                        yield from self.recursiveIteration(v,prefix )
+                    else:
+                        yield  prefix.rstrip('.'), v   
+            except Exception as e:
+                print("Error recursiveIteration - list:", e)
 
 
     def createAttributesDict2(self,attr_scope,al_attr_type, data):
         #data:'file': {...}
         attributes=[]
         references=[]
+        
         try:
             for k,v in self.recursiveIteration(data):
-                print("... in createAttributesDict2 - k:%s -> v:%s" %(k,v))
+                print("... in createAttributesDict2 - %s - k:%s -> v:%s" %(attr_scope,k,v))
                 if k in self.al2misp_mappings[attr_scope][al_attr_type]:
                     if self.al2misp_mappings[attr_scope][al_attr_type][k]['action'] == 'map':
                         print("#### createObjectAttributes list: to: ",self.al2misp_mappings[attr_scope][al_attr_type][k]['params'])
                         print("#### createObjectAttributes: atributes: %s: %s" % (k,v))
                         attributes.append(dict({'value':v, **self.al2misp_mappings[attr_scope][al_attr_type][k]['params']}))
                     elif self.al2misp_mappings[attr_scope][al_attr_type][k]['action'] == 'add_reference':
-                        references.append({'referenced_uuid':v}, self.al2misp_mappings[attr_scope][al_attr_type][k]['params'])
+                        references.append(dict({'referenced_uuid':v}, **self.al2misp_mappings[attr_scope][al_attr_type][k]['params']))
                         print("#### createObjectAttributes: references: %s: %s" % (k,v))
         except Exception as e:
             print("Error createAttributesDict2:",e)
@@ -250,11 +258,10 @@ class MISP_DATA:
         try:
             for atrib_item in attrs_object_dict:
                 #logging.warning("####add attribute to object :")
-                #print("______________ ret attr: :", atrib_item)
                 ret_attr=misp_object.add_attribute( **atrib_item)
                 #print('---createObject  ret_attr:', ret_attr)
         except Exception as e:
-            print("<>>><>< eeee Error adding attribute to object:", e)
+            print("Error - createObject - adding attribute to object:", e)
         
         # try:
         #     for reference_item in refs_objects_list:
@@ -297,18 +304,16 @@ class MISP_DATA:
         f_objects_data={}
         f_objects_data['attrs_object_dicts']=[]
         f_objects_data['refs_objects_list']=[]
-        cnt=0
+        
         for ontology_item in self.ontology_result:
             try:
-                #[attrs_object_dict, refs_objects_list]=self.createObjectDict('file',ontology_item)
                 
-                [attrs_object_dict,refs_objects_list]=self.createAttributesDict2('objects','file', ontology_item)
+                [attrs_object_dict,refs_objects_list]=self.createAttributesDict2('objects','file', ontology_item['file'])
                 #check for duplicates objects in ontology
                 if attrs_object_dict not in f_objects_data['attrs_object_dicts']:
                     f_objects_data['attrs_object_dicts'].append(attrs_object_dict)
                     f_objects_data['refs_objects_list'].append(refs_objects_list)
-                    print('  2 cnt:',cnt)
-                    cnt=cnt+1
+                
                     
                     obj_item=self.createObject(attrs_object_dict) #, f_objects_data['refs_objects_list'][i]
                     #print("  2 = ===== obj item created:", obj_item.to_dict())
@@ -331,7 +336,7 @@ class MISP_DATA:
                 print('^^^^^err creating objects dict:',e)
 
         #print('type (f_objects[objects_names]):', type(f_objects_data['attrs_object_dicts']))
-        print("  identified " + str(cnt) + " objects")
+      
         # for i,attrs_object in enumerate(f_objects_data['attrs_object_dicts']):
         #     obj_item=self.createObject(attrs_object) #, f_objects_data['refs_objects_list'][i]
         #     #print("= ===== obj item:", obj_item.to_dict())
@@ -370,11 +375,11 @@ class MISP_DATA:
         o_data_item={}
         event_attrs=[]
         print("++++ count self.ontology_result : ", len(self.ontology_result))
-        cnt_res=0
+        
         for ontology_item in self.ontology_result:
             print('+ ontology_item:', type(ontology_item['results']))
-            print('+ ontology_item result cnt_res:', cnt_res , " len: ", len(ontology_item['results']))
-            cnt_res=cnt_res+1
+            
+            tag2add=ontology_item['service'].get('name')
             #pprint(ontology_item['results'])
             try:
                 result_items=ontology_item['results'].items()
@@ -384,38 +389,35 @@ class MISP_DATA:
         
             for result_ontology_k,result_ontology_v in result_items:
                 #print(' \  \  \  ontology_item result_ontology_k:',result_ontology_k)
+
+                # if (result_ontology_k in self.ontological_results_types) and (type(result_ontology_v) is list) and (len(result_ontology_v)>0) :
+                #     self.evt_tags.append(dict({'name':'detection:'+result_ontology_k}))
+                #     print('\\\\\\\\\  ontology_item result_ontology_k:',result_ontology_k)
+                #     #print('ontology_item result_ontology_v:',result_ontology_v)
+                #     for result_ontology_v_item in result_ontology_v:
+                #         print('-=-=-= result_ontology:', type(result_ontology_v_item))
+                #         #print('___result_ontology_v:')
+                #         o_data_item['attributes']=result_ontology_v_item
+                #         o_data_item['attributes']['comment']=result_ontology_k
+                #         #pprint(o_data_item)
+                #         try:
+                #             #print("o_data_item:")
+                #             #pprint(o_data_item)
+                #             [attrs,refs]=self.createAttributesDict2('events','attributes', o_data_item)
+                #             print("-=-=-= attrs:")
+                #             pprint(attrs)
+                #             event_attrs = event_attrs + attrs
+                #         except Exception as e:
+                #             print("eeee  addEventAttriutes error:", e)
                 try:
-                    type_res=type(result_ontology_v)
-                    #print("type(result_ontology_v) : ", type(result_ontology_v))
+                    [attrs,refs]=self.createAttributesDict2('events','attributes', result_ontology_v)
+                    print("-=-=-= attrs:")
+                    pprint(attrs)
+                    if len(attrs) > 0:
+                        self.evt_tags.append(dict({'name':'detection:'+tag2add}))
+                    event_attrs = event_attrs + attrs
                 except Exception as e:
-                    print("+++ error type res:", e)
-                if (result_ontology_k in self.ontological_results_types) and (type(result_ontology_v) is list) and (len(result_ontology_v)>0) :
-                    self.evt_tags.append(dict({'name':'detection:'+result_ontology_k}))
-                    print('\\\\\\\\\  ontology_item result_ontology_k:',result_ontology_k)
-                    #print('ontology_item result_ontology_v:',result_ontology_v)
-                    for result_ontology_v_item in result_ontology_v:
-                        
-
-
-                        print('-=-=-= result_ontology:', type(result_ontology_v_item))
-                        
-                        #print('___result_ontology_v:')
-                        
-                        o_data_item['attributes']=result_ontology_v_item
-                        
-                        o_data_item['attributes']['comment']=result_ontology_k
-                        #pprint(o_data_item)
-                        try:
-                            
-                            #print("o_data_item:")
-                            #pprint(o_data_item)
-                            [attrs,refs]=self.createAttributesDict2('events','attributes', o_data_item)
-                            print("-=-=-= attrs:")
-                            pprint(attrs)
-                            event_attrs = event_attrs + attrs
-                        except Exception as e:
-                            print("eeee  addEventAttriutes error:", e)
-         
+                    print("eeee  addEventAttriutes error:", e)
         logging.warning("####misp createObject: ok")
         return event_attrs
         
@@ -429,7 +431,7 @@ class MISP_DATA:
                 tagobj.from_dict(**tag_item)
                 ret_tags.append(tagobj)
             except Exception as e:
-                print("222222 createTags  error adding tag: " , tag_item , " error: ", e)
+                print("Error createTags  error adding tag: " , tag_item , " error: ", e)
         #add tags from AL tags dictionary - not recommended
         # for result in self.ontology_result:
         #     if 'tags' in result["results"].keys():
@@ -489,19 +491,19 @@ class MISP_DATA:
         self.evt_tags.append(dict({'name':'classification:' + submission_attrs['classification']}))
 
         evt_attrs_dict=self.createEventAttributesDict()
-        print("_____ evt attrs:", evt_attrs_dict)
+        #print("_____ evt attrs:", evt_attrs_dict)
         evt_attrs=self.createEventAttributes(evt_attrs_dict)
         #self.event.attributes=evt_attrs
         for attr in evt_attrs:
             self.event.add_attribute(**attr)
 
-        print("<><> createEvent: ", self.event.attributes)
+        #print("<><> createEvent: ", self.event.attributes)
         #self.event.objects=self.misp_objects
         try:
             for obj_item in self.misp_objects:
-                print(">>>>add object to event....",obj_item.to_dict() )
+                #print(">>>>add object to event....",obj_item.to_dict() )
                 ret_add_obj=self.event.add_object(obj_item)
-                print(">>>>add object to event....ret:",ret_add_obj )
+                #print(">>>>add object to event....ret:",ret_add_obj )
         except Exception as e:
             print('error ading object to event : ',e)
         
@@ -524,10 +526,10 @@ class MISP_DATA:
         except Exception as e:
             print("error creating event: ", e)
 
-        print("<><> 3 createEvent dupa add event attribs: ", self.event.attributes)
+        #print("<><> 3 createEvent dupa add event attribs: ", self.event.attributes)
 
      
         #self.event.publish()
-        #print(self.event.published)
+        print("Event info:" + self.event.info)
 
 
