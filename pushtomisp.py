@@ -67,6 +67,7 @@ def collectSessionOntology(s_id):
 
 
 
+
 def submitProcessor(s_id,description,classification,score,analysis_date):
     print("### ### new thread sid:", str(s_id))
     misp_objects=[]
