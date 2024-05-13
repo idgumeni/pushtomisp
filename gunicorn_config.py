@@ -21,10 +21,11 @@ try:
     bind = os.environ.get('GUNICORN_BIND', bind_val)
     logging.warning("bind set ok"  )
 except Exception as e:
-    print("error gunicorn_config:",e)
-    logging.warning("bins dest error"+e  )
+    logging.warning("Error - gunicorn bind error:"+e  )
 
 
 forwarded_allow_ips = '*'
 
-#secure_scheme_headers = { 'X-Forwarded-Proto': 'https' }
+secure_scheme_headers = { 'X-Forwarded-Proto': 'https' }
+
+#gunicorn --certfile=server.crt --keyfile=server.key --ca-certs=ca_bundle.crt  test:app

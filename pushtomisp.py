@@ -20,7 +20,7 @@ logging.warning("app name:"+__name__  )
 def getSubmission():
     json_dict = request.json
     #pprint(json_dict)
-    mt_pool=do_main()
+    config = read_config()
     sid = json_dict.get('submission',{}).get('sid',{})
     score = json_dict['score']
     descr = json_dict.get('submission',{}).get('params',{}).get('description',{})
@@ -28,12 +28,56 @@ def getSubmission():
     a_date = json_dict.get('submission',{}).get('times',{}).get('completed',{})
     print("json request: sid :",sid)
     #using sid get ontology using: /api/v4/ontology/submission/<sid>/
-    mt_pool.submit(submitProcessor,sid,descr,classif,score,a_date)
-    print("after thread submit:")
+    #mt_pool.submit(submitProcessor,sid,descr,classif,score,a_date) #no lponger need it - gunicorn is doing multithreading
+    misp_objects=[]
+    try:
+        default_sys_data={'tool_name':config['assemblyline']['tool_name'], 'analysis':config['misp']['analysis'], 'threat_level_id':config['misp']['threat_level_id'],'distribution':config['misp']['distribution'], }
+        misp_data = misp.MISP_DATA(config['misp']['url'],config['misp']['apikey'], config['misp']['content_type'], **default_sys_data)
+        print( " MISP_DATA object created url:", config['misp']['url'], " type misp_data ", type(misp_data))
+    except Exception as e:
+        print( f"Error createing MISP_DATA url", config['misp']['url'], " e:", e)
+        return
+    
+    misp_data.submission_result=collectSessionOntology(sid,config)
+    misp_data.ontology_result=misp_data.submission_result['ontology']
+    print( " MISP_DATA object created object type misp_data.ontology_result: ")
+    #pprint(misp_data.ontology_result)
+    try:
+        with open('ontology_data.json',"+a") as fh:
+            fh.write("\nsid:"+str(sid) + "\n")
+            fh.write(json.dumps(misp_data.ontology_result))
+    except Exception as e:
+        print("error adding ontology data in json file:", e)
+
+    misp_objects=misp_data.createFileObjects()
+    print("@@@ objects created")
+    try:
+        # TODO initialize fields bellow from config file
+        # self.event.threat_level_id = 2
+        # self.event.distribution = 0
+        # self.event.analysis = 1
+        submission_info={'classification':classif ,'date':a_date,'max_score':score,'info':descr }
+        #pprint(submission_info)
+        misp_data.createEvent(**submission_info)
+    except Exception as e:
+        print('error:',e)
+    
+    #add tag classification
+    #add_attribute_tag(tag, attribute_identifier) ('classification','')
+    #aggregate collected data
+    #add data to MISP
+
+    #create event in MISP
+    #add attribute to MISP event
+    #contents = urllib.request.urlopen("http://example.com/foo/bar").read()
+    #ref misp.py din cuckoo reporting
+    # test with: curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:8001/newSubmission
+    print("exit thread sid:",sid)
+ 
     return 'newSubmission done.'
 
 
-def collectSessionOntology(s_id):
+def collectSessionOntology(s_id, config):
     #o_data=[]
     #o_data['ontology'] = []
     #o_data['tags'] = []
@@ -67,53 +111,6 @@ def collectSessionOntology(s_id):
 
 
 
-def submitProcessor(s_id,description,classification,score,analysis_date):
-    print("### ### new thread sid:", str(s_id))
-    misp_objects=[]
-    try:
-        default_sys_data={'tool_name':config['assemblyline']['tool_name'], 'analysis':config['misp']['analysis'], 'threat_level_id':config['misp']['threat_level_id'],'distribution':config['misp']['distribution'], }
-        misp_data = misp.MISP_DATA(config['misp']['url'],config['misp']['apikey'], config['misp']['content_type'], **default_sys_data)
-        print( " MISP_DATA object created url:", config['misp']['url'], " type misp_data ", type(misp_data))
-    except Exception as e:
-        print( f"Error createing MISP_DATA url", config['misp']['url'], " e:", e)
-        return
-    
-    misp_data.submission_result=collectSessionOntology(s_id)
-    misp_data.ontology_result=misp_data.submission_result['ontology']
-    print( " MISP_DATA object created object type misp_data.ontology_result: ")
-    #pprint(misp_data.ontology_result)
-    try:
-        with open('ontology_data.json',"+a") as fh:
-            fh.write("\nsid:"+str(s_id) + "\n")
-            fh.write(json.dumps(misp_data.ontology_result))
-    except Exception as e:
-        print("error adding ontology data in json file:", e)
-
-    misp_objects=misp_data.createFileObjects()
-    print("@@@ objects created")
-    try:
-        # TODO initialize fields bellow from config file
-        # self.event.threat_level_id = 2
-        # self.event.distribution = 0
-        # self.event.analysis = 1
-        submission_info={'classification':classification ,'date':analysis_date,'max_score':score,'info':description }
-        #pprint(submission_info)
-        misp_data.createEvent(**submission_info)
-    except Exception as e:
-        print('error:',e)
-    
-    #add tag classification
-    #add_attribute_tag(tag, attribute_identifier) ('classification','')
-    #aggregate collected data
-    #add data to MISP
-
-    #create event in MISP
-    #add attribute to MISP event
-    #contents = urllib.request.urlopen("http://example.com/foo/bar").read()
-    #ref misp.py din cuckoo reporting
-    # test with: curl -d '{"key1":"value1", "key2":"value2"}' -H "Content-Type: application/json" -X POST http://localhost:8001/newSubmission
-    print("exit thread sid:",s_id)
-    return "thread done";
 
 
 def read_config():
@@ -154,16 +151,16 @@ def read_config():
 
 #if __name__ == '__main__' or __name__ == 'app':
     #read conf file
-def do_main():
-    logging.warning("in __main__ app name:"+__name__  )
-    config = read_config()
-    address_bind = config['pushtomisp']['network']['address_bind']
-    port = config['pushtomisp']['network']['port']
-    method = config['pushtomisp']['network']['method']
-    ssl = config['pushtomisp']['network']['ssl']
-    maxthreads = config['pushtomisp']['system']['maxthreads']
-    mt_pool = concurrent.futures.ThreadPoolExecutor(max_workers=maxthreads)
+# def do_main():
+#     logging.warning("in __main__ app name:"+__name__  )
+#     config = read_config()
+#     address_bind = config['pushtomisp']['network']['address_bind']
+#     port = config['pushtomisp']['network']['port']
+#     method = config['pushtomisp']['network']['method']
+#     ssl = config['pushtomisp']['network']['ssl']
+#     maxthreads = config['pushtomisp']['system']['maxthreads']
+    #mt_pool = concurrent.futures.ThreadPoolExecutor(max_workers=maxthreads)
     #app.run(debug=True, port = port, host = address_bind)
-    return mt_pool
+    
 
 
