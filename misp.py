@@ -1,46 +1,11 @@
 import pymisp
 import logging
 from pprint import pprint
-import urllib.parse
-
-# MISPEvent
-# load_file(event_path)
-# load(json_event)
-# add_attribute(type, value, **kwargs)
-# add_object(obj=None, **kwargs)
-# add_attribute_tag(tag, attribute_identifier)
-# get_attribute_tag(attribute_iden
-# add_tag(tag=None, **kwargs)
-
-# MISPObject
-# add_attribute(object_relation, **value)
-# add_reference(referenced_uuid, relationship_type,
-# comment=None, **kwargs)
-# has_attributes_by_relation(list_of_relations)
-# get_attributes_by_relation(object_relation)
-# attributes[], relations[]
-# edited, all other paramaters of the MISPObject element
-# (name, comment, ...)
-
-# MISPAttribute
-# add_tag(tag=None, **kwargs)
-# delete()
-# malware_binary (if relevant)
-# tags[]
-
-# self.attribute = {'to_ids': True}
-# misp_event.add_tag(submission['classification'].lower())
-
-# create file object ( file_object = MISPObject('file'))
-#     add attribute to file object (file_object.add_attribute(value=file_info[feature], **attribute))
-# add references to file object  (from mapping fields ) 
-# add object to Event 
 
 
 
 
 class MISP_DATA:
-
 
     ontology_result={}
     submission_result=[]
@@ -53,13 +18,6 @@ class MISP_DATA:
     #ontological_results_types=['antivirus','malwareconfig','netflow','process','sandbox','signature','heuristics','tags']
     object_name_fields = ['filename']
     
-# self._file_mapping = {'entropy': {'type': 'float', 'object_relation': 'entropy'},
-#                   'md5': {'type': 'md5', 'object_relation': 'md5'},
-#                   'mime': {'type': 'mime-type', 'object_relation': 'mimetype'},
-#                   'sha1': {'type': 'sha1', 'object_relation': 'sha1'},
-#                   'sha256': {'type': 'sha256', 'object_relation': 'sha256'},
-#                   'size': {'type': 'size-in-bytes', 'object_relation': 'size-in-bytes'},
-#                   'ssdeep': {'type': 'ssdeep', 'object_relation': 'ssdeep'}}
     al2misp_mappings={ #AL:MISP
         'objects':{
             'file':{'to':'file',
@@ -283,13 +241,9 @@ class MISP_DATA:
         self.event.threat_level_id = self.threat_level_id
         self.event.distribution = self.distribution
         self.event.analysis = self.analysis
-        
         self.evt_tags.append(dict({'name':'classification:' + submission_attrs['classification']}))
-
         evt_attrs_dict=self.createEventAttributesDict()
-        
         evt_attrs=self.createEventAttributes(evt_attrs_dict)
-        
         for attr in evt_attrs:
             self.event.add_attribute(**attr)
 
