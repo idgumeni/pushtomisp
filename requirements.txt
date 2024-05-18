@@ -3,3 +3,4 @@ Flask>=1.1.4
 pymisp>=2.4.190
 PyYAML==6.0.1
 urllib3==1.26.6
+Jinja2=2.11.3
