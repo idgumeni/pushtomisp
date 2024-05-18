@@ -1,6 +1,5 @@
 config.yml
-config.yaml
-conf/*
+conf/config.yaml
 misp_old.py
 olds.py
 ontology_data.json
