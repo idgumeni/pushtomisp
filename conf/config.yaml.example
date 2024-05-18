@@ -1,0 +1,25 @@
+pushtomisp:
+  network:
+    address_bind: "0.0.0.0"
+    port: 8001
+    method: POST
+    ssl: false
+  system:
+    maxthreads: 4
+  logging:
+    logfile: pushtomisp.log
+    loglevel: WARNING
+    
+assemblyline:
+  host: "ip or hostname"
+  user: "admin"
+  apikey: "username:...apikey..."
+  tool_name: "assemblyline_v4"
+     
+misp:
+  url: "https://localhost:8443/"
+  apikey: "...apikey..."  
+  content_type: "json"
+  analysis: "0" #initial analisys
+  threat_level_id: "4" #undefined
+  distribution: "0" #Organization
