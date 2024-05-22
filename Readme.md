@@ -82,7 +82,7 @@ pushtomisp:
 
 5.) Generate apikey in Assemblyline for pushtomisp interface.
 
-On Assemblyline interface follow “Administration→ Users →<Select the user for which you want to generate the API key from the list> → Manage API Keys → click “+” to add a new API key” path.
+On Assemblyline interface follow “Administration → Users →<Select the user for which you want to generate the API key from the list> → Manage API Keys → click '+' to add a new API key” path.
 
   
 
