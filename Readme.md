@@ -24,7 +24,7 @@ Once all those parameters are established you can continue with configurations.
 
 **Configurations****:**
 
-To understand how to configure all the elements (AL4, pushtomisp, MISP) you need to understand the data flow. Post-action webhook defined in Assemblyline (AL4) trigger pushtomisp interface by sending submission data (AL4 → Pushtomisp). Then Pushtomisp query Assemblyline REST API for ontology related to current submission (Pushtomisp → AL4). Indicators extracted from AL4 ontology will be pushed to MISP as event with related attributes (Pushtomisp → MISP).
+To understand how to configure all the elements (AL4, pushtomisp, MISP) you need to understand the data flow. Post-action webhook defined in Assemblyline (AL4) trigger pushtomisp interface by sending submission data (AL4 -> Pushtomisp). Then Pushtomisp query Assemblyline REST API for ontology related to current submission (Pushtomisp -> AL4). Indicators extracted from AL4 ontology will be pushed to MISP as event with related attributes (Pushtomisp -> MISP).
 
   
 
@@ -39,7 +39,6 @@ Edited dispatcher’s network section in docker-compose.yml should look like thi
 ```
 
 dispatcher:
-
 . . .
   networks: [core, external]
 . . .   
@@ -54,7 +53,7 @@ dispatcher:
 
 4.) Create in Assemblyline interface a post-action webhook to trigger pushtomisp interface.
 
-On Assemblyline interface follow “Administration→ Post-process actions” path:
+On Assemblyline interface follow “Administration-> Post-process actions” path:
 
   
 
@@ -72,7 +71,7 @@ pushtomisp:
   run_on_cache: true
   run_on_completed: true
   webhook:
-    uri: http://10.201.0.1:8001/newSubmission
+    uri: http://<pushtomisp_ip>:<pushtomisp_port>/newSubmission
     headers: []
     retries: 1
     ssl_ignore_errors: True
@@ -82,21 +81,16 @@ pushtomisp:
 
 5.) Generate apikey in Assemblyline for pushtomisp interface.
 
-On Assemblyline interface follow “Administration → Users →<Select the user for which you want to generate the API key from the list> → Manage API Keys → click '+' to add a new API key” path.
+On Assemblyline interface follow “Administration -> Users -> [Select the user for which you want to generate the API key from the list] -> Manage API Keys -> click '+' to add a new API key” path.
 
   
 
 6.) Generate API key in MISP for pushtomisp interface.
 
-On MISP web interface follow “Administration → List Auth Keys → Add authentication key” path.
+On MISP web interface follow “Administration -> List Auth Keys -> Add authentication key” path.
 
   
 
-  
-
-  
-
-  
 
 7.) Run pushtomisp interface as container.
 
@@ -194,7 +188,7 @@ cp -R ~/git/misp-docker ~/deployments/misp-docker
 
   
 
-Edit docker-compose.yml and change default ports 80 → 8080 and 443 → 8443 :
+Edit docker-compose.yml and change default ports 80 -> 8080 and 443 -> 8443 :
 
 ```
 
