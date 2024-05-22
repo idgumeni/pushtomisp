@@ -22,7 +22,7 @@ Once all those parameters are established you can continue with configurations.
 
   
 
-**Configurations****:**
+**Configurations:**
 
 To understand how to configure all the elements (AL4, pushtomisp, MISP) you need to understand the data flow. Post-action webhook defined in Assemblyline (AL4) trigger pushtomisp interface by sending submission data (AL4 -> Pushtomisp). Then Pushtomisp query Assemblyline REST API for ontology related to current submission (Pushtomisp -> AL4). Indicators extracted from AL4 ontology will be pushed to MISP as event with related attributes (Pushtomisp -> MISP).
 
@@ -49,9 +49,8 @@ dispatcher:
 
 2.) Install MISP as docker - misp-core and misp-modules as described in [https://github.com/MISP/misp-docker](https://github.com/MISP/misp-docker). If you run Assemblyline and MISP containers on same host you need to configure Misp service to run on different port (8443 for example) to avoid conflict with Assemblyline service (al-nginx frontend) which runs on standard HTTPS port (443) – see instructions bellow at paragraph “Install MISP as containers and run on non-default port”
 
-3.) Run pushtomisp interface as a container (recomended) – see bellow at paragraph “**7.) Run pushtomisp interface as container**”
 
-4.) Create in Assemblyline interface a post-action webhook to trigger pushtomisp interface.
+3.) Create in Assemblyline interface a post-action webhook to trigger pushtomisp interface.
 
 On Assemblyline interface follow “Administration-> Post-process actions” path:
 
@@ -79,20 +78,20 @@ pushtomisp:
 
 ```
 
-5.) Generate apikey in Assemblyline for pushtomisp interface.
+4.) Generate apikey in Assemblyline for pushtomisp interface.
 
 On Assemblyline interface follow “Administration -> Users -> [Select the user for which you want to generate the API key from the list] -> Manage API Keys -> click '+' to add a new API key” path.
 
   
 
-6.) Generate API key in MISP for pushtomisp interface.
+5.) Generate API key in MISP for pushtomisp interface.
 
 On MISP web interface follow “Administration -> List Auth Keys -> Add authentication key” path.
 
   
 
 
-7.) Run pushtomisp interface as container.
+6.) Run pushtomisp interface as container.
 
 ```
 
@@ -110,7 +109,7 @@ cp conf/config.yaml.example conf/config.yaml
 
 ```
 
-  7.1.) Configure pushtomisp interface.
+  6.1.) Configure pushtomisp interface.
 
   Pushtomisp interface have an example configuration file located in conf/config.yaml.example that should be renamed to “conf/config.yaml” and edited with your actual parameters:
 
@@ -158,7 +157,7 @@ sudo docker run -d --name pushtomisp-app --net pushtomisp_network --ip <pushtomi
 
   
 
-8.) Enable ipv4 forwarding on host to enable communications between containers (AL4, pushtomisp, MISP).
+7.) Enable ipv4 forwarding on host to enable communications between containers (AL4, pushtomisp, MISP).
 
   
 
