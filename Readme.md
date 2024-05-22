@@ -220,14 +220,10 @@ Because we use same host to run assemblyline and MISP containers, in order to av
   
 ```
 networks:
-
-default:
-
-ipam:
-
-config:
-
-- subnet: 10.29.0.0/16
+  default:
+    ipam:
+      config:
+      - subnet: 10.29.0.0/16
 
 ```
   
