@@ -157,13 +157,23 @@ sudo docker run -d --name pushtomisp-app --net pushtomisp_network --ip <pushtomi
 
   
 
-7.) Enable ipv4 forwarding on host to enable communications between containers (AL4, pushtomisp, MISP).
+7.) Enable ipv4 forwarding on host to enable communications between containers (AL4, pushtomisp, MISP):
 
-  
+ ```
+ #find network interface associated with assemblyline dispatcher "al_external" network (run as root)
+ al_dispatcher_subnet=`docker network inspect  al_external -f '{{range .IPAM.Config}}{{print .Subnet}}{{end}}' | awk -F"." '{ print $1"."$2"."$3 }'`
+ net_if_al=`ip -o -f inet addr show | grep $al_dispatcher_subnet | awk -F 'global' '{ print $2}' | awk -F'\\' '{ print $1 }'`
 
-  
+ #find network interface associated with misp-core "misp-docker_default" network
+ misp_core_subnet=`docker network inspect misp-docker_default -f '{{range .IPAM.Config}}{{print .Subnet}}{{end}}' | awk -F"." '{ print $1"."$2"."$3 }'`
+ net_if_misp=`ip -o -f inet addr show | grep $misp_core_subnet | awk -F 'global' '{ print $2}' | awk -F'\\' '{ print $1 }'`
 
-  
+ #insert rules in iptables chain "DOCKER-ISOLATION-STAGE-2":
+
+iptables -I DOCKER-ISOLATION-STAGE-2 -o $net_if_al -i $net_if_misp -j ACCEPT
+iptables -I DOCKER-ISOLATION-STAGE-2 -o $net_if_misp -i $net_if_al -j ACCEPT
+```  
+
 
   
 
