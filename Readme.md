@@ -1,6 +1,6 @@
 **PUSHTOMISP**
 
-Pushtomisp is an interface between Assemblyline 4 (AL4 for short) ([https://cybercentrecanada.github.io/assemblyline4_docs/](https://cybercentrecanada.github.io/assemblyline4_docs/) - file triage and malware analysis system) and MISP ([https://www.misp-project.org/](https://www.misp-project.org/) - opensource threat intelligence and sharing platform) written in python.
+Pushtomisp is an interface between Assemblyline 4 (AL4 for short) (https://cybercentrecanada.github.io/assemblyline4_docs/) - file triage and malware analysis system) and MISP (https://www.misp-project.org/) - opensource threat intelligence and sharing platform) written in python.
 
 Pushtomisp is uploading malware analysis results data from Assemblyline to MISP using an assemblyline’s webhook post-process action.
 
@@ -28,7 +28,7 @@ To understand how to configure all the elements (AL4, pushtomisp, MISP) you need
 
   
 
-1.) Install CCCS-AL as described in [https://cybercentrecanada.github.io/assemblyline4_docs/installation/appliance/docker/](https://cybercentrecanada.github.io/assemblyline4_docs/installation/appliance/docker/)
+1.) Install CCCS-AL as described in https://cybercentrecanada.github.io/assemblyline4_docs/installation/appliance/docker
 
   1.1) Dispatcher service container from Assemblyline should be able to call the URL that will be configured as post-action webhook (see bellow) so dispatcher service need to see “external” network.
 
@@ -47,7 +47,7 @@ dispatcher:
 
   
 
-2.) Install MISP as docker - misp-core and misp-modules as described in [https://github.com/MISP/misp-docker](https://github.com/MISP/misp-docker). If you run Assemblyline and MISP containers on same host you need to configure Misp service to run on different port (8443 for example) to avoid conflict with Assemblyline service (al-nginx frontend) which runs on standard HTTPS port (443) – see instructions bellow at paragraph “Install MISP as containers and run on non-default port”
+2.) Install MISP as docker - misp-core and misp-modules as described in https://github.com/MISP/misp-docker. If you run Assemblyline and MISP containers on same host you need to configure Misp service to run on different port (8443 for example) to avoid conflict with Assemblyline service (al-nginx frontend) which runs on standard HTTPS port (443) – see instructions bellow at paragraph “Install MISP as containers and run on non-default port”
 
 
 3.) Create in Assemblyline interface a post-action webhook to trigger pushtomisp interface.
@@ -59,7 +59,6 @@ On Assemblyline interface follow “Administration-> Post-process actions” pat
 ```
 
 pushtomisp:
-
   archive_submission: false
   enabled: true
   filter: 'max_score: >0'
@@ -97,7 +96,7 @@ On MISP web interface follow “Administration -> List Auth Keys -> Add authenti
 
 cd  ~/git
 
-git clone [https://github.com/idgumeni/pushtomisp.git](https://github.com/idgumeni/pushtomisp.git)
+git clone https://github.com/idgumeni/pushtomisp.git
 
 cp -R ~/git/pushtomisp ~/deployments/pushtomisp
 
@@ -113,9 +112,7 @@ cp conf/config.yaml.example conf/config.yaml
 
   Pushtomisp interface have an example configuration file located in conf/config.yaml.example that should be renamed to “conf/config.yaml” and edited with your actual parameters:
 
-  
-
-  
+    
 
 ```
 
@@ -147,7 +144,7 @@ misp:
 Build pushtomisp container image and run:
 
 ```
-sudo docker network create –subnet=<pushtomisp_network_class> pushtomisp_network
+sudo docker network create --subnet=<pushtomisp_network_class> pushtomisp_network
 
 sudo docker build -t pushtomisp .
 
@@ -157,21 +154,20 @@ sudo docker run -d --name pushtomisp-app --net pushtomisp_network --ip <pushtomi
 
   
 
-7.) Enable ipv4 forwarding on host to enable communications between containers (AL4, pushtomisp, MISP):
+7.) Enable ipv4 forwarding on host to enable communications between containers (AL4, pushtomisp):
 
  ```
- #find network interface associated with assemblyline dispatcher "al_external" network (run as root)
+ #find network interface associated with assemblyline dispatcher "al_external" network (run as root):
  al_dispatcher_subnet=`docker network inspect  al_external -f '{{range .IPAM.Config}}{{print .Subnet}}{{end}}' | awk -F"." '{ print $1"."$2"."$3 }'`
  net_if_al=`ip -o -f inet addr show | grep $al_dispatcher_subnet | awk -F 'global' '{ print $2}' | awk -F'\\' '{ print $1 }'`
 
- #find network interface associated with misp-core "misp-docker_default" network
- misp_core_subnet=`docker network inspect misp-docker_default -f '{{range .IPAM.Config}}{{print .Subnet}}{{end}}' | awk -F"." '{ print $1"."$2"."$3 }'`
- net_if_misp=`ip -o -f inet addr show | grep $misp_core_subnet | awk -F 'global' '{ print $2}' | awk -F'\\' '{ print $1 }'`
+ #find network interface associated with "pushtomisp_network" network:
+ pushtomisp_subnet=`docker network inspect misp-docker_default -f '{{range .IPAM.Config}}{{print .Subnet}}{{end}}' | awk -F"." '{ print $1"."$2"."$3 }'`
+ net_if_ptm=`ip -o -f inet addr show | grep $pushtomisp_subnet | awk -F 'global' '{ print $2}' | awk -F'\\' '{ print $1 }'`
 
  #insert rules in iptables chain "DOCKER-ISOLATION-STAGE-2":
-
-iptables -I DOCKER-ISOLATION-STAGE-2 -o $net_if_al -i $net_if_misp -j ACCEPT
-iptables -I DOCKER-ISOLATION-STAGE-2 -o $net_if_misp -i $net_if_al -j ACCEPT
+iptables -I DOCKER-ISOLATION-STAGE-2 -o $net_if_al -i $net_if_ptm -j ACCEPT
+iptables -I DOCKER-ISOLATION-STAGE-2 -o $net_if_ptm -i $net_if_al -j ACCEPT
 ```  
 
 
@@ -189,7 +185,7 @@ Clone misp-docker repository:
 
 cd  ~/git
 
-git clone [https://github.com/MISP/misp-docker.git](https://github.com/MISP/misp-docker.git)
+git clone https://github.com/MISP/misp-docker.git
 
 cp -R ~/git/misp-docker ~/deployments/misp-docker
 
@@ -239,7 +235,7 @@ networks:
   
 (be aware that YAML files are sensitive to indentation !)
 
-Also edit in .env BASE_URL=[https://localhost:8443](https://localhost:8443/)
+Also edit in .env BASE_URL=https://localhost:8443
 
   ```
 
